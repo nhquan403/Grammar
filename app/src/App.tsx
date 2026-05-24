@@ -28,7 +28,7 @@ export default function App() {
           background: 'var(--color-background)',
         }}
       >
-        <main style={{ flex: 1, overflowY: 'auto', paddingBottom: 64 }}>
+        <main style={{ flex: 1, overflowY: 'auto', paddingBottom: 'calc(64px + env(safe-area-inset-bottom, 0px))' }}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/study" element={<StudyPage />} />

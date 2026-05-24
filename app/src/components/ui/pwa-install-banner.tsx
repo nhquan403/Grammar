@@ -85,7 +85,7 @@ export function PwaInstallBanner({ isIOS, onInstall, onDismiss }: Props) {
   return (
     <>
       <div style={{
-        position: 'fixed', bottom: 80, left: 16, right: 16, zIndex: 100,
+        position: 'fixed', bottom: 'calc(72px + env(safe-area-inset-bottom, 0px))', left: 16, right: 16, zIndex: 100,
         background: 'white', borderRadius: 16,
         padding: '14px 16px',
         boxShadow: '0 8px 32px rgba(0,0,0,0.15)',

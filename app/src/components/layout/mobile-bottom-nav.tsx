@@ -15,15 +15,19 @@ export function MobileBottomNav() {
 
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 flex items-center justify-around px-2 safe-area-pb"
+      className="fixed bottom-0 left-0 right-0 flex justify-around px-2"
       style={{
-        height: 64,
+        height: 'calc(64px + env(safe-area-inset-bottom, 0px))',
+        paddingBottom: 'env(safe-area-inset-bottom, 0px)',
+        alignItems: 'flex-start',
+        paddingTop: 10,
         background: 'rgba(255,255,255,0.92)',
         backdropFilter: 'blur(12px)',
         borderTop: '1px solid rgba(226,232,240,0.8)',
         maxWidth: 448,
         margin: '0 auto',
         zIndex: 50,
+        boxSizing: 'border-box',
       }}
     >
       {NAV_ITEMS.map(({ to, icon: Icon, label }) => (

@@ -47,7 +47,7 @@ export function BrowsePage() {
         onClick={() => navigate('/word/add')}
         aria-label="Thêm từ mới"
         style={{
-          position: 'fixed', bottom: 80, right: 20, zIndex: 50,
+          position: 'fixed', bottom: 'calc(80px + env(safe-area-inset-bottom, 0px))', right: 20, zIndex: 50,
           width: 52, height: 52, borderRadius: 26,
           background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
           color: 'white', border: 'none', cursor: 'pointer',
