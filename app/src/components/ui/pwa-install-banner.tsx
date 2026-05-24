@@ -30,21 +30,41 @@ function IOSInstallGuide({ onClose }: { onClose: () => void }) {
         </div>
 
         {[
-          { step: '1', icon: '⬆️', text: 'Nhấn nút Share ở thanh công cụ bên dưới Safari' },
-          { step: '2', icon: '📋', text: 'Cuộn xuống và chọn "Thêm vào màn hình chính"' },
-          { step: '3', icon: '✅', text: 'Nhấn "Thêm" để xác nhận' },
-        ].map(({ step, icon, text }) => (
-          <div key={step} style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+          {
+            step: '1', icon: '☝️',
+            title: 'Cuộn lên đầu trang',
+            desc: 'Thanh công cụ Safari bị ẩn khi cuộn — hãy cuộn lên để hiện lại',
+          },
+          {
+            step: '2', icon: '⬜↑',
+            title: 'Nhấn nút Share (hình vuông có mũi tên lên)',
+            desc: 'Nút nằm ở giữa thanh dưới cùng của Safari, trông như □ với mũi tên ↑',
+          },
+          {
+            step: '3', icon: '📱',
+            title: 'Chọn "Thêm vào màn hình chính"',
+            desc: 'Vuốt xuống trong danh sách tùy chọn, tìm mục có biểu tượng + màu xanh',
+          },
+          {
+            step: '4', icon: '✅',
+            title: 'Nhấn "Thêm" để hoàn tất',
+            desc: 'App sẽ xuất hiện trên màn hình chính như ứng dụng thật',
+          },
+        ].map(({ step, icon, title, desc }) => (
+          <div key={step} style={{ display: 'flex', gap: 14 }}>
             <div style={{
-              width: 36, height: 36, borderRadius: 10, flexShrink: 0,
+              width: 38, height: 38, borderRadius: 10, flexShrink: 0,
               background: '#eef2ff', display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: 20,
+              fontSize: 18,
             }}>
               {icon}
             </div>
-            <p style={{ fontSize: 14, color: '#334155', lineHeight: 1.4 }}>
-              <strong>Bước {step}:</strong> {text}
-            </p>
+            <div style={{ flex: 1 }}>
+              <p style={{ fontSize: 14, fontWeight: 600, color: '#0f172a', marginBottom: 2 }}>
+                Bước {step}: {title}
+              </p>
+              <p style={{ fontSize: 12, color: '#64748b', lineHeight: 1.4 }}>{desc}</p>
+            </div>
           </div>
         ))}
 
