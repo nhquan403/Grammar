@@ -13,7 +13,7 @@ import { usePwaInstallPrompt } from '@/hooks/use-pwa-install-prompt'
 export default function App() {
   // Initialize dark mode (applies class to <html> element)
   useDarkMode()
-  const { showBanner, install, dismiss } = usePwaInstallPrompt()
+  const { showBanner, isIOS, install, dismiss } = usePwaInstallPrompt()
 
   return (
     <BrowserRouter>
@@ -42,7 +42,7 @@ export default function App() {
           </Routes>
         </main>
         <MobileBottomNav />
-        {showBanner && <PwaInstallBanner onInstall={install} onDismiss={dismiss} />}
+        {showBanner && <PwaInstallBanner isIOS={isIOS} onInstall={install} onDismiss={dismiss} />}
       </div>
     </BrowserRouter>
   )

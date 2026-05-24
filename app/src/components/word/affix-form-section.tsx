@@ -9,7 +9,7 @@ interface Props {
 
 export function AffixFormSection({ entry, index, onUpdate, onRemove }: Props) {
   const inputStyle: React.CSSProperties = {
-    width: '100%', padding: '9px 12px', borderRadius: 10, fontSize: 14,
+    width: '100%', padding: '9px 12px', borderRadius: 10, fontSize: 16,
     border: '1px solid #e2e8f0', background: 'white', outline: 'none',
     boxSizing: 'border-box',
   }

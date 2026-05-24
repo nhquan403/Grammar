@@ -33,7 +33,7 @@ export function WordFormSection({
   onUpdate, onRemove, onTranslate,
 }: Props) {
   const inputStyle = (hasError: boolean): React.CSSProperties => ({
-    width: '100%', padding: '10px 12px', borderRadius: 10, fontSize: 15,
+    width: '100%', padding: '10px 12px', borderRadius: 10, fontSize: 16,
     border: `1px solid ${hasError ? '#ef4444' : '#e2e8f0'}`,
     background: 'white', outline: 'none', boxSizing: 'border-box',
   })

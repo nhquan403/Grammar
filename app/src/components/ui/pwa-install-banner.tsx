@@ -1,11 +1,12 @@
-import { Download, X } from 'lucide-react'
+import { Download, X, Share } from 'lucide-react'
 
 interface Props {
+  isIOS: boolean
   onInstall: () => void
   onDismiss: () => void
 }
 
-export function PwaInstallBanner({ onInstall, onDismiss }: Props) {
+export function PwaInstallBanner({ isIOS, onInstall, onDismiss }: Props) {
   return (
     <div style={{
       position: 'fixed', bottom: 80, left: 16, right: 16, zIndex: 100,
@@ -25,25 +26,36 @@ export function PwaInstallBanner({ onInstall, onDismiss }: Props) {
       }}>
         📚
       </div>
+
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ fontSize: 14, fontWeight: 700, color: '#0f172a' }}>Install Vocab Family</p>
-        <p style={{ fontSize: 12, color: '#64748b', marginTop: 1 }}>
-          Add to home screen for the best experience
-        </p>
+        <p style={{ fontSize: 14, fontWeight: 700, color: '#0f172a' }}>Cài Vocab Family</p>
+        {isIOS ? (
+          <p style={{ fontSize: 12, color: '#64748b', marginTop: 1, lineHeight: 1.4 }}>
+            Nhấn <Share size={11} style={{ display: 'inline', verticalAlign: 'middle', margin: '0 2px' }} />
+            <strong> Share</strong> → <strong>Thêm vào màn hình chính</strong>
+          </p>
+        ) : (
+          <p style={{ fontSize: 12, color: '#64748b', marginTop: 1 }}>
+            Thêm vào màn hình chính để trải nghiệm tốt hơn
+          </p>
+        )}
       </div>
+
       <div style={{ display: 'flex', gap: 6, flexShrink: 0 }}>
-        <button
-          onClick={onInstall}
-          style={{
-            display: 'flex', alignItems: 'center', gap: 4,
-            background: '#6366f1', color: 'white',
-            border: 'none', borderRadius: 10, padding: '8px 12px',
-            fontSize: 12, fontWeight: 700, cursor: 'pointer',
-          }}
-        >
-          <Download size={14} />
-          Install
-        </button>
+        {!isIOS && (
+          <button
+            onClick={onInstall}
+            style={{
+              display: 'flex', alignItems: 'center', gap: 4,
+              background: '#6366f1', color: 'white',
+              border: 'none', borderRadius: 10, padding: '8px 12px',
+              fontSize: 12, fontWeight: 700, cursor: 'pointer',
+            }}
+          >
+            <Download size={14} />
+            Cài
+          </button>
+        )}
         <button
           onClick={onDismiss}
           style={{

@@ -6,15 +6,20 @@ interface BeforeInstallPromptEvent extends Event {
   prompt(): Promise<void>
 }
 
+function detectIOS(): boolean {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as unknown as Record<string, unknown>).MSStream
+}
+
 export function usePwaInstallPrompt() {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null)
   const [isInstalled, setIsInstalled] = useState(false)
+  const [isIOS] = useState(() => detectIOS())
   const [dismissed, setDismissed] = useState(
     () => localStorage.getItem('pwa-install-dismissed') === '1'
   )
 
   useEffect(() => {
-    // Check if already in standalone mode (installed)
+    // Already running in standalone (installed PWA)
     if (window.matchMedia('(display-mode: standalone)').matches) {
       setIsInstalled(true)
       return
@@ -44,7 +49,10 @@ export function usePwaInstallPrompt() {
     localStorage.setItem('pwa-install-dismissed', '1')
   }
 
-  const showBanner = !isInstalled && !dismissed && deferredPrompt !== null
+  // Show banner when:
+  // - Android/Chrome: native prompt is available
+  // - iOS Safari: user hasn't installed (not standalone) and hasn't dismissed
+  const showBanner = !isInstalled && !dismissed && (deferredPrompt !== null || isIOS)
 
-  return { showBanner, install, dismiss }
+  return { showBanner, isIOS, install, dismiss }
 }
