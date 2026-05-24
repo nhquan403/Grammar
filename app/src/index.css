@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: rgb(248 250 252);
+  --color-foreground: rgb(15 23 42);
+  --color-card: rgb(255 255 255);
+  --color-card-foreground: rgb(15 23 42);
+  --color-primary: rgb(99 102 241);
+  --color-primary-foreground: rgb(255 255 255);
+  --color-secondary: rgb(241 245 249);
+  --color-secondary-foreground: rgb(15 23 42);
+  --color-muted: rgb(241 245 249);
+  --color-muted-foreground: rgb(100 116 139);
+  --color-accent: rgb(241 245 249);
+  --color-accent-foreground: rgb(15 23 42);
+  --color-destructive: rgb(239 68 68);
+  --color-destructive-foreground: rgb(255 255 255);
+  --color-border: rgb(226 232 240);
+  --color-input: rgb(226 232 240);
+  --color-ring: rgb(99 102 241);
+
+  /* POS badge colors */
+  --color-pos-noun: rgb(59 130 246);
+  --color-pos-verb: rgb(168 85 247);
+  --color-pos-adj: rgb(249 115 22);
+  --color-pos-adv: rgb(20 184 166);
+
+  --radius: 0.75rem;
+}
+
+/* Dark mode overrides via CSS custom properties */
+:root {
+  color-scheme: light dark;
+}
+
+.dark {
+  --color-background: rgb(15 23 42);
+  --color-foreground: rgb(248 250 252);
+  --color-card: rgb(30 41 59);
+  --color-card-foreground: rgb(248 250 252);
+  --color-primary: rgb(99 102 241);
+  --color-primary-foreground: rgb(255 255 255);
+  --color-secondary: rgb(30 41 59);
+  --color-secondary-foreground: rgb(248 250 252);
+  --color-muted: rgb(30 41 59);
+  --color-muted-foreground: rgb(148 163 184);
+  --color-accent: rgb(30 41 59);
+  --color-accent-foreground: rgb(248 250 252);
+  --color-destructive: rgb(239 68 68);
+  --color-destructive-foreground: rgb(255 255 255);
+  --color-border: rgb(51 65 85);
+  --color-input: rgb(51 65 85);
+  --color-ring: rgb(99 102 241);
+}
+
+/* Base layer */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-color: var(--color-border);
+}
+
+html {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+body {
+  margin: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent zoom on input focus (iOS) */
+input,
+select,
+textarea {
+  font-size: max(16px, 1em);
+}
+
+/* Safe area for iPhone notch */
+.safe-area-pb {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

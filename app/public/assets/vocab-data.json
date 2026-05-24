@@ -1,0 +1,1211 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "totalFamilies": 60,
+    "lastUpdated": "2026-05-24",
+    "sources": ["Academic Word List", "IELTS Word List", "Common English Vocabulary"]
+  },
+  "families": [
+    {
+      "id": "family-decide",
+      "rootWord": "decide",
+      "etymology": "Latin: de- (off) + caedere (cut)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["decision", "academic"],
+      "forms": [
+        { "word": "decide", "pos": "verb", "definition": "To make a choice after thinking", "example": "I decided to study abroad.", "frequency": "very-common" },
+        { "word": "decision", "pos": "noun", "definition": "A choice that is made after thinking", "example": "The decision was difficult.", "frequency": "very-common" },
+        { "word": "decisive", "pos": "adjective", "definition": "Showing the ability to make clear decisions", "example": "A decisive leader inspires confidence.", "frequency": "common" },
+        { "word": "decisively", "pos": "adverb", "definition": "In a way that settles an issue clearly", "example": "She spoke decisively.", "frequency": "less-common" },
+        { "word": "indecisive", "pos": "adjective", "definition": "Unable to make decisions quickly", "example": "He was indecisive about the move.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "in-", "meaning": "not" },
+        { "type": "suffix", "form": "-ion", "meaning": "result of an action" },
+        { "type": "suffix", "form": "-ive", "meaning": "having the quality of" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" }
+      ]
+    },
+    {
+      "id": "family-analyze",
+      "rootWord": "analyze",
+      "etymology": "Greek: ana- (up) + lysis (loosening)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["research", "academic"],
+      "forms": [
+        { "word": "analyze", "pos": "verb", "definition": "To examine something in detail", "example": "Scientists analyze data to find patterns.", "frequency": "common" },
+        { "word": "analysis", "pos": "noun", "definition": "A detailed examination of something", "example": "The analysis revealed key trends.", "frequency": "common" },
+        { "word": "analytical", "pos": "adjective", "definition": "Using analysis to examine things", "example": "She has an analytical mind.", "frequency": "common" },
+        { "word": "analytically", "pos": "adverb", "definition": "In an analytical manner", "example": "Think analytically about the problem.", "frequency": "less-common" },
+        { "word": "analyst", "pos": "noun", "definition": "A person who analyzes data", "example": "The analyst prepared a report.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-sis", "meaning": "process or result" },
+        { "type": "suffix", "form": "-ical", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ist", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-achieve",
+      "rootWord": "achieve",
+      "etymology": "Old French: achever (come to a head)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["success", "goal"],
+      "forms": [
+        { "word": "achieve", "pos": "verb", "definition": "To succeed in doing something difficult", "example": "She achieved her goal after years of work.", "frequency": "very-common" },
+        { "word": "achievement", "pos": "noun", "definition": "Something accomplished successfully", "example": "Winning the award was a great achievement.", "frequency": "very-common" },
+        { "word": "achievable", "pos": "adjective", "definition": "Possible to achieve", "example": "Set achievable targets for yourself.", "frequency": "common" },
+        { "word": "achiever", "pos": "noun", "definition": "A person who achieves a lot", "example": "He's a high achiever in his field.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ment", "meaning": "result or process" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-create",
+      "rootWord": "create",
+      "etymology": "Latin: creare (to make, produce)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["art", "innovation"],
+      "forms": [
+        { "word": "create", "pos": "verb", "definition": "To make or produce something new", "example": "She created a beautiful painting.", "frequency": "very-common" },
+        { "word": "creation", "pos": "noun", "definition": "The act of creating or something created", "example": "The creation of the universe is a mystery.", "frequency": "very-common" },
+        { "word": "creative", "pos": "adjective", "definition": "Showing imagination and original ideas", "example": "She's a very creative designer.", "frequency": "very-common" },
+        { "word": "creatively", "pos": "adverb", "definition": "In a creative way", "example": "Think creatively to solve problems.", "frequency": "common" },
+        { "word": "creativity", "pos": "noun", "definition": "The ability to create new ideas", "example": "Creativity is valued in the workplace.", "frequency": "common" },
+        { "word": "creator", "pos": "noun", "definition": "A person who creates something", "example": "The creator of the app won an award.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ive", "meaning": "having the quality of" },
+        { "type": "suffix", "form": "-ity", "meaning": "state or quality" },
+        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-develop",
+      "rootWord": "develop",
+      "etymology": "French: développer (to unwrap)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["growth", "progress"],
+      "forms": [
+        { "word": "develop", "pos": "verb", "definition": "To grow or make something grow", "example": "The company developed a new product.", "frequency": "very-common" },
+        { "word": "development", "pos": "noun", "definition": "The process of growing or improving", "example": "Economic development is important.", "frequency": "very-common" },
+        { "word": "developer", "pos": "noun", "definition": "A person who develops something", "example": "She is a software developer.", "frequency": "very-common" },
+        { "word": "developing", "pos": "adjective", "definition": "Growing or becoming more advanced", "example": "A developing country needs support.", "frequency": "common" },
+        { "word": "underdeveloped", "pos": "adjective", "definition": "Not fully developed", "example": "The region is underdeveloped.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "under-", "meaning": "below or insufficient" },
+        { "type": "suffix", "form": "-ment", "meaning": "result or process" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-establish",
+      "rootWord": "establish",
+      "etymology": "Latin: stabilire (to make firm)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["founding", "academic"],
+      "forms": [
+        { "word": "establish", "pos": "verb", "definition": "To set up or create something officially", "example": "They established a new company.", "frequency": "common" },
+        { "word": "establishment", "pos": "noun", "definition": "The process of setting up or a business", "example": "The establishment of a school took years.", "frequency": "common" },
+        { "word": "established", "pos": "adjective", "definition": "Well-known and accepted for a long time", "example": "An established brand is trusted.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ment", "meaning": "result or action" },
+        { "type": "suffix", "form": "-ed", "meaning": "in a state of" }
+      ]
+    },
+    {
+      "id": "family-identify",
+      "rootWord": "identify",
+      "etymology": "Latin: idem (same) + facere (make)",
+      "cefr": "B1",
+      "category": "academic",
+      "tags": ["recognition", "academic"],
+      "forms": [
+        { "word": "identify", "pos": "verb", "definition": "To recognize or name something", "example": "Can you identify the problem?", "frequency": "very-common" },
+        { "word": "identification", "pos": "noun", "definition": "The act of identifying or proof of identity", "example": "Show your identification at the door.", "frequency": "common" },
+        { "word": "identity", "pos": "noun", "definition": "Who or what a person or thing is", "example": "Cultural identity is important.", "frequency": "very-common" },
+        { "word": "identifiable", "pos": "adjective", "definition": "Able to be identified", "example": "The symptoms are easily identifiable.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ification", "meaning": "act of making" },
+        { "type": "suffix", "form": "-ity", "meaning": "quality or state" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+      ]
+    },
+    {
+      "id": "family-indicate",
+      "rootWord": "indicate",
+      "etymology": "Latin: indicare (to point out)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["academic", "evidence"],
+      "forms": [
+        { "word": "indicate", "pos": "verb", "definition": "To show or point to something", "example": "The data indicates a positive trend.", "frequency": "common" },
+        { "word": "indication", "pos": "noun", "definition": "A sign that shows something", "example": "There's no indication of danger.", "frequency": "common" },
+        { "word": "indicator", "pos": "noun", "definition": "Something that shows a condition", "example": "GDP is an economic indicator.", "frequency": "common" },
+        { "word": "indicative", "pos": "adjective", "definition": "Suggesting or showing something", "example": "High sales are indicative of success.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-or", "meaning": "one that does" },
+        { "type": "suffix", "form": "-ive", "meaning": "having the quality of" }
+      ]
+    },
+    {
+      "id": "family-maintain",
+      "rootWord": "maintain",
+      "etymology": "Latin: manu tenere (hold in hand)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["upkeep", "academic"],
+      "forms": [
+        { "word": "maintain", "pos": "verb", "definition": "To keep something in good condition", "example": "Maintain a healthy lifestyle.", "frequency": "common" },
+        { "word": "maintenance", "pos": "noun", "definition": "The act of keeping something in good condition", "example": "Regular maintenance prevents problems.", "frequency": "common" },
+        { "word": "maintainable", "pos": "adjective", "definition": "Able to be kept in good condition", "example": "The code should be maintainable.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ance", "meaning": "state or action" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+      ]
+    },
+    {
+      "id": "family-require",
+      "rootWord": "require",
+      "etymology": "Latin: requirere (seek again)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["necessity", "academic"],
+      "forms": [
+        { "word": "require", "pos": "verb", "definition": "To need something as necessary", "example": "This job requires experience.", "frequency": "very-common" },
+        { "word": "requirement", "pos": "noun", "definition": "Something that is needed", "example": "What are the entry requirements?", "frequency": "very-common" },
+        { "word": "required", "pos": "adjective", "definition": "Necessary or compulsory", "example": "Math is a required subject.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ment", "meaning": "result or condition" },
+        { "type": "suffix", "form": "-ed", "meaning": "in a state of" }
+      ]
+    },
+    {
+      "id": "family-provide",
+      "rootWord": "provide",
+      "etymology": "Latin: providere (to foresee, supply)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["supply", "academic"],
+      "forms": [
+        { "word": "provide", "pos": "verb", "definition": "To give something needed", "example": "The school provides free meals.", "frequency": "very-common" },
+        { "word": "provision", "pos": "noun", "definition": "The act of providing or a supply", "example": "Food provision is critical in a crisis.", "frequency": "common" },
+        { "word": "provider", "pos": "noun", "definition": "A person or thing that provides", "example": "Healthcare providers work hard.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-sion", "meaning": "act or state" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-suggest",
+      "rootWord": "suggest",
+      "etymology": "Latin: suggerere (carry up, suggest)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["advice", "communication"],
+      "forms": [
+        { "word": "suggest", "pos": "verb", "definition": "To propose an idea for consideration", "example": "Can you suggest a good restaurant?", "frequency": "very-common" },
+        { "word": "suggestion", "pos": "noun", "definition": "An idea proposed for consideration", "example": "Her suggestion was helpful.", "frequency": "very-common" },
+        { "word": "suggestive", "pos": "adjective", "definition": "Tending to suggest or imply something", "example": "The results are suggestive of progress.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ive", "meaning": "tending to" }
+      ]
+    },
+    {
+      "id": "family-involve",
+      "rootWord": "involve",
+      "etymology": "Latin: involvere (to roll into)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["participation", "academic"],
+      "forms": [
+        { "word": "involve", "pos": "verb", "definition": "To include or require as a part", "example": "The project involves teamwork.", "frequency": "very-common" },
+        { "word": "involvement", "pos": "noun", "definition": "The fact of taking part in something", "example": "Community involvement improves society.", "frequency": "common" },
+        { "word": "involved", "pos": "adjective", "definition": "Engaged in an activity or situation", "example": "She's involved in charity work.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ment", "meaning": "action or state" },
+        { "type": "suffix", "form": "-ed", "meaning": "participating in" }
+      ]
+    },
+    {
+      "id": "family-occur",
+      "rootWord": "occur",
+      "etymology": "Latin: occurrere (to run to meet)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["events", "academic"],
+      "forms": [
+        { "word": "occur", "pos": "verb", "definition": "To happen or come to mind", "example": "Earthquakes occur frequently there.", "frequency": "common" },
+        { "word": "occurrence", "pos": "noun", "definition": "An event or incident", "example": "This is a rare occurrence.", "frequency": "common" },
+        { "word": "recurring", "pos": "adjective", "definition": "Happening repeatedly", "example": "A recurring dream woke her up.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "re-", "meaning": "again" },
+        { "type": "suffix", "form": "-ence", "meaning": "state or instance" }
+      ]
+    },
+    {
+      "id": "family-happy",
+      "rootWord": "happy",
+      "etymology": "Old Norse: happ (luck, chance)",
+      "cefr": "A1",
+      "category": "common",
+      "tags": ["emotion", "feeling"],
+      "forms": [
+        { "word": "happy", "pos": "adjective", "definition": "Feeling or showing pleasure and contentment", "example": "I am happy to see you.", "frequency": "very-common" },
+        { "word": "happily", "pos": "adverb", "definition": "In a happy way", "example": "They lived happily ever after.", "frequency": "very-common" },
+        { "word": "happiness", "pos": "noun", "definition": "The state of being happy", "example": "Money can't buy happiness.", "frequency": "very-common" },
+        { "word": "unhappy", "pos": "adjective", "definition": "Not happy; sad", "example": "She felt unhappy about the result.", "frequency": "common" },
+        { "word": "unhappily", "pos": "adverb", "definition": "In an unhappy way", "example": "He sighed unhappily.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-strong",
+      "rootWord": "strong",
+      "etymology": "Old English: strang (powerful)",
+      "cefr": "A1",
+      "category": "common",
+      "tags": ["strength", "quality"],
+      "forms": [
+        { "word": "strong", "pos": "adjective", "definition": "Having great power or force", "example": "He is a strong swimmer.", "frequency": "very-common" },
+        { "word": "strongly", "pos": "adverb", "definition": "With great force or conviction", "example": "I strongly disagree.", "frequency": "very-common" },
+        { "word": "strength", "pos": "noun", "definition": "The quality of being strong", "example": "She showed great strength of character.", "frequency": "very-common" },
+        { "word": "strengthen", "pos": "verb", "definition": "To make or become stronger", "example": "Exercise strengthens your muscles.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-th", "meaning": "state or quality" },
+        { "type": "suffix", "form": "-en", "meaning": "to make or become" }
+      ]
+    },
+    {
+      "id": "family-help",
+      "rootWord": "help",
+      "etymology": "Old English: helpan (to help, benefit)",
+      "cefr": "A1",
+      "category": "common",
+      "tags": ["support", "assistance"],
+      "forms": [
+        { "word": "help", "pos": "verb", "definition": "To make it easier for someone to do something", "example": "Can you help me with this?", "frequency": "very-common" },
+        { "word": "help", "pos": "noun", "definition": "Assistance or support", "example": "I need your help.", "frequency": "very-common" },
+        { "word": "helpful", "pos": "adjective", "definition": "Giving useful assistance", "example": "Your advice was very helpful.", "frequency": "very-common" },
+        { "word": "helpfully", "pos": "adverb", "definition": "In a helpful way", "example": "She helpfully offered directions.", "frequency": "less-common" },
+        { "word": "helpfulness", "pos": "noun", "definition": "The quality of being helpful", "example": "Her helpfulness is appreciated.", "frequency": "rare" },
+        { "word": "helpless", "pos": "adjective", "definition": "Unable to help oneself", "example": "The baby was helpless alone.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ful", "meaning": "full of" },
+        { "type": "suffix", "form": "-less", "meaning": "without" },
+        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-clear",
+      "rootWord": "clear",
+      "etymology": "Latin: clarus (bright, clear)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["clarity", "understanding"],
+      "forms": [
+        { "word": "clear", "pos": "adjective", "definition": "Easy to understand; not confused", "example": "The instructions are clear.", "frequency": "very-common" },
+        { "word": "clearly", "pos": "adverb", "definition": "In a clear manner", "example": "She clearly explained the rules.", "frequency": "very-common" },
+        { "word": "clarity", "pos": "noun", "definition": "The quality of being clear", "example": "Write with clarity and precision.", "frequency": "common" },
+        { "word": "clarify", "pos": "verb", "definition": "To make something clearer", "example": "Please clarify your question.", "frequency": "common" },
+        { "word": "unclear", "pos": "adjective", "definition": "Not easy to understand", "example": "The instructions are unclear.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ity", "meaning": "state or quality" },
+        { "type": "suffix", "form": "-ify", "meaning": "to make" }
+      ]
+    },
+    {
+      "id": "family-important",
+      "rootWord": "important",
+      "etymology": "Latin: importare (to bring in, matter)",
+      "cefr": "A1",
+      "category": "common",
+      "tags": ["significance", "value"],
+      "forms": [
+        { "word": "important", "pos": "adjective", "definition": "Of great significance or value", "example": "Education is important for success.", "frequency": "very-common" },
+        { "word": "importantly", "pos": "adverb", "definition": "In an important way", "example": "More importantly, stay safe.", "frequency": "common" },
+        { "word": "importance", "pos": "noun", "definition": "The state of being significant", "example": "We recognize the importance of health.", "frequency": "very-common" },
+        { "word": "unimportant", "pos": "adjective", "definition": "Not significant or valuable", "example": "The details seem unimportant.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ance", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-possible",
+      "rootWord": "possible",
+      "etymology": "Latin: posse (to be able)",
+      "cefr": "A1",
+      "category": "common",
+      "tags": ["ability", "potential"],
+      "forms": [
+        { "word": "possible", "pos": "adjective", "definition": "Able to be done or achieved", "example": "Is it possible to finish today?", "frequency": "very-common" },
+        { "word": "possibly", "pos": "adverb", "definition": "Perhaps; maybe", "example": "I could possibly help you.", "frequency": "very-common" },
+        { "word": "possibility", "pos": "noun", "definition": "The state of being possible", "example": "There's a possibility of rain.", "frequency": "very-common" },
+        { "word": "impossible", "pos": "adjective", "definition": "Not able to be done", "example": "Nothing is impossible if you try.", "frequency": "very-common" },
+        { "word": "impossibly", "pos": "adverb", "definition": "To an impossible degree", "example": "The task was impossibly hard.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "im-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ity", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-use",
+      "rootWord": "use",
+      "etymology": "Latin: usus (use, practice)",
+      "cefr": "A1",
+      "category": "common",
+      "tags": ["utility", "function"],
+      "forms": [
+        { "word": "use", "pos": "verb", "definition": "To put into service or employ", "example": "Use a pen to sign your name.", "frequency": "very-common" },
+        { "word": "use", "pos": "noun", "definition": "The act of using something", "example": "What's the use of complaining?", "frequency": "very-common" },
+        { "word": "useful", "pos": "adjective", "definition": "Able to be used for a practical purpose", "example": "A knife is a useful tool.", "frequency": "very-common" },
+        { "word": "usefully", "pos": "adverb", "definition": "In a useful manner", "example": "Time can be usefully spent reading.", "frequency": "less-common" },
+        { "word": "usefulness", "pos": "noun", "definition": "The quality of being useful", "example": "Usefulness is the key to good design.", "frequency": "less-common" },
+        { "word": "useless", "pos": "adjective", "definition": "Not useful; having no purpose", "example": "Old advice can be useless.", "frequency": "common" },
+        { "word": "user", "pos": "noun", "definition": "A person who uses something", "example": "The user clicked the button.", "frequency": "very-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ful", "meaning": "full of" },
+        { "type": "suffix", "form": "-less", "meaning": "without" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" },
+        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-effective",
+      "rootWord": "effective",
+      "etymology": "Latin: efficere (to bring about)",
+      "cefr": "B1",
+      "category": "academic",
+      "tags": ["result", "academic"],
+      "forms": [
+        { "word": "effective", "pos": "adjective", "definition": "Producing the intended result", "example": "The medicine was effective.", "frequency": "very-common" },
+        { "word": "effectively", "pos": "adverb", "definition": "In a way that produces results", "example": "Communicate effectively in writing.", "frequency": "common" },
+        { "word": "effectiveness", "pos": "noun", "definition": "The quality of producing results", "example": "Measure the effectiveness of a plan.", "frequency": "common" },
+        { "word": "ineffective", "pos": "adjective", "definition": "Not producing the intended result", "example": "Yelling is an ineffective strategy.", "frequency": "common" },
+        { "word": "effect", "pos": "noun", "definition": "A change produced by a cause", "example": "The drug had a calming effect.", "frequency": "very-common" },
+        { "word": "affect", "pos": "verb", "definition": "To have an effect on something", "example": "Weather affects our mood.", "frequency": "very-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "in-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-respond",
+      "rootWord": "respond",
+      "etymology": "Latin: respondere (to answer)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["communication", "reaction"],
+      "forms": [
+        { "word": "respond", "pos": "verb", "definition": "To say or do something in reply", "example": "Please respond to my email.", "frequency": "very-common" },
+        { "word": "response", "pos": "noun", "definition": "A reply or reaction", "example": "The response was overwhelming.", "frequency": "very-common" },
+        { "word": "responsible", "pos": "adjective", "definition": "Having a duty to deal with something", "example": "Be responsible for your actions.", "frequency": "very-common" },
+        { "word": "responsibly", "pos": "adverb", "definition": "In a responsible way", "example": "Act responsibly in public.", "frequency": "common" },
+        { "word": "responsibility", "pos": "noun", "definition": "The state of being responsible", "example": "Leadership comes with responsibility.", "frequency": "very-common" },
+        { "word": "irresponsible", "pos": "adjective", "definition": "Not responsible; careless", "example": "It was irresponsible to skip work.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "ir-", "meaning": "not" },
+        { "type": "suffix", "form": "-se", "meaning": "result of action" },
+        { "type": "suffix", "form": "-ible", "meaning": "capable of being" },
+        { "type": "suffix", "form": "-ibility", "meaning": "quality of being" }
+      ]
+    },
+    {
+      "id": "family-significant",
+      "rootWord": "significant",
+      "etymology": "Latin: significare (to indicate, mean)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["importance", "academic"],
+      "forms": [
+        { "word": "significant", "pos": "adjective", "definition": "Important and meaningful", "example": "This is a significant discovery.", "frequency": "common" },
+        { "word": "significantly", "pos": "adverb", "definition": "In an important or meaningful way", "example": "Prices rose significantly.", "frequency": "common" },
+        { "word": "significance", "pos": "noun", "definition": "The quality of being important", "example": "The significance of the event grew.", "frequency": "common" },
+        { "word": "insignificant", "pos": "adjective", "definition": "Not important; unimportant", "example": "The error was insignificant.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "in-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ance", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-communicate",
+      "rootWord": "communicate",
+      "etymology": "Latin: communicare (to share)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["communication", "social"],
+      "forms": [
+        { "word": "communicate", "pos": "verb", "definition": "To share or exchange information", "example": "We communicate by email.", "frequency": "very-common" },
+        { "word": "communication", "pos": "noun", "definition": "The act of sharing information", "example": "Good communication is essential.", "frequency": "very-common" },
+        { "word": "communicative", "pos": "adjective", "definition": "Willing to talk and share information", "example": "She's very communicative.", "frequency": "less-common" },
+        { "word": "communicator", "pos": "noun", "definition": "A person who communicates", "example": "He's an excellent communicator.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ive", "meaning": "tending to" },
+        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-consider",
+      "rootWord": "consider",
+      "etymology": "Latin: considerare (to observe stars, ponder)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["thinking", "academic"],
+      "forms": [
+        { "word": "consider", "pos": "verb", "definition": "To think carefully about something", "example": "Consider all your options first.", "frequency": "very-common" },
+        { "word": "consideration", "pos": "noun", "definition": "Careful thought about something", "example": "Take the risks into consideration.", "frequency": "common" },
+        { "word": "considerable", "pos": "adjective", "definition": "Large or important in size or amount", "example": "A considerable amount of work remains.", "frequency": "common" },
+        { "word": "considerably", "pos": "adverb", "definition": "By a large amount; greatly", "example": "Prices increased considerably.", "frequency": "common" },
+        { "word": "considerate", "pos": "adjective", "definition": "Careful not to hurt others' feelings", "example": "Be considerate of your neighbors.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ation", "meaning": "act or state" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
+        { "type": "suffix", "form": "-ably", "meaning": "in a capable manner" },
+        { "type": "suffix", "form": "-ate", "meaning": "having the quality of" }
+      ]
+    },
+    {
+      "id": "family-environment",
+      "rootWord": "environment",
+      "etymology": "French: environner (to surround)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["nature", "ecology"],
+      "forms": [
+        { "word": "environment", "pos": "noun", "definition": "The surroundings or conditions for life", "example": "We must protect the environment.", "frequency": "very-common" },
+        { "word": "environmental", "pos": "adjective", "definition": "Relating to the environment", "example": "Environmental laws protect wildlife.", "frequency": "very-common" },
+        { "word": "environmentally", "pos": "adverb", "definition": "In an environmental way", "example": "Environmentally friendly products exist.", "frequency": "common" },
+        { "word": "environmentalist", "pos": "noun", "definition": "A person who protects the environment", "example": "Environmentalists protested the mine.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-al", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ally", "meaning": "in a manner relating to" },
+        { "type": "suffix", "form": "-ist", "meaning": "one who believes in" }
+      ]
+    },
+    {
+      "id": "family-research",
+      "rootWord": "research",
+      "etymology": "French: recherche (thorough search)",
+      "cefr": "B1",
+      "category": "academic",
+      "tags": ["study", "academic"],
+      "forms": [
+        { "word": "research", "pos": "noun", "definition": "Systematic study to establish facts", "example": "Scientific research advances medicine.", "frequency": "very-common" },
+        { "word": "research", "pos": "verb", "definition": "To investigate a subject systematically", "example": "She researched the topic thoroughly.", "frequency": "very-common" },
+        { "word": "researcher", "pos": "noun", "definition": "A person who conducts research", "example": "The researcher published findings.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-global",
+      "rootWord": "global",
+      "etymology": "Latin: globus (sphere)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["world", "international"],
+      "forms": [
+        { "word": "global", "pos": "adjective", "definition": "Relating to the whole world", "example": "Global warming is a serious issue.", "frequency": "very-common" },
+        { "word": "globally", "pos": "adverb", "definition": "Throughout the world", "example": "The brand is recognized globally.", "frequency": "common" },
+        { "word": "globalization", "pos": "noun", "definition": "The process of worldwide integration", "example": "Globalization has changed trade.", "frequency": "common" },
+        { "word": "globalize", "pos": "verb", "definition": "To become global in scope", "example": "Companies globalize to grow.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ization", "meaning": "process of becoming" },
+        { "type": "suffix", "form": "-ize", "meaning": "to make or become" }
+      ]
+    },
+    {
+      "id": "family-economy",
+      "rootWord": "economy",
+      "etymology": "Greek: oikos (house) + nomos (law)",
+      "cefr": "B1",
+      "category": "academic",
+      "tags": ["finance", "business"],
+      "forms": [
+        { "word": "economy", "pos": "noun", "definition": "The system of production and wealth", "example": "The economy grew by 3% last year.", "frequency": "very-common" },
+        { "word": "economic", "pos": "adjective", "definition": "Relating to the economy", "example": "Economic growth benefits everyone.", "frequency": "very-common" },
+        { "word": "economically", "pos": "adverb", "definition": "In an economic way", "example": "The project is economically viable.", "frequency": "common" },
+        { "word": "economist", "pos": "noun", "definition": "An expert in economics", "example": "The economist predicted a recession.", "frequency": "common" },
+        { "word": "economics", "pos": "noun", "definition": "The study of production and wealth", "example": "She studied economics at university.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ic", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ically", "meaning": "in a way relating to" },
+        { "type": "suffix", "form": "-ist", "meaning": "specialist in" },
+        { "type": "suffix", "form": "-ics", "meaning": "study of" }
+      ]
+    },
+    {
+      "id": "family-technology",
+      "rootWord": "technology",
+      "etymology": "Greek: techne (art, skill) + logos (study)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["tech", "science"],
+      "forms": [
+        { "word": "technology", "pos": "noun", "definition": "The application of scientific knowledge", "example": "Technology has changed our lives.", "frequency": "very-common" },
+        { "word": "technological", "pos": "adjective", "definition": "Relating to technology", "example": "Technological advances are rapid.", "frequency": "common" },
+        { "word": "technologically", "pos": "adverb", "definition": "In terms of technology", "example": "The device is technologically advanced.", "frequency": "less-common" },
+        { "word": "technologist", "pos": "noun", "definition": "An expert in technology", "example": "The technologist solved the issue.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ical", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ically", "meaning": "in a way relating to" },
+        { "type": "suffix", "form": "-ist", "meaning": "specialist in" }
+      ]
+    },
+    {
+      "id": "family-solve",
+      "rootWord": "solve",
+      "etymology": "Latin: solvere (to loosen, free)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["problem-solving", "academic"],
+      "forms": [
+        { "word": "solve", "pos": "verb", "definition": "To find an answer or solution", "example": "Can you solve this math problem?", "frequency": "very-common" },
+        { "word": "solution", "pos": "noun", "definition": "A means of solving a problem", "example": "We found a solution to the issue.", "frequency": "very-common" },
+        { "word": "solvable", "pos": "adjective", "definition": "Able to be solved", "example": "Most problems are solvable.", "frequency": "less-common" },
+        { "word": "unsolvable", "pos": "adjective", "definition": "Not able to be solved", "example": "An unsolvable mystery intrigued them.", "frequency": "rare" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-tion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+      ]
+    },
+    {
+      "id": "family-benefit",
+      "rootWord": "benefit",
+      "etymology": "Latin: bene (well) + facere (do)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["advantage", "academic"],
+      "forms": [
+        { "word": "benefit", "pos": "noun", "definition": "An advantage or good result", "example": "Exercise has many benefits.", "frequency": "very-common" },
+        { "word": "benefit", "pos": "verb", "definition": "To gain an advantage from something", "example": "You will benefit from reading more.", "frequency": "very-common" },
+        { "word": "beneficial", "pos": "adjective", "definition": "Producing good results; helpful", "example": "Sleep is beneficial for health.", "frequency": "common" },
+        { "word": "beneficially", "pos": "adverb", "definition": "In a beneficial way", "example": "Exercise beneficially affects mood.", "frequency": "rare" },
+        { "word": "beneficiary", "pos": "noun", "definition": "A person who benefits from something", "example": "She is the beneficiary of the will.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ial", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ially", "meaning": "in a way relating to" },
+        { "type": "suffix", "form": "-iary", "meaning": "one who receives" }
+      ]
+    },
+    {
+      "id": "family-predict",
+      "rootWord": "predict",
+      "etymology": "Latin: praedicere (to say beforehand)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["forecasting", "academic"],
+      "forms": [
+        { "word": "predict", "pos": "verb", "definition": "To say what will happen in the future", "example": "Scientists predict a hot summer.", "frequency": "common" },
+        { "word": "prediction", "pos": "noun", "definition": "A statement about what will happen", "example": "His prediction came true.", "frequency": "common" },
+        { "word": "predictable", "pos": "adjective", "definition": "Able to be predicted", "example": "The outcome was predictable.", "frequency": "common" },
+        { "word": "predictably", "pos": "adverb", "definition": "In a predictable way", "example": "Predictably, he arrived late.", "frequency": "less-common" },
+        { "word": "unpredictable", "pos": "adjective", "definition": "Not able to be predicted", "example": "Weather is unpredictable.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
+        { "type": "suffix", "form": "-ably", "meaning": "in a manner" }
+      ]
+    },
+    {
+      "id": "family-support",
+      "rootWord": "support",
+      "etymology": "Latin: supportare (to carry up)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["help", "assistance"],
+      "forms": [
+        { "word": "support", "pos": "verb", "definition": "To give help or assistance", "example": "Friends support you in hard times.", "frequency": "very-common" },
+        { "word": "support", "pos": "noun", "definition": "Help or assistance given", "example": "Thank you for your support.", "frequency": "very-common" },
+        { "word": "supportive", "pos": "adjective", "definition": "Providing help and encouragement", "example": "She has a supportive family.", "frequency": "common" },
+        { "word": "supporter", "pos": "noun", "definition": "A person who supports something", "example": "He is a loyal supporter.", "frequency": "common" },
+        { "word": "unsupportive", "pos": "adjective", "definition": "Not providing support", "example": "An unsupportive environment hurts.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ive", "meaning": "tending to" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-innovate",
+      "rootWord": "innovate",
+      "etymology": "Latin: innovare (to renew)",
+      "cefr": "C1",
+      "category": "business",
+      "tags": ["business", "creativity"],
+      "forms": [
+        { "word": "innovate", "pos": "verb", "definition": "To introduce new ideas or methods", "example": "Companies must innovate to survive.", "frequency": "less-common" },
+        { "word": "innovation", "pos": "noun", "definition": "A new idea or method introduced", "example": "Technological innovation changed the world.", "frequency": "common" },
+        { "word": "innovative", "pos": "adjective", "definition": "Using new and creative ideas", "example": "An innovative approach to teaching.", "frequency": "common" },
+        { "word": "innovatively", "pos": "adverb", "definition": "In an innovative manner", "example": "Think innovatively to succeed.", "frequency": "rare" },
+        { "word": "innovator", "pos": "noun", "definition": "A person who introduces innovations", "example": "She was a great innovator.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ive", "meaning": "tending to" },
+        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-relate",
+      "rootWord": "relate",
+      "etymology": "Latin: relatus (carried back)",
+      "cefr": "B1",
+      "category": "academic",
+      "tags": ["connection", "academic"],
+      "forms": [
+        { "word": "relate", "pos": "verb", "definition": "To connect or have a relationship", "example": "Can you relate to this feeling?", "frequency": "common" },
+        { "word": "relation", "pos": "noun", "definition": "The connection between things", "example": "There is a relation between diet and health.", "frequency": "common" },
+        { "word": "relationship", "pos": "noun", "definition": "The way two things are connected", "example": "A good relationship is built on trust.", "frequency": "very-common" },
+        { "word": "relative", "pos": "adjective", "definition": "Considered in comparison to something else", "example": "It's all relative to your experience.", "frequency": "common" },
+        { "word": "relatively", "pos": "adverb", "definition": "In comparison to others; somewhat", "example": "The exam was relatively easy.", "frequency": "very-common" },
+        { "word": "unrelated", "pos": "adjective", "definition": "Not connected to something else", "example": "The topics were unrelated.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ship", "meaning": "state or condition" },
+        { "type": "suffix", "form": "-ive", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ively", "meaning": "in a manner" }
+      ]
+    },
+    {
+      "id": "family-expand",
+      "rootWord": "expand",
+      "etymology": "Latin: expandere (to spread out)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["growth", "academic"],
+      "forms": [
+        { "word": "expand", "pos": "verb", "definition": "To become or make larger", "example": "The company plans to expand overseas.", "frequency": "common" },
+        { "word": "expansion", "pos": "noun", "definition": "The act of expanding", "example": "Business expansion requires capital.", "frequency": "common" },
+        { "word": "expansive", "pos": "adjective", "definition": "Covering a wide area or range", "example": "An expansive garden with many flowers.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-sion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-sive", "meaning": "tending to" }
+      ]
+    },
+    {
+      "id": "family-assess",
+      "rootWord": "assess",
+      "etymology": "Latin: assessare (to sit beside as judge)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["evaluation", "academic"],
+      "forms": [
+        { "word": "assess", "pos": "verb", "definition": "To evaluate or judge something", "example": "Teachers assess student progress.", "frequency": "common" },
+        { "word": "assessment", "pos": "noun", "definition": "The act of evaluating something", "example": "The risk assessment was thorough.", "frequency": "common" },
+        { "word": "assessor", "pos": "noun", "definition": "A person who assesses", "example": "The assessor evaluated the property.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ment", "meaning": "act or result" },
+        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-relevant",
+      "rootWord": "relevant",
+      "etymology": "Latin: relevare (to raise up)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["pertinence", "academic"],
+      "forms": [
+        { "word": "relevant", "pos": "adjective", "definition": "Closely connected or appropriate", "example": "Include only relevant information.", "frequency": "common" },
+        { "word": "relevantly", "pos": "adverb", "definition": "In a relevant manner", "example": "She spoke relevantly on the topic.", "frequency": "rare" },
+        { "word": "relevance", "pos": "noun", "definition": "The quality of being relevant", "example": "The relevance of history is clear.", "frequency": "common" },
+        { "word": "irrelevant", "pos": "adjective", "definition": "Not connected or appropriate", "example": "That point is irrelevant.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "ir-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ance", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-diverse",
+      "rootWord": "diverse",
+      "etymology": "Latin: diversus (turned different ways)",
+      "cefr": "C1",
+      "category": "academic",
+      "tags": ["variety", "inclusion"],
+      "forms": [
+        { "word": "diverse", "pos": "adjective", "definition": "Showing a great deal of variety", "example": "The city has a diverse population.", "frequency": "common" },
+        { "word": "diversity", "pos": "noun", "definition": "The state of being diverse", "example": "Diversity strengthens communities.", "frequency": "common" },
+        { "word": "diversify", "pos": "verb", "definition": "To make more varied", "example": "Investors diversify their portfolios.", "frequency": "common" },
+        { "word": "diversification", "pos": "noun", "definition": "The act of diversifying", "example": "Product diversification grows revenue.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ity", "meaning": "state or quality" },
+        { "type": "suffix", "form": "-ify", "meaning": "to make or become" },
+        { "type": "suffix", "form": "-ification", "meaning": "process of making" }
+      ]
+    },
+    {
+      "id": "family-aware",
+      "rootWord": "aware",
+      "etymology": "Old English: gewaer (watchful)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["consciousness", "knowledge"],
+      "forms": [
+        { "word": "aware", "pos": "adjective", "definition": "Having knowledge of a situation", "example": "Are you aware of the risks?", "frequency": "very-common" },
+        { "word": "awareness", "pos": "noun", "definition": "Knowledge of a situation", "example": "Raise awareness about mental health.", "frequency": "very-common" },
+        { "word": "unaware", "pos": "adjective", "definition": "Not having knowledge of something", "example": "She was unaware of the problem.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-assume",
+      "rootWord": "assume",
+      "etymology": "Latin: assumere (to take up)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["thinking", "academic"],
+      "forms": [
+        { "word": "assume", "pos": "verb", "definition": "To accept as true without proof", "example": "Don't assume you know the answer.", "frequency": "common" },
+        { "word": "assumption", "pos": "noun", "definition": "A thing accepted as true without proof", "example": "That's a false assumption.", "frequency": "common" },
+        { "word": "assuming", "pos": "adjective", "definition": "Arrogantly presumptuous", "example": "He was assuming in his behavior.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-tion", "meaning": "act or result" }
+      ]
+    },
+    {
+      "id": "family-fund",
+      "rootWord": "fund",
+      "etymology": "Latin: fundus (bottom, base)",
+      "cefr": "B2",
+      "category": "business",
+      "tags": ["finance", "business"],
+      "forms": [
+        { "word": "fund", "pos": "noun", "definition": "A sum of money saved or collected", "example": "A pension fund protects workers.", "frequency": "common" },
+        { "word": "fund", "pos": "verb", "definition": "To provide money for something", "example": "The government funds public schools.", "frequency": "common" },
+        { "word": "funding", "pos": "noun", "definition": "Money provided for a purpose", "example": "Research funding was approved.", "frequency": "common" },
+        { "word": "fundraise", "pos": "verb", "definition": "To collect money for a cause", "example": "They fundraise for charity every year.", "frequency": "common" },
+        { "word": "fundraiser", "pos": "noun", "definition": "A person or event that collects funds", "example": "The fundraiser raised thousands.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ing", "meaning": "action or result" },
+        { "type": "suffix", "form": "-raise", "meaning": "to increase" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-contribute",
+      "rootWord": "contribute",
+      "etymology": "Latin: contribuere (to bring together)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["giving", "academic"],
+      "forms": [
+        { "word": "contribute", "pos": "verb", "definition": "To give something as part of a whole", "example": "Everyone should contribute to society.", "frequency": "common" },
+        { "word": "contribution", "pos": "noun", "definition": "Something given as part of a whole", "example": "Her contribution was invaluable.", "frequency": "common" },
+        { "word": "contributor", "pos": "noun", "definition": "A person who contributes", "example": "She is a regular contributor.", "frequency": "common" },
+        { "word": "contributory", "pos": "adjective", "definition": "Playing a part in causing something", "example": "Stress is a contributory factor.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-or", "meaning": "one who does" },
+        { "type": "suffix", "form": "-ory", "meaning": "relating to" }
+      ]
+    },
+    {
+      "id": "family-implement",
+      "rootWord": "implement",
+      "etymology": "Latin: implementum (that which fills up)",
+      "cefr": "C1",
+      "category": "business",
+      "tags": ["execution", "business"],
+      "forms": [
+        { "word": "implement", "pos": "verb", "definition": "To put a plan or decision into effect", "example": "We will implement the changes soon.", "frequency": "common" },
+        { "word": "implementation", "pos": "noun", "definition": "The process of putting something into effect", "example": "Implementation of the policy began.", "frequency": "common" },
+        { "word": "implementer", "pos": "noun", "definition": "A person who implements something", "example": "The implementer followed the plan.", "frequency": "rare" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ation", "meaning": "act or process" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-succeed",
+      "rootWord": "succeed",
+      "etymology": "Latin: succedere (come after, go well)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["success", "achievement"],
+      "forms": [
+        { "word": "succeed", "pos": "verb", "definition": "To achieve a desired result", "example": "Work hard and you will succeed.", "frequency": "very-common" },
+        { "word": "success", "pos": "noun", "definition": "The achievement of a desired result", "example": "Success requires persistence.", "frequency": "very-common" },
+        { "word": "successful", "pos": "adjective", "definition": "Having achieved success", "example": "She is a successful entrepreneur.", "frequency": "very-common" },
+        { "word": "successfully", "pos": "adverb", "definition": "In a successful manner", "example": "The mission was completed successfully.", "frequency": "very-common" },
+        { "word": "unsuccessful", "pos": "adjective", "definition": "Not achieving success", "example": "The attempt was unsuccessful.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ful", "meaning": "full of" },
+        { "type": "suffix", "form": "-fully", "meaning": "in a manner" }
+      ]
+    },
+    {
+      "id": "family-depend",
+      "rootWord": "depend",
+      "etymology": "Latin: dependere (to hang from)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["reliance", "academic"],
+      "forms": [
+        { "word": "depend", "pos": "verb", "definition": "To be determined or influenced by", "example": "Success depends on your effort.", "frequency": "very-common" },
+        { "word": "dependence", "pos": "noun", "definition": "The state of depending on something", "example": "Reduce dependence on fossil fuels.", "frequency": "common" },
+        { "word": "dependent", "pos": "adjective", "definition": "Relying on someone or something", "example": "Children are dependent on parents.", "frequency": "common" },
+        { "word": "dependable", "pos": "adjective", "definition": "Trustworthy and reliable", "example": "She is a dependable colleague.", "frequency": "common" },
+        { "word": "independent", "pos": "adjective", "definition": "Not depending on others", "example": "Financial independence is important.", "frequency": "very-common" },
+        { "word": "independently", "pos": "adverb", "definition": "Without help from others", "example": "She works independently.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "in-", "meaning": "not" },
+        { "type": "suffix", "form": "-ence", "meaning": "state or quality" },
+        { "type": "suffix", "form": "-ent", "meaning": "having the quality of" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
+        { "type": "suffix", "form": "-ently", "meaning": "in a manner" }
+      ]
+    },
+    {
+      "id": "family-apply",
+      "rootWord": "apply",
+      "etymology": "Latin: applicare (to attach, join)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["usage", "academic"],
+      "forms": [
+        { "word": "apply", "pos": "verb", "definition": "To put something to use or request formally", "example": "Apply for the job online.", "frequency": "very-common" },
+        { "word": "application", "pos": "noun", "definition": "A formal request or program", "example": "Submit your application by Friday.", "frequency": "very-common" },
+        { "word": "applicable", "pos": "adjective", "definition": "Relevant or appropriate", "example": "This rule is applicable to everyone.", "frequency": "common" },
+        { "word": "applicant", "pos": "noun", "definition": "A person who applies for something", "example": "There were many applicants for the role.", "frequency": "common" },
+        { "word": "inapplicable", "pos": "adjective", "definition": "Not relevant or appropriate", "example": "That rule is inapplicable here.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "in-", "meaning": "not" },
+        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
+        { "type": "suffix", "form": "-ant", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-compete",
+      "rootWord": "compete",
+      "etymology": "Latin: competere (to strive together)",
+      "cefr": "B1",
+      "category": "business",
+      "tags": ["competition", "business"],
+      "forms": [
+        { "word": "compete", "pos": "verb", "definition": "To try to win against others", "example": "Companies compete for customers.", "frequency": "common" },
+        { "word": "competition", "pos": "noun", "definition": "The activity of competing", "example": "Competition drives innovation.", "frequency": "very-common" },
+        { "word": "competitive", "pos": "adjective", "definition": "Having a strong desire to win", "example": "The market is highly competitive.", "frequency": "common" },
+        { "word": "competitively", "pos": "adverb", "definition": "In a competitive manner", "example": "Price competitively to attract buyers.", "frequency": "less-common" },
+        { "word": "competitor", "pos": "noun", "definition": "A person or company that competes", "example": "Our main competitor launched a product.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-tion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-tive", "meaning": "tending to" },
+        { "type": "suffix", "form": "-tively", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-tor", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-educate",
+      "rootWord": "educate",
+      "etymology": "Latin: educare (to lead out)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["learning", "school"],
+      "forms": [
+        { "word": "educate", "pos": "verb", "definition": "To give knowledge or training to", "example": "Parents educate children at home.", "frequency": "common" },
+        { "word": "education", "pos": "noun", "definition": "The process of gaining knowledge", "example": "Education opens many doors.", "frequency": "very-common" },
+        { "word": "educational", "pos": "adjective", "definition": "Relating to education", "example": "Educational videos help students.", "frequency": "common" },
+        { "word": "educationally", "pos": "adverb", "definition": "In terms of education", "example": "Educationally disadvantaged children need help.", "frequency": "rare" },
+        { "word": "educator", "pos": "noun", "definition": "A person who educates", "example": "Great educators inspire students.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-al", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ally", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-argue",
+      "rootWord": "argue",
+      "etymology": "Latin: arguere (to make clear, accuse)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["debate", "academic"],
+      "forms": [
+        { "word": "argue", "pos": "verb", "definition": "To give reasons for or against something", "example": "Lawyers argue their case in court.", "frequency": "very-common" },
+        { "word": "argument", "pos": "noun", "definition": "A reason given for a viewpoint", "example": "His argument was convincing.", "frequency": "very-common" },
+        { "word": "argumentative", "pos": "adjective", "definition": "Prone to arguing", "example": "Don't be so argumentative.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ment", "meaning": "result or process" },
+        { "type": "suffix", "form": "-ative", "meaning": "tending to" }
+      ]
+    },
+    {
+      "id": "family-influence",
+      "rootWord": "influence",
+      "etymology": "Latin: influere (to flow into)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["power", "impact"],
+      "forms": [
+        { "word": "influence", "pos": "noun", "definition": "The power to affect others", "example": "Her influence in the field is great.", "frequency": "very-common" },
+        { "word": "influence", "pos": "verb", "definition": "To have an effect on something", "example": "Media influences public opinion.", "frequency": "very-common" },
+        { "word": "influential", "pos": "adjective", "definition": "Having great influence", "example": "She is an influential leader.", "frequency": "common" },
+        { "word": "influentially", "pos": "adverb", "definition": "In an influential manner", "example": "He spoke influentially.", "frequency": "rare" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ial", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ially", "meaning": "in a manner" }
+      ]
+    },
+    {
+      "id": "family-promote",
+      "rootWord": "promote",
+      "etymology": "Latin: promovere (to move forward)",
+      "cefr": "B2",
+      "category": "business",
+      "tags": ["marketing", "growth"],
+      "forms": [
+        { "word": "promote", "pos": "verb", "definition": "To support or advance something", "example": "They promoted the new product online.", "frequency": "common" },
+        { "word": "promotion", "pos": "noun", "definition": "The act of promoting or advancement", "example": "She got a promotion at work.", "frequency": "common" },
+        { "word": "promotional", "pos": "adjective", "definition": "Relating to promoting something", "example": "Promotional offers attract customers.", "frequency": "common" },
+        { "word": "promoter", "pos": "noun", "definition": "A person who promotes something", "example": "He's a concert promoter.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ional", "meaning": "relating to" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-strategy",
+      "rootWord": "strategy",
+      "etymology": "Greek: strategos (army leader)",
+      "cefr": "B2",
+      "category": "business",
+      "tags": ["planning", "business"],
+      "forms": [
+        { "word": "strategy", "pos": "noun", "definition": "A plan designed to achieve a goal", "example": "A clear strategy is needed.", "frequency": "very-common" },
+        { "word": "strategic", "pos": "adjective", "definition": "Relating to strategy", "example": "Strategic planning drives success.", "frequency": "common" },
+        { "word": "strategically", "pos": "adverb", "definition": "In a strategic manner", "example": "Position yourself strategically.", "frequency": "common" },
+        { "word": "strategist", "pos": "noun", "definition": "A person skilled in strategy", "example": "The military strategist planned carefully.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ic", "meaning": "relating to" },
+        { "type": "suffix", "form": "-ically", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ist", "meaning": "specialist in" }
+      ]
+    },
+    {
+      "id": "family-accurate",
+      "rootWord": "accurate",
+      "etymology": "Latin: accuratus (done with care)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["precision", "academic"],
+      "forms": [
+        { "word": "accurate", "pos": "adjective", "definition": "Correct and without errors", "example": "The data must be accurate.", "frequency": "common" },
+        { "word": "accurately", "pos": "adverb", "definition": "In an accurate manner", "example": "Measure accurately for best results.", "frequency": "common" },
+        { "word": "accuracy", "pos": "noun", "definition": "The quality of being accurate", "example": "Accuracy is vital in science.", "frequency": "common" },
+        { "word": "inaccurate", "pos": "adjective", "definition": "Not correct or exact", "example": "The report contained inaccurate data.", "frequency": "common" },
+        { "word": "inaccuracy", "pos": "noun", "definition": "The state of being inaccurate", "example": "The inaccuracy caused confusion.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "in-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-cy", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-interpret",
+      "rootWord": "interpret",
+      "etymology": "Latin: interpretare (to explain, understand)",
+      "cefr": "C1",
+      "category": "academic",
+      "tags": ["meaning", "language"],
+      "forms": [
+        { "word": "interpret", "pos": "verb", "definition": "To explain the meaning of something", "example": "How do you interpret this poem?", "frequency": "common" },
+        { "word": "interpretation", "pos": "noun", "definition": "An explanation of the meaning", "example": "Her interpretation was surprising.", "frequency": "common" },
+        { "word": "interpreter", "pos": "noun", "definition": "A person who interprets language", "example": "The interpreter translated the speech.", "frequency": "common" },
+        { "word": "misinterpret", "pos": "verb", "definition": "To interpret incorrectly", "example": "Don't misinterpret my words.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "mis-", "meaning": "wrongly" },
+        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-observe",
+      "rootWord": "observe",
+      "etymology": "Latin: observare (to watch over)",
+      "cefr": "B2",
+      "category": "academic",
+      "tags": ["science", "attention"],
+      "forms": [
+        { "word": "observe", "pos": "verb", "definition": "To watch carefully or notice", "example": "Scientists observe animal behavior.", "frequency": "common" },
+        { "word": "observation", "pos": "noun", "definition": "The act of watching carefully", "example": "Through careful observation, patterns emerge.", "frequency": "common" },
+        { "word": "observational", "pos": "adjective", "definition": "Based on observation", "example": "Observational studies track behavior.", "frequency": "less-common" },
+        { "word": "observer", "pos": "noun", "definition": "A person who observes", "example": "The observer took detailed notes.", "frequency": "common" },
+        { "word": "observable", "pos": "adjective", "definition": "Able to be observed", "example": "The change was barely observable.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ational", "meaning": "relating to" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" },
+        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+      ]
+    },
+    {
+      "id": "family-challenge",
+      "rootWord": "challenge",
+      "etymology": "Latin: calumniare (to accuse falsely)",
+      "cefr": "B1",
+      "category": "common",
+      "tags": ["difficulty", "growth"],
+      "forms": [
+        { "word": "challenge", "pos": "noun", "definition": "A difficult task or situation", "example": "Learning a language is a challenge.", "frequency": "very-common" },
+        { "word": "challenge", "pos": "verb", "definition": "To invite or test someone", "example": "The teacher challenged the students.", "frequency": "very-common" },
+        { "word": "challenging", "pos": "adjective", "definition": "Difficult but interesting", "example": "The work is challenging but rewarding.", "frequency": "very-common" },
+        { "word": "challenger", "pos": "noun", "definition": "A person who challenges another", "example": "The challenger defeated the champion.", "frequency": "less-common" }
+      ],
+      "affixes": [
+        { "type": "suffix", "form": "-ing", "meaning": "having the quality of" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    },
+    {
+      "id": "family-reliable",
+      "rootWord": "reliable",
+      "etymology": "Latin: religare (to bind back)",
+      "cefr": "B2",
+      "category": "common",
+      "tags": ["trust", "quality"],
+      "forms": [
+        { "word": "reliable", "pos": "adjective", "definition": "Consistently dependable and trustworthy", "example": "Choose a reliable car brand.", "frequency": "common" },
+        { "word": "reliably", "pos": "adverb", "definition": "In a reliable manner", "example": "The system works reliably.", "frequency": "common" },
+        { "word": "reliability", "pos": "noun", "definition": "The quality of being reliable", "example": "Reliability is key to customer trust.", "frequency": "common" },
+        { "word": "unreliable", "pos": "adjective", "definition": "Not reliable or dependable", "example": "The data was unreliable.", "frequency": "common" },
+        { "word": "rely", "pos": "verb", "definition": "To depend on with trust", "example": "You can rely on me.", "frequency": "very-common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "un-", "meaning": "not" },
+        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
+        { "type": "suffix", "form": "-ity", "meaning": "state or quality" }
+      ]
+    },
+    {
+      "id": "family-connect",
+      "rootWord": "connect",
+      "etymology": "Latin: connectere (to bind together)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["network", "relationship"],
+      "forms": [
+        { "word": "connect", "pos": "verb", "definition": "To join or link things together", "example": "Connect the cable to the device.", "frequency": "very-common" },
+        { "word": "connection", "pos": "noun", "definition": "A link between things or people", "example": "We have a strong connection.", "frequency": "very-common" },
+        { "word": "connected", "pos": "adjective", "definition": "Joined or linked to something", "example": "Stay connected with friends online.", "frequency": "very-common" },
+        { "word": "disconnected", "pos": "adjective", "definition": "Not joined or linked", "example": "I feel disconnected from my roots.", "frequency": "common" },
+        { "word": "connector", "pos": "noun", "definition": "A device or thing that connects", "example": "Use a USB connector.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "dis-", "meaning": "apart, not" },
+        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ed", "meaning": "in a state of" },
+        { "type": "suffix", "form": "-or", "meaning": "one that does" }
+      ]
+    },
+    {
+      "id": "family-organize",
+      "rootWord": "organize",
+      "etymology": "Greek: organon (instrument, tool)",
+      "cefr": "A2",
+      "category": "common",
+      "tags": ["management", "planning"],
+      "forms": [
+        { "word": "organize", "pos": "verb", "definition": "To arrange in a systematic way", "example": "Organize your desk to work better.", "frequency": "very-common" },
+        { "word": "organization", "pos": "noun", "definition": "A group with a common purpose; orderly arrangement", "example": "She works for a non-profit organization.", "frequency": "very-common" },
+        { "word": "organizational", "pos": "adjective", "definition": "Relating to an organization", "example": "Organizational skills are valued.", "frequency": "common" },
+        { "word": "organizer", "pos": "noun", "definition": "A person who organizes", "example": "The event organizer did a great job.", "frequency": "common" },
+        { "word": "disorganized", "pos": "adjective", "definition": "Not well organized", "example": "A disorganized workspace slows you down.", "frequency": "common" }
+      ],
+      "affixes": [
+        { "type": "prefix", "form": "dis-", "meaning": "apart, not" },
+        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
+        { "type": "suffix", "form": "-ational", "meaning": "relating to" },
+        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+      ]
+    }
+  ]
+}
