@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "totalFamilies": 60,
     "lastUpdated": "2026-05-24",
-    "sources": ["Academic Word List", "IELTS Word List", "Common English Vocabulary"]
+    "sources": [
+      "Academic Word List",
+      "IELTS Word List",
+      "Common English Vocabulary"
+    ]
   },
   "families": [
     {
@@ -12,19 +16,68 @@
       "etymology": "Latin: de- (off) + caedere (cut)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["decision", "academic"],
+      "tags": [
+        "decision",
+        "academic"
+      ],
       "forms": [
-        { "word": "decide", "pos": "verb", "definition": "To make a choice after thinking", "example": "I decided to study abroad.", "frequency": "very-common" },
-        { "word": "decision", "pos": "noun", "definition": "A choice that is made after thinking", "example": "The decision was difficult.", "frequency": "very-common" },
-        { "word": "decisive", "pos": "adjective", "definition": "Showing the ability to make clear decisions", "example": "A decisive leader inspires confidence.", "frequency": "common" },
-        { "word": "decisively", "pos": "adverb", "definition": "In a way that settles an issue clearly", "example": "She spoke decisively.", "frequency": "less-common" },
-        { "word": "indecisive", "pos": "adjective", "definition": "Unable to make decisions quickly", "example": "He was indecisive about the move.", "frequency": "common" }
+        {
+          "word": "decide",
+          "pos": "verb",
+          "definition": "Ra quyết định sau khi suy nghĩ",
+          "example": "I decided to study abroad.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "decision",
+          "pos": "noun",
+          "definition": "Sự lựa chọn được đưa ra sau khi suy nghĩ",
+          "example": "The decision was difficult.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "decisive",
+          "pos": "adjective",
+          "definition": "Có khả năng ra quyết định rõ ràng và dứt khoát",
+          "example": "A decisive leader inspires confidence.",
+          "frequency": "common"
+        },
+        {
+          "word": "decisively",
+          "pos": "adverb",
+          "definition": "Theo cách dứt khoát, không do dự",
+          "example": "She spoke decisively.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "indecisive",
+          "pos": "adjective",
+          "definition": "Không thể đưa ra quyết định nhanh chóng; do dự",
+          "example": "He was indecisive about the move.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "in-", "meaning": "not" },
-        { "type": "suffix", "form": "-ion", "meaning": "result of an action" },
-        { "type": "suffix", "form": "-ive", "meaning": "having the quality of" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" }
+        {
+          "type": "prefix",
+          "form": "in-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "kết quả của một hành động"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có tính chất của"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        }
       ]
     },
     {
@@ -33,18 +86,63 @@
       "etymology": "Greek: ana- (up) + lysis (loosening)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["research", "academic"],
+      "tags": [
+        "research",
+        "academic"
+      ],
       "forms": [
-        { "word": "analyze", "pos": "verb", "definition": "To examine something in detail", "example": "Scientists analyze data to find patterns.", "frequency": "common" },
-        { "word": "analysis", "pos": "noun", "definition": "A detailed examination of something", "example": "The analysis revealed key trends.", "frequency": "common" },
-        { "word": "analytical", "pos": "adjective", "definition": "Using analysis to examine things", "example": "She has an analytical mind.", "frequency": "common" },
-        { "word": "analytically", "pos": "adverb", "definition": "In an analytical manner", "example": "Think analytically about the problem.", "frequency": "less-common" },
-        { "word": "analyst", "pos": "noun", "definition": "A person who analyzes data", "example": "The analyst prepared a report.", "frequency": "common" }
+        {
+          "word": "analyze",
+          "pos": "verb",
+          "definition": "Xem xét chi tiết để hiểu rõ bản chất",
+          "example": "Scientists analyze data to find patterns.",
+          "frequency": "common"
+        },
+        {
+          "word": "analysis",
+          "pos": "noun",
+          "definition": "Sự xem xét chi tiết về điều gì đó",
+          "example": "The analysis revealed key trends.",
+          "frequency": "common"
+        },
+        {
+          "word": "analytical",
+          "pos": "adjective",
+          "definition": "Sử dụng phân tích để xem xét sự việc",
+          "example": "She has an analytical mind.",
+          "frequency": "common"
+        },
+        {
+          "word": "analytically",
+          "pos": "adverb",
+          "definition": "Theo cách phân tích logic",
+          "example": "Think analytically about the problem.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "analyst",
+          "pos": "noun",
+          "definition": "Người chuyên phân tích và đánh giá dữ liệu",
+          "example": "The analyst prepared a report.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-sis", "meaning": "process or result" },
-        { "type": "suffix", "form": "-ical", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ist", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-sis",
+          "meaning": "quá trình hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ical",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ist",
+          "meaning": "người thực hiện hoặc chuyên về"
+        }
       ]
     },
     {
@@ -53,17 +151,56 @@
       "etymology": "Old French: achever (come to a head)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["success", "goal"],
+      "tags": [
+        "success",
+        "goal"
+      ],
       "forms": [
-        { "word": "achieve", "pos": "verb", "definition": "To succeed in doing something difficult", "example": "She achieved her goal after years of work.", "frequency": "very-common" },
-        { "word": "achievement", "pos": "noun", "definition": "Something accomplished successfully", "example": "Winning the award was a great achievement.", "frequency": "very-common" },
-        { "word": "achievable", "pos": "adjective", "definition": "Possible to achieve", "example": "Set achievable targets for yourself.", "frequency": "common" },
-        { "word": "achiever", "pos": "noun", "definition": "A person who achieves a lot", "example": "He's a high achiever in his field.", "frequency": "less-common" }
+        {
+          "word": "achieve",
+          "pos": "verb",
+          "definition": "Đạt được mục tiêu hoặc điều gì đó khó khăn",
+          "example": "She achieved her goal after years of work.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "achievement",
+          "pos": "noun",
+          "definition": "Thành tích hoặc điều được hoàn thành thành công",
+          "example": "Winning the award was a great achievement.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "achievable",
+          "pos": "adjective",
+          "definition": "Có thể đạt được; khả thi",
+          "example": "Set achievable targets for yourself.",
+          "frequency": "common"
+        },
+        {
+          "word": "achiever",
+          "pos": "noun",
+          "definition": "Người đạt được nhiều thành tích",
+          "example": "He's a high achiever in his field.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ment", "meaning": "result or process" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "kết quả hoặc quá trình"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -72,20 +209,75 @@
       "etymology": "Latin: creare (to make, produce)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["art", "innovation"],
+      "tags": [
+        "art",
+        "innovation"
+      ],
       "forms": [
-        { "word": "create", "pos": "verb", "definition": "To make or produce something new", "example": "She created a beautiful painting.", "frequency": "very-common" },
-        { "word": "creation", "pos": "noun", "definition": "The act of creating or something created", "example": "The creation of the universe is a mystery.", "frequency": "very-common" },
-        { "word": "creative", "pos": "adjective", "definition": "Showing imagination and original ideas", "example": "She's a very creative designer.", "frequency": "very-common" },
-        { "word": "creatively", "pos": "adverb", "definition": "In a creative way", "example": "Think creatively to solve problems.", "frequency": "common" },
-        { "word": "creativity", "pos": "noun", "definition": "The ability to create new ideas", "example": "Creativity is valued in the workplace.", "frequency": "common" },
-        { "word": "creator", "pos": "noun", "definition": "A person who creates something", "example": "The creator of the app won an award.", "frequency": "common" }
+        {
+          "word": "create",
+          "pos": "verb",
+          "definition": "Tạo ra hoặc sản xuất điều gì đó mới",
+          "example": "She created a beautiful painting.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "creation",
+          "pos": "noun",
+          "definition": "Hành động tạo ra hoặc thứ được tạo ra",
+          "example": "The creation of the universe is a mystery.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "creative",
+          "pos": "adjective",
+          "definition": "Thể hiện trí tưởng tượng và ý tưởng độc đáo",
+          "example": "She's a very creative designer.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "creatively",
+          "pos": "adverb",
+          "definition": "Theo cách sáng tạo và đổi mới",
+          "example": "Think creatively to solve problems.",
+          "frequency": "common"
+        },
+        {
+          "word": "creativity",
+          "pos": "noun",
+          "definition": "Khả năng tạo ra ý tưởng và giải pháp mới",
+          "example": "Creativity is valued in the workplace.",
+          "frequency": "common"
+        },
+        {
+          "word": "creator",
+          "pos": "noun",
+          "definition": "Người tạo ra hoặc sáng tác điều gì đó",
+          "example": "The creator of the app won an award.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ive", "meaning": "having the quality of" },
-        { "type": "suffix", "form": "-ity", "meaning": "state or quality" },
-        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có tính chất của"
+        },
+        {
+          "type": "suffix",
+          "form": "-ity",
+          "meaning": "trạng thái hoặc chất lượng"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -94,18 +286,63 @@
       "etymology": "French: développer (to unwrap)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["growth", "progress"],
+      "tags": [
+        "growth",
+        "progress"
+      ],
       "forms": [
-        { "word": "develop", "pos": "verb", "definition": "To grow or make something grow", "example": "The company developed a new product.", "frequency": "very-common" },
-        { "word": "development", "pos": "noun", "definition": "The process of growing or improving", "example": "Economic development is important.", "frequency": "very-common" },
-        { "word": "developer", "pos": "noun", "definition": "A person who develops something", "example": "She is a software developer.", "frequency": "very-common" },
-        { "word": "developing", "pos": "adjective", "definition": "Growing or becoming more advanced", "example": "A developing country needs support.", "frequency": "common" },
-        { "word": "underdeveloped", "pos": "adjective", "definition": "Not fully developed", "example": "The region is underdeveloped.", "frequency": "less-common" }
+        {
+          "word": "develop",
+          "pos": "verb",
+          "definition": "Phát triển hoặc làm cho điều gì đó phát triển",
+          "example": "The company developed a new product.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "development",
+          "pos": "noun",
+          "definition": "Quá trình phát triển hoặc cải thiện",
+          "example": "Economic development is important.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "developer",
+          "pos": "noun",
+          "definition": "Người phát triển phần mềm hoặc dự án",
+          "example": "She is a software developer.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "developing",
+          "pos": "adjective",
+          "definition": "Đang trong quá trình phát triển, chưa hoàn thiện",
+          "example": "A developing country needs support.",
+          "frequency": "common"
+        },
+        {
+          "word": "underdeveloped",
+          "pos": "adjective",
+          "definition": "Chưa đạt mức phát triển đầy đủ",
+          "example": "The region is underdeveloped.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "under-", "meaning": "below or insufficient" },
-        { "type": "suffix", "form": "-ment", "meaning": "result or process" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "prefix",
+          "form": "under-",
+          "meaning": "dưới mức hoặc không đủ"
+        },
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "kết quả hoặc quá trình"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -114,15 +351,44 @@
       "etymology": "Latin: stabilire (to make firm)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["founding", "academic"],
+      "tags": [
+        "founding",
+        "academic"
+      ],
       "forms": [
-        { "word": "establish", "pos": "verb", "definition": "To set up or create something officially", "example": "They established a new company.", "frequency": "common" },
-        { "word": "establishment", "pos": "noun", "definition": "The process of setting up or a business", "example": "The establishment of a school took years.", "frequency": "common" },
-        { "word": "established", "pos": "adjective", "definition": "Well-known and accepted for a long time", "example": "An established brand is trusted.", "frequency": "common" }
+        {
+          "word": "establish",
+          "pos": "verb",
+          "definition": "Thành lập hoặc tạo ra điều gì đó một cách chính thức",
+          "example": "They established a new company.",
+          "frequency": "common"
+        },
+        {
+          "word": "establishment",
+          "pos": "noun",
+          "definition": "Quá trình thành lập hoặc một tổ chức được công nhận",
+          "example": "The establishment of a school took years.",
+          "frequency": "common"
+        },
+        {
+          "word": "established",
+          "pos": "adjective",
+          "definition": "Được công nhận rộng rãi và ổn định từ lâu",
+          "example": "An established brand is trusted.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ment", "meaning": "result or action" },
-        { "type": "suffix", "form": "-ed", "meaning": "in a state of" }
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "kết quả hoặc hành động"
+        },
+        {
+          "type": "suffix",
+          "form": "-ed",
+          "meaning": "trong trạng thái đã hoàn thành"
+        }
       ]
     },
     {
@@ -131,17 +397,56 @@
       "etymology": "Latin: idem (same) + facere (make)",
       "cefr": "B1",
       "category": "academic",
-      "tags": ["recognition", "academic"],
+      "tags": [
+        "recognition",
+        "academic"
+      ],
       "forms": [
-        { "word": "identify", "pos": "verb", "definition": "To recognize or name something", "example": "Can you identify the problem?", "frequency": "very-common" },
-        { "word": "identification", "pos": "noun", "definition": "The act of identifying or proof of identity", "example": "Show your identification at the door.", "frequency": "common" },
-        { "word": "identity", "pos": "noun", "definition": "Who or what a person or thing is", "example": "Cultural identity is important.", "frequency": "very-common" },
-        { "word": "identifiable", "pos": "adjective", "definition": "Able to be identified", "example": "The symptoms are easily identifiable.", "frequency": "less-common" }
+        {
+          "word": "identify",
+          "pos": "verb",
+          "definition": "Nhận ra hoặc xác định danh tính của điều gì đó",
+          "example": "Can you identify the problem?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "identification",
+          "pos": "noun",
+          "definition": "Hành động nhận dạng hoặc bằng chứng về danh tính",
+          "example": "Show your identification at the door.",
+          "frequency": "common"
+        },
+        {
+          "word": "identity",
+          "pos": "noun",
+          "definition": "Danh tính, bản sắc của một người hoặc vật",
+          "example": "Cultural identity is important.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "identifiable",
+          "pos": "adjective",
+          "definition": "Có thể được nhận dạng và xác định",
+          "example": "The symptoms are easily identifiable.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ification", "meaning": "act of making" },
-        { "type": "suffix", "form": "-ity", "meaning": "quality or state" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+        {
+          "type": "suffix",
+          "form": "-ification",
+          "meaning": "hành động tạo ra hoặc chuyển đổi"
+        },
+        {
+          "type": "suffix",
+          "form": "-ity",
+          "meaning": "chất lượng hoặc trạng thái"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        }
       ]
     },
     {
@@ -150,17 +455,56 @@
       "etymology": "Latin: indicare (to point out)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["academic", "evidence"],
+      "tags": [
+        "academic",
+        "evidence"
+      ],
       "forms": [
-        { "word": "indicate", "pos": "verb", "definition": "To show or point to something", "example": "The data indicates a positive trend.", "frequency": "common" },
-        { "word": "indication", "pos": "noun", "definition": "A sign that shows something", "example": "There's no indication of danger.", "frequency": "common" },
-        { "word": "indicator", "pos": "noun", "definition": "Something that shows a condition", "example": "GDP is an economic indicator.", "frequency": "common" },
-        { "word": "indicative", "pos": "adjective", "definition": "Suggesting or showing something", "example": "High sales are indicative of success.", "frequency": "less-common" }
+        {
+          "word": "indicate",
+          "pos": "verb",
+          "definition": "Chỉ ra hoặc cho thấy điều gì đó",
+          "example": "The data indicates a positive trend.",
+          "frequency": "common"
+        },
+        {
+          "word": "indication",
+          "pos": "noun",
+          "definition": "Dấu hiệu hoặc bằng chứng cho thấy điều gì đó",
+          "example": "There's no indication of danger.",
+          "frequency": "common"
+        },
+        {
+          "word": "indicator",
+          "pos": "noun",
+          "definition": "Chỉ số hoặc thứ cho thấy một tình trạng",
+          "example": "GDP is an economic indicator.",
+          "frequency": "common"
+        },
+        {
+          "word": "indicative",
+          "pos": "adjective",
+          "definition": "Gợi ý hoặc chỉ ra điều gì đó",
+          "example": "High sales are indicative of success.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-or", "meaning": "one that does" },
-        { "type": "suffix", "form": "-ive", "meaning": "having the quality of" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "thứ hoặc người thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có tính chất của"
+        }
       ]
     },
     {
@@ -169,15 +513,44 @@
       "etymology": "Latin: manu tenere (hold in hand)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["upkeep", "academic"],
+      "tags": [
+        "upkeep",
+        "academic"
+      ],
       "forms": [
-        { "word": "maintain", "pos": "verb", "definition": "To keep something in good condition", "example": "Maintain a healthy lifestyle.", "frequency": "common" },
-        { "word": "maintenance", "pos": "noun", "definition": "The act of keeping something in good condition", "example": "Regular maintenance prevents problems.", "frequency": "common" },
-        { "word": "maintainable", "pos": "adjective", "definition": "Able to be kept in good condition", "example": "The code should be maintainable.", "frequency": "less-common" }
+        {
+          "word": "maintain",
+          "pos": "verb",
+          "definition": "Duy trì hoặc giữ gìn điều gì đó trong tình trạng tốt",
+          "example": "Maintain a healthy lifestyle.",
+          "frequency": "common"
+        },
+        {
+          "word": "maintenance",
+          "pos": "noun",
+          "definition": "Hoạt động bảo trì và duy trì điều gì đó",
+          "example": "Regular maintenance prevents problems.",
+          "frequency": "common"
+        },
+        {
+          "word": "maintainable",
+          "pos": "adjective",
+          "definition": "Có thể được bảo trì và duy trì dễ dàng",
+          "example": "The code should be maintainable.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ance", "meaning": "state or action" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+        {
+          "type": "suffix",
+          "form": "-ance",
+          "meaning": "trạng thái hoặc hành động"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        }
       ]
     },
     {
@@ -186,15 +559,44 @@
       "etymology": "Latin: requirere (seek again)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["necessity", "academic"],
+      "tags": [
+        "necessity",
+        "academic"
+      ],
       "forms": [
-        { "word": "require", "pos": "verb", "definition": "To need something as necessary", "example": "This job requires experience.", "frequency": "very-common" },
-        { "word": "requirement", "pos": "noun", "definition": "Something that is needed", "example": "What are the entry requirements?", "frequency": "very-common" },
-        { "word": "required", "pos": "adjective", "definition": "Necessary or compulsory", "example": "Math is a required subject.", "frequency": "common" }
+        {
+          "word": "require",
+          "pos": "verb",
+          "definition": "Cần hoặc đòi hỏi điều gì đó như một điều kiện bắt buộc",
+          "example": "This job requires experience.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "requirement",
+          "pos": "noun",
+          "definition": "Yêu cầu hoặc điều kiện cần thiết phải có",
+          "example": "What are the entry requirements?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "required",
+          "pos": "adjective",
+          "definition": "Bắt buộc hoặc cần thiết phải có",
+          "example": "Math is a required subject.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ment", "meaning": "result or condition" },
-        { "type": "suffix", "form": "-ed", "meaning": "in a state of" }
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "kết quả hoặc điều kiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ed",
+          "meaning": "trong trạng thái bắt buộc"
+        }
       ]
     },
     {
@@ -203,15 +605,44 @@
       "etymology": "Latin: providere (to foresee, supply)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["supply", "academic"],
+      "tags": [
+        "supply",
+        "academic"
+      ],
       "forms": [
-        { "word": "provide", "pos": "verb", "definition": "To give something needed", "example": "The school provides free meals.", "frequency": "very-common" },
-        { "word": "provision", "pos": "noun", "definition": "The act of providing or a supply", "example": "Food provision is critical in a crisis.", "frequency": "common" },
-        { "word": "provider", "pos": "noun", "definition": "A person or thing that provides", "example": "Healthcare providers work hard.", "frequency": "common" }
+        {
+          "word": "provide",
+          "pos": "verb",
+          "definition": "Cung cấp hoặc đáp ứng thứ gì đó cần thiết",
+          "example": "The school provides free meals.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "provision",
+          "pos": "noun",
+          "definition": "Hành động cung cấp hoặc nguồn cung được chuẩn bị",
+          "example": "Food provision is critical in a crisis.",
+          "frequency": "common"
+        },
+        {
+          "word": "provider",
+          "pos": "noun",
+          "definition": "Người hoặc tổ chức cung cấp dịch vụ hoặc hàng hóa",
+          "example": "Healthcare providers work hard.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-sion", "meaning": "act or state" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-sion",
+          "meaning": "hành động hoặc trạng thái"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người hoặc thứ thực hiện"
+        }
       ]
     },
     {
@@ -220,15 +651,44 @@
       "etymology": "Latin: suggerere (carry up, suggest)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["advice", "communication"],
+      "tags": [
+        "advice",
+        "communication"
+      ],
       "forms": [
-        { "word": "suggest", "pos": "verb", "definition": "To propose an idea for consideration", "example": "Can you suggest a good restaurant?", "frequency": "very-common" },
-        { "word": "suggestion", "pos": "noun", "definition": "An idea proposed for consideration", "example": "Her suggestion was helpful.", "frequency": "very-common" },
-        { "word": "suggestive", "pos": "adjective", "definition": "Tending to suggest or imply something", "example": "The results are suggestive of progress.", "frequency": "less-common" }
+        {
+          "word": "suggest",
+          "pos": "verb",
+          "definition": "Đề xuất hoặc gợi ý ý tưởng để xem xét",
+          "example": "Can you suggest a good restaurant?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "suggestion",
+          "pos": "noun",
+          "definition": "Ý kiến hoặc ý tưởng được đề xuất",
+          "example": "Her suggestion was helpful.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "suggestive",
+          "pos": "adjective",
+          "definition": "Có xu hướng gợi ý hoặc ám chỉ điều gì đó",
+          "example": "The results are suggestive of progress.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ive", "meaning": "tending to" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có xu hướng"
+        }
       ]
     },
     {
@@ -237,15 +697,44 @@
       "etymology": "Latin: involvere (to roll into)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["participation", "academic"],
+      "tags": [
+        "participation",
+        "academic"
+      ],
       "forms": [
-        { "word": "involve", "pos": "verb", "definition": "To include or require as a part", "example": "The project involves teamwork.", "frequency": "very-common" },
-        { "word": "involvement", "pos": "noun", "definition": "The fact of taking part in something", "example": "Community involvement improves society.", "frequency": "common" },
-        { "word": "involved", "pos": "adjective", "definition": "Engaged in an activity or situation", "example": "She's involved in charity work.", "frequency": "common" }
+        {
+          "word": "involve",
+          "pos": "verb",
+          "definition": "Bao gồm hoặc đòi hỏi sự tham gia của ai đó",
+          "example": "The project involves teamwork.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "involvement",
+          "pos": "noun",
+          "definition": "Sự tham gia hoặc dính líu vào điều gì đó",
+          "example": "Community involvement improves society.",
+          "frequency": "common"
+        },
+        {
+          "word": "involved",
+          "pos": "adjective",
+          "definition": "Đang tham gia vào một hoạt động hoặc tình huống",
+          "example": "She's involved in charity work.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ment", "meaning": "action or state" },
-        { "type": "suffix", "form": "-ed", "meaning": "participating in" }
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "hành động hoặc trạng thái"
+        },
+        {
+          "type": "suffix",
+          "form": "-ed",
+          "meaning": "đang tham gia vào"
+        }
       ]
     },
     {
@@ -254,15 +743,44 @@
       "etymology": "Latin: occurrere (to run to meet)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["events", "academic"],
+      "tags": [
+        "events",
+        "academic"
+      ],
       "forms": [
-        { "word": "occur", "pos": "verb", "definition": "To happen or come to mind", "example": "Earthquakes occur frequently there.", "frequency": "common" },
-        { "word": "occurrence", "pos": "noun", "definition": "An event or incident", "example": "This is a rare occurrence.", "frequency": "common" },
-        { "word": "recurring", "pos": "adjective", "definition": "Happening repeatedly", "example": "A recurring dream woke her up.", "frequency": "common" }
+        {
+          "word": "occur",
+          "pos": "verb",
+          "definition": "Xảy ra hoặc xuất hiện trong tâm trí bất ngờ",
+          "example": "Earthquakes occur frequently there.",
+          "frequency": "common"
+        },
+        {
+          "word": "occurrence",
+          "pos": "noun",
+          "definition": "Một sự kiện hoặc biến cố xảy ra",
+          "example": "This is a rare occurrence.",
+          "frequency": "common"
+        },
+        {
+          "word": "recurring",
+          "pos": "adjective",
+          "definition": "Xảy ra nhiều lần, lặp đi lặp lại",
+          "example": "A recurring dream woke her up.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "re-", "meaning": "again" },
-        { "type": "suffix", "form": "-ence", "meaning": "state or instance" }
+        {
+          "type": "prefix",
+          "form": "re-",
+          "meaning": "lại, một lần nữa"
+        },
+        {
+          "type": "suffix",
+          "form": "-ence",
+          "meaning": "trạng thái hoặc sự kiện xảy ra"
+        }
       ]
     },
     {
@@ -271,18 +789,63 @@
       "etymology": "Old Norse: happ (luck, chance)",
       "cefr": "A1",
       "category": "common",
-      "tags": ["emotion", "feeling"],
+      "tags": [
+        "emotion",
+        "feeling"
+      ],
       "forms": [
-        { "word": "happy", "pos": "adjective", "definition": "Feeling or showing pleasure and contentment", "example": "I am happy to see you.", "frequency": "very-common" },
-        { "word": "happily", "pos": "adverb", "definition": "In a happy way", "example": "They lived happily ever after.", "frequency": "very-common" },
-        { "word": "happiness", "pos": "noun", "definition": "The state of being happy", "example": "Money can't buy happiness.", "frequency": "very-common" },
-        { "word": "unhappy", "pos": "adjective", "definition": "Not happy; sad", "example": "She felt unhappy about the result.", "frequency": "common" },
-        { "word": "unhappily", "pos": "adverb", "definition": "In an unhappy way", "example": "He sighed unhappily.", "frequency": "less-common" }
+        {
+          "word": "happy",
+          "pos": "adjective",
+          "definition": "Cảm thấy hoặc thể hiện niềm vui và sự hài lòng",
+          "example": "I am happy to see you.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "happily",
+          "pos": "adverb",
+          "definition": "Theo cách vui vẻ và hạnh phúc",
+          "example": "They lived happily ever after.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "happiness",
+          "pos": "noun",
+          "definition": "Trạng thái hạnh phúc và vui vẻ",
+          "example": "Money can't buy happiness.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "unhappy",
+          "pos": "adjective",
+          "definition": "Không hạnh phúc; đang buồn bã hoặc không hài lòng",
+          "example": "She felt unhappy about the result.",
+          "frequency": "common"
+        },
+        {
+          "word": "unhappily",
+          "pos": "adverb",
+          "definition": "Theo cách buồn bã hoặc không vui",
+          "example": "He sighed unhappily.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ness",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -291,17 +854,56 @@
       "etymology": "Old English: strang (powerful)",
       "cefr": "A1",
       "category": "common",
-      "tags": ["strength", "quality"],
+      "tags": [
+        "strength",
+        "quality"
+      ],
       "forms": [
-        { "word": "strong", "pos": "adjective", "definition": "Having great power or force", "example": "He is a strong swimmer.", "frequency": "very-common" },
-        { "word": "strongly", "pos": "adverb", "definition": "With great force or conviction", "example": "I strongly disagree.", "frequency": "very-common" },
-        { "word": "strength", "pos": "noun", "definition": "The quality of being strong", "example": "She showed great strength of character.", "frequency": "very-common" },
-        { "word": "strengthen", "pos": "verb", "definition": "To make or become stronger", "example": "Exercise strengthens your muscles.", "frequency": "common" }
+        {
+          "word": "strong",
+          "pos": "adjective",
+          "definition": "Có sức mạnh hoặc lực lượng lớn; vững chắc",
+          "example": "He is a strong swimmer.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "strongly",
+          "pos": "adverb",
+          "definition": "Với sức mạnh hoặc sự quyết tâm mạnh mẽ",
+          "example": "I strongly disagree.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "strength",
+          "pos": "noun",
+          "definition": "Phẩm chất hoặc mức độ của sự mạnh mẽ",
+          "example": "She showed great strength of character.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "strengthen",
+          "pos": "verb",
+          "definition": "Làm cho mạnh hơn hoặc trở nên mạnh mẽ hơn",
+          "example": "Exercise strengthens your muscles.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-th", "meaning": "state or quality" },
-        { "type": "suffix", "form": "-en", "meaning": "to make or become" }
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-th",
+          "meaning": "trạng thái hoặc chất lượng"
+        },
+        {
+          "type": "suffix",
+          "form": "-en",
+          "meaning": "làm cho hoặc trở thành"
+        }
       ]
     },
     {
@@ -310,19 +912,70 @@
       "etymology": "Old English: helpan (to help, benefit)",
       "cefr": "A1",
       "category": "common",
-      "tags": ["support", "assistance"],
+      "tags": [
+        "support",
+        "assistance"
+      ],
       "forms": [
-        { "word": "help", "pos": "verb", "definition": "To make it easier for someone to do something", "example": "Can you help me with this?", "frequency": "very-common" },
-        { "word": "help", "pos": "noun", "definition": "Assistance or support", "example": "I need your help.", "frequency": "very-common" },
-        { "word": "helpful", "pos": "adjective", "definition": "Giving useful assistance", "example": "Your advice was very helpful.", "frequency": "very-common" },
-        { "word": "helpfully", "pos": "adverb", "definition": "In a helpful way", "example": "She helpfully offered directions.", "frequency": "less-common" },
-        { "word": "helpfulness", "pos": "noun", "definition": "The quality of being helpful", "example": "Her helpfulness is appreciated.", "frequency": "rare" },
-        { "word": "helpless", "pos": "adjective", "definition": "Unable to help oneself", "example": "The baby was helpless alone.", "frequency": "common" }
+        {
+          "word": "help",
+          "pos": "verb",
+          "definition": "Làm cho việc gì đó dễ dàng hơn cho ai đó",
+          "example": "Can you help me with this?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "help",
+          "pos": "noun",
+          "definition": "Làm cho việc gì đó dễ dàng hơn cho ai đó",
+          "example": "I need your help.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "helpful",
+          "pos": "adjective",
+          "definition": "Cung cấp sự hỗ trợ hữu ích và thiết thực",
+          "example": "Your advice was very helpful.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "helpfully",
+          "pos": "adverb",
+          "definition": "Theo cách hữu ích và sẵn lòng giúp đỡ",
+          "example": "She helpfully offered directions.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "helpfulness",
+          "pos": "noun",
+          "definition": "Phẩm chất sẵn sàng và hữu ích trong việc trợ giúp",
+          "example": "Her helpfulness is appreciated.",
+          "frequency": "rare"
+        },
+        {
+          "word": "helpless",
+          "pos": "adjective",
+          "definition": "Không có khả năng tự giúp bản thân; bất lực",
+          "example": "The baby was helpless alone.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ful", "meaning": "full of" },
-        { "type": "suffix", "form": "-less", "meaning": "without" },
-        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+        {
+          "type": "suffix",
+          "form": "-ful",
+          "meaning": "đầy đủ, có nhiều"
+        },
+        {
+          "type": "suffix",
+          "form": "-less",
+          "meaning": "không có, thiếu"
+        },
+        {
+          "type": "suffix",
+          "form": "-ness",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -331,19 +984,68 @@
       "etymology": "Latin: clarus (bright, clear)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["clarity", "understanding"],
+      "tags": [
+        "clarity",
+        "understanding"
+      ],
       "forms": [
-        { "word": "clear", "pos": "adjective", "definition": "Easy to understand; not confused", "example": "The instructions are clear.", "frequency": "very-common" },
-        { "word": "clearly", "pos": "adverb", "definition": "In a clear manner", "example": "She clearly explained the rules.", "frequency": "very-common" },
-        { "word": "clarity", "pos": "noun", "definition": "The quality of being clear", "example": "Write with clarity and precision.", "frequency": "common" },
-        { "word": "clarify", "pos": "verb", "definition": "To make something clearer", "example": "Please clarify your question.", "frequency": "common" },
-        { "word": "unclear", "pos": "adjective", "definition": "Not easy to understand", "example": "The instructions are unclear.", "frequency": "common" }
+        {
+          "word": "clear",
+          "pos": "adjective",
+          "definition": "Dễ hiểu và không mơ hồ; rõ ràng",
+          "example": "The instructions are clear.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "clearly",
+          "pos": "adverb",
+          "definition": "Theo cách rõ ràng, không mơ hồ",
+          "example": "She clearly explained the rules.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "clarity",
+          "pos": "noun",
+          "definition": "Chất lượng rõ ràng, minh bạch và dễ hiểu",
+          "example": "Write with clarity and precision.",
+          "frequency": "common"
+        },
+        {
+          "word": "clarify",
+          "pos": "verb",
+          "definition": "Làm cho điều gì đó trở nên rõ ràng và dễ hiểu hơn",
+          "example": "Please clarify your question.",
+          "frequency": "common"
+        },
+        {
+          "word": "unclear",
+          "pos": "adjective",
+          "definition": "Không dễ hiểu; mơ hồ hoặc khó xác định",
+          "example": "The instructions are unclear.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ity", "meaning": "state or quality" },
-        { "type": "suffix", "form": "-ify", "meaning": "to make" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ity",
+          "meaning": "trạng thái hoặc chất lượng"
+        },
+        {
+          "type": "suffix",
+          "form": "-ify",
+          "meaning": "làm cho trở nên"
+        }
       ]
     },
     {
@@ -352,17 +1054,56 @@
       "etymology": "Latin: importare (to bring in, matter)",
       "cefr": "A1",
       "category": "common",
-      "tags": ["significance", "value"],
+      "tags": [
+        "significance",
+        "value"
+      ],
       "forms": [
-        { "word": "important", "pos": "adjective", "definition": "Of great significance or value", "example": "Education is important for success.", "frequency": "very-common" },
-        { "word": "importantly", "pos": "adverb", "definition": "In an important way", "example": "More importantly, stay safe.", "frequency": "common" },
-        { "word": "importance", "pos": "noun", "definition": "The state of being significant", "example": "We recognize the importance of health.", "frequency": "very-common" },
-        { "word": "unimportant", "pos": "adjective", "definition": "Not significant or valuable", "example": "The details seem unimportant.", "frequency": "common" }
+        {
+          "word": "important",
+          "pos": "adjective",
+          "definition": "Có tầm quan trọng hoặc giá trị lớn",
+          "example": "Education is important for success.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "importantly",
+          "pos": "adverb",
+          "definition": "Theo cách đặc biệt quan trọng hoặc đáng chú ý",
+          "example": "More importantly, stay safe.",
+          "frequency": "common"
+        },
+        {
+          "word": "importance",
+          "pos": "noun",
+          "definition": "Trạng thái có ý nghĩa và tầm quan trọng",
+          "example": "We recognize the importance of health.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "unimportant",
+          "pos": "adjective",
+          "definition": "Không có tầm quan trọng hoặc giá trị; không đáng kể",
+          "example": "The details seem unimportant.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ance", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ance",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -371,18 +1112,63 @@
       "etymology": "Latin: posse (to be able)",
       "cefr": "A1",
       "category": "common",
-      "tags": ["ability", "potential"],
+      "tags": [
+        "ability",
+        "potential"
+      ],
       "forms": [
-        { "word": "possible", "pos": "adjective", "definition": "Able to be done or achieved", "example": "Is it possible to finish today?", "frequency": "very-common" },
-        { "word": "possibly", "pos": "adverb", "definition": "Perhaps; maybe", "example": "I could possibly help you.", "frequency": "very-common" },
-        { "word": "possibility", "pos": "noun", "definition": "The state of being possible", "example": "There's a possibility of rain.", "frequency": "very-common" },
-        { "word": "impossible", "pos": "adjective", "definition": "Not able to be done", "example": "Nothing is impossible if you try.", "frequency": "very-common" },
-        { "word": "impossibly", "pos": "adverb", "definition": "To an impossible degree", "example": "The task was impossibly hard.", "frequency": "less-common" }
+        {
+          "word": "possible",
+          "pos": "adjective",
+          "definition": "Có thể thực hiện hoặc đạt được",
+          "example": "Is it possible to finish today?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "possibly",
+          "pos": "adverb",
+          "definition": "Có thể xảy ra; có lẽ là vậy",
+          "example": "I could possibly help you.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "possibility",
+          "pos": "noun",
+          "definition": "Khả năng có thể xảy ra hoặc thực hiện được",
+          "example": "There's a possibility of rain.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "impossible",
+          "pos": "adjective",
+          "definition": "Không thể thực hiện hoặc xảy ra được",
+          "example": "Nothing is impossible if you try.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "impossibly",
+          "pos": "adverb",
+          "definition": "Đến mức độ không thể tin được hoặc không thể đạt được",
+          "example": "The task was impossibly hard.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "im-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ity", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "im-",
+          "meaning": "không, phủ định (trước b, m, p)"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ity",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -391,21 +1177,82 @@
       "etymology": "Latin: usus (use, practice)",
       "cefr": "A1",
       "category": "common",
-      "tags": ["utility", "function"],
+      "tags": [
+        "utility",
+        "function"
+      ],
       "forms": [
-        { "word": "use", "pos": "verb", "definition": "To put into service or employ", "example": "Use a pen to sign your name.", "frequency": "very-common" },
-        { "word": "use", "pos": "noun", "definition": "The act of using something", "example": "What's the use of complaining?", "frequency": "very-common" },
-        { "word": "useful", "pos": "adjective", "definition": "Able to be used for a practical purpose", "example": "A knife is a useful tool.", "frequency": "very-common" },
-        { "word": "usefully", "pos": "adverb", "definition": "In a useful manner", "example": "Time can be usefully spent reading.", "frequency": "less-common" },
-        { "word": "usefulness", "pos": "noun", "definition": "The quality of being useful", "example": "Usefulness is the key to good design.", "frequency": "less-common" },
-        { "word": "useless", "pos": "adjective", "definition": "Not useful; having no purpose", "example": "Old advice can be useless.", "frequency": "common" },
-        { "word": "user", "pos": "noun", "definition": "A person who uses something", "example": "The user clicked the button.", "frequency": "very-common" }
+        {
+          "word": "use",
+          "pos": "verb",
+          "definition": "Đưa vào hoạt động hoặc sử dụng cho mục đích nào đó",
+          "example": "Use a pen to sign your name.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "use",
+          "pos": "noun",
+          "definition": "Đưa vào hoạt động hoặc sử dụng cho mục đích nào đó",
+          "example": "What's the use of complaining?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "useful",
+          "pos": "adjective",
+          "definition": "Có thể sử dụng cho mục đích thực tế; hữu ích",
+          "example": "A knife is a useful tool.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "usefully",
+          "pos": "adverb",
+          "definition": "Theo cách hữu ích và có tác dụng thực tế",
+          "example": "Time can be usefully spent reading.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "usefulness",
+          "pos": "noun",
+          "definition": "Chất lượng hữu ích và có giá trị sử dụng",
+          "example": "Usefulness is the key to good design.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "useless",
+          "pos": "adjective",
+          "definition": "Không có giá trị sử dụng; vô tác dụng",
+          "example": "Old advice can be useless.",
+          "frequency": "common"
+        },
+        {
+          "word": "user",
+          "pos": "noun",
+          "definition": "Người sử dụng một sản phẩm hoặc dịch vụ",
+          "example": "The user clicked the button.",
+          "frequency": "very-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ful", "meaning": "full of" },
-        { "type": "suffix", "form": "-less", "meaning": "without" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" },
-        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+        {
+          "type": "suffix",
+          "form": "-ful",
+          "meaning": "đầy đủ, có nhiều"
+        },
+        {
+          "type": "suffix",
+          "form": "-less",
+          "meaning": "không có, thiếu"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ness",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -414,19 +1261,70 @@
       "etymology": "Latin: efficere (to bring about)",
       "cefr": "B1",
       "category": "academic",
-      "tags": ["result", "academic"],
+      "tags": [
+        "result",
+        "academic"
+      ],
       "forms": [
-        { "word": "effective", "pos": "adjective", "definition": "Producing the intended result", "example": "The medicine was effective.", "frequency": "very-common" },
-        { "word": "effectively", "pos": "adverb", "definition": "In a way that produces results", "example": "Communicate effectively in writing.", "frequency": "common" },
-        { "word": "effectiveness", "pos": "noun", "definition": "The quality of producing results", "example": "Measure the effectiveness of a plan.", "frequency": "common" },
-        { "word": "ineffective", "pos": "adjective", "definition": "Not producing the intended result", "example": "Yelling is an ineffective strategy.", "frequency": "common" },
-        { "word": "effect", "pos": "noun", "definition": "A change produced by a cause", "example": "The drug had a calming effect.", "frequency": "very-common" },
-        { "word": "affect", "pos": "verb", "definition": "To have an effect on something", "example": "Weather affects our mood.", "frequency": "very-common" }
+        {
+          "word": "effective",
+          "pos": "adjective",
+          "definition": "Tạo ra kết quả như mong muốn; hiệu quả",
+          "example": "The medicine was effective.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "effectively",
+          "pos": "adverb",
+          "definition": "Theo cách hiệu quả, tạo ra kết quả tốt",
+          "example": "Communicate effectively in writing.",
+          "frequency": "common"
+        },
+        {
+          "word": "effectiveness",
+          "pos": "noun",
+          "definition": "Chất lượng tạo ra kết quả hiệu quả",
+          "example": "Measure the effectiveness of a plan.",
+          "frequency": "common"
+        },
+        {
+          "word": "ineffective",
+          "pos": "adjective",
+          "definition": "Không tạo ra kết quả mong muốn; kém hiệu quả",
+          "example": "Yelling is an ineffective strategy.",
+          "frequency": "common"
+        },
+        {
+          "word": "effect",
+          "pos": "noun",
+          "definition": "Kết quả hoặc sự thay đổi được tạo ra bởi nguyên nhân nào đó",
+          "example": "The drug had a calming effect.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "affect",
+          "pos": "verb",
+          "definition": "Tác động hoặc ảnh hưởng đến điều gì đó",
+          "example": "Weather affects our mood.",
+          "frequency": "very-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "in-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "in-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ness",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -435,20 +1333,75 @@
       "etymology": "Latin: respondere (to answer)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["communication", "reaction"],
+      "tags": [
+        "communication",
+        "reaction"
+      ],
       "forms": [
-        { "word": "respond", "pos": "verb", "definition": "To say or do something in reply", "example": "Please respond to my email.", "frequency": "very-common" },
-        { "word": "response", "pos": "noun", "definition": "A reply or reaction", "example": "The response was overwhelming.", "frequency": "very-common" },
-        { "word": "responsible", "pos": "adjective", "definition": "Having a duty to deal with something", "example": "Be responsible for your actions.", "frequency": "very-common" },
-        { "word": "responsibly", "pos": "adverb", "definition": "In a responsible way", "example": "Act responsibly in public.", "frequency": "common" },
-        { "word": "responsibility", "pos": "noun", "definition": "The state of being responsible", "example": "Leadership comes with responsibility.", "frequency": "very-common" },
-        { "word": "irresponsible", "pos": "adjective", "definition": "Not responsible; careless", "example": "It was irresponsible to skip work.", "frequency": "common" }
+        {
+          "word": "respond",
+          "pos": "verb",
+          "definition": "Nói hoặc hành động để trả lời điều gì đó",
+          "example": "Please respond to my email.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "response",
+          "pos": "noun",
+          "definition": "Câu trả lời hoặc phản ứng trước điều gì đó",
+          "example": "The response was overwhelming.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "responsible",
+          "pos": "adjective",
+          "definition": "Có nghĩa vụ và trách nhiệm xử lý điều gì đó",
+          "example": "Be responsible for your actions.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "responsibly",
+          "pos": "adverb",
+          "definition": "Theo cách có trách nhiệm và đáng tin cậy",
+          "example": "Act responsibly in public.",
+          "frequency": "common"
+        },
+        {
+          "word": "responsibility",
+          "pos": "noun",
+          "definition": "Nghĩa vụ hoặc bổn phận phải thực hiện điều gì đó",
+          "example": "Leadership comes with responsibility.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "irresponsible",
+          "pos": "adjective",
+          "definition": "Thiếu trách nhiệm; không coi trọng hậu quả",
+          "example": "It was irresponsible to skip work.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "ir-", "meaning": "not" },
-        { "type": "suffix", "form": "-se", "meaning": "result of action" },
-        { "type": "suffix", "form": "-ible", "meaning": "capable of being" },
-        { "type": "suffix", "form": "-ibility", "meaning": "quality of being" }
+        {
+          "type": "prefix",
+          "form": "ir-",
+          "meaning": "không, phủ định (trước r)"
+        },
+        {
+          "type": "suffix",
+          "form": "-se",
+          "meaning": "kết quả của hành động"
+        },
+        {
+          "type": "suffix",
+          "form": "-ible",
+          "meaning": "có khả năng thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ibility",
+          "meaning": "chất lượng có khả năng"
+        }
       ]
     },
     {
@@ -457,17 +1410,56 @@
       "etymology": "Latin: significare (to indicate, mean)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["importance", "academic"],
+      "tags": [
+        "importance",
+        "academic"
+      ],
       "forms": [
-        { "word": "significant", "pos": "adjective", "definition": "Important and meaningful", "example": "This is a significant discovery.", "frequency": "common" },
-        { "word": "significantly", "pos": "adverb", "definition": "In an important or meaningful way", "example": "Prices rose significantly.", "frequency": "common" },
-        { "word": "significance", "pos": "noun", "definition": "The quality of being important", "example": "The significance of the event grew.", "frequency": "common" },
-        { "word": "insignificant", "pos": "adjective", "definition": "Not important; unimportant", "example": "The error was insignificant.", "frequency": "common" }
+        {
+          "word": "significant",
+          "pos": "adjective",
+          "definition": "Quan trọng, có ý nghĩa đáng kể",
+          "example": "This is a significant discovery.",
+          "frequency": "common"
+        },
+        {
+          "word": "significantly",
+          "pos": "adverb",
+          "definition": "Theo cách đáng kể và có ý nghĩa",
+          "example": "Prices rose significantly.",
+          "frequency": "common"
+        },
+        {
+          "word": "significance",
+          "pos": "noun",
+          "definition": "Tầm quan trọng và ý nghĩa của điều gì đó",
+          "example": "The significance of the event grew.",
+          "frequency": "common"
+        },
+        {
+          "word": "insignificant",
+          "pos": "adjective",
+          "definition": "Không quan trọng; không đáng kể",
+          "example": "The error was insignificant.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "in-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ance", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "in-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ance",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -476,17 +1468,56 @@
       "etymology": "Latin: communicare (to share)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["communication", "social"],
+      "tags": [
+        "communication",
+        "social"
+      ],
       "forms": [
-        { "word": "communicate", "pos": "verb", "definition": "To share or exchange information", "example": "We communicate by email.", "frequency": "very-common" },
-        { "word": "communication", "pos": "noun", "definition": "The act of sharing information", "example": "Good communication is essential.", "frequency": "very-common" },
-        { "word": "communicative", "pos": "adjective", "definition": "Willing to talk and share information", "example": "She's very communicative.", "frequency": "less-common" },
-        { "word": "communicator", "pos": "noun", "definition": "A person who communicates", "example": "He's an excellent communicator.", "frequency": "less-common" }
+        {
+          "word": "communicate",
+          "pos": "verb",
+          "definition": "Chia sẻ hoặc trao đổi thông tin với người khác",
+          "example": "We communicate by email.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "communication",
+          "pos": "noun",
+          "definition": "Hành động truyền đạt và trao đổi thông tin",
+          "example": "Good communication is essential.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "communicative",
+          "pos": "adjective",
+          "definition": "Sẵn lòng nói chuyện và chia sẻ thông tin",
+          "example": "She's very communicative.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "communicator",
+          "pos": "noun",
+          "definition": "Người truyền đạt thông tin một cách hiệu quả",
+          "example": "He's an excellent communicator.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ive", "meaning": "tending to" },
-        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có xu hướng"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -495,19 +1526,68 @@
       "etymology": "Latin: considerare (to observe stars, ponder)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["thinking", "academic"],
+      "tags": [
+        "thinking",
+        "academic"
+      ],
       "forms": [
-        { "word": "consider", "pos": "verb", "definition": "To think carefully about something", "example": "Consider all your options first.", "frequency": "very-common" },
-        { "word": "consideration", "pos": "noun", "definition": "Careful thought about something", "example": "Take the risks into consideration.", "frequency": "common" },
-        { "word": "considerable", "pos": "adjective", "definition": "Large or important in size or amount", "example": "A considerable amount of work remains.", "frequency": "common" },
-        { "word": "considerably", "pos": "adverb", "definition": "By a large amount; greatly", "example": "Prices increased considerably.", "frequency": "common" },
-        { "word": "considerate", "pos": "adjective", "definition": "Careful not to hurt others' feelings", "example": "Be considerate of your neighbors.", "frequency": "common" }
+        {
+          "word": "consider",
+          "pos": "verb",
+          "definition": "Suy nghĩ cẩn thận và cân nhắc về điều gì đó",
+          "example": "Consider all your options first.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "consideration",
+          "pos": "noun",
+          "definition": "Sự suy nghĩ cẩn thận và cân nhắc trước khi quyết định",
+          "example": "Take the risks into consideration.",
+          "frequency": "common"
+        },
+        {
+          "word": "considerable",
+          "pos": "adjective",
+          "definition": "Đáng kể về kích thước, số lượng hoặc tầm quan trọng",
+          "example": "A considerable amount of work remains.",
+          "frequency": "common"
+        },
+        {
+          "word": "considerably",
+          "pos": "adverb",
+          "definition": "Với mức độ đáng kể; nhiều hơn mức thông thường",
+          "example": "Prices increased considerably.",
+          "frequency": "common"
+        },
+        {
+          "word": "considerate",
+          "pos": "adjective",
+          "definition": "Quan tâm và cẩn thận để không làm phiền người khác",
+          "example": "Be considerate of your neighbors.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ation", "meaning": "act or state" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
-        { "type": "suffix", "form": "-ably", "meaning": "in a capable manner" },
-        { "type": "suffix", "form": "-ate", "meaning": "having the quality of" }
+        {
+          "type": "suffix",
+          "form": "-ation",
+          "meaning": "hành động hoặc trạng thái"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ably",
+          "meaning": "theo cách có khả năng"
+        },
+        {
+          "type": "suffix",
+          "form": "-ate",
+          "meaning": "có tính chất của"
+        }
       ]
     },
     {
@@ -516,17 +1596,56 @@
       "etymology": "French: environner (to surround)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["nature", "ecology"],
+      "tags": [
+        "nature",
+        "ecology"
+      ],
       "forms": [
-        { "word": "environment", "pos": "noun", "definition": "The surroundings or conditions for life", "example": "We must protect the environment.", "frequency": "very-common" },
-        { "word": "environmental", "pos": "adjective", "definition": "Relating to the environment", "example": "Environmental laws protect wildlife.", "frequency": "very-common" },
-        { "word": "environmentally", "pos": "adverb", "definition": "In an environmental way", "example": "Environmentally friendly products exist.", "frequency": "common" },
-        { "word": "environmentalist", "pos": "noun", "definition": "A person who protects the environment", "example": "Environmentalists protested the mine.", "frequency": "common" }
+        {
+          "word": "environment",
+          "pos": "noun",
+          "definition": "Môi trường xung quanh hoặc điều kiện sống của sinh vật",
+          "example": "We must protect the environment.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "environmental",
+          "pos": "adjective",
+          "definition": "Liên quan đến môi trường tự nhiên",
+          "example": "Environmental laws protect wildlife.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "environmentally",
+          "pos": "adverb",
+          "definition": "Theo phương diện môi trường; có tác động đến môi trường",
+          "example": "Environmentally friendly products exist.",
+          "frequency": "common"
+        },
+        {
+          "word": "environmentalist",
+          "pos": "noun",
+          "definition": "Người tích cực bảo vệ và gìn giữ môi trường",
+          "example": "Environmentalists protested the mine.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-al", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ally", "meaning": "in a manner relating to" },
-        { "type": "suffix", "form": "-ist", "meaning": "one who believes in" }
+        {
+          "type": "suffix",
+          "form": "-al",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ally",
+          "meaning": "theo cách liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ist",
+          "meaning": "người tin vào hoặc chuyên về"
+        }
       ]
     },
     {
@@ -535,14 +1654,39 @@
       "etymology": "French: recherche (thorough search)",
       "cefr": "B1",
       "category": "academic",
-      "tags": ["study", "academic"],
+      "tags": [
+        "study",
+        "academic"
+      ],
       "forms": [
-        { "word": "research", "pos": "noun", "definition": "Systematic study to establish facts", "example": "Scientific research advances medicine.", "frequency": "very-common" },
-        { "word": "research", "pos": "verb", "definition": "To investigate a subject systematically", "example": "She researched the topic thoroughly.", "frequency": "very-common" },
-        { "word": "researcher", "pos": "noun", "definition": "A person who conducts research", "example": "The researcher published findings.", "frequency": "common" }
+        {
+          "word": "research",
+          "pos": "noun",
+          "definition": "Nghiên cứu có hệ thống để khám phá sự thật hoặc kiến thức mới",
+          "example": "Scientific research advances medicine.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "research",
+          "pos": "verb",
+          "definition": "Nghiên cứu có hệ thống để khám phá sự thật hoặc kiến thức mới",
+          "example": "She researched the topic thoroughly.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "researcher",
+          "pos": "noun",
+          "definition": "Người tiến hành nghiên cứu khoa học hoặc học thuật",
+          "example": "The researcher published findings.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -551,17 +1695,56 @@
       "etymology": "Latin: globus (sphere)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["world", "international"],
+      "tags": [
+        "world",
+        "international"
+      ],
       "forms": [
-        { "word": "global", "pos": "adjective", "definition": "Relating to the whole world", "example": "Global warming is a serious issue.", "frequency": "very-common" },
-        { "word": "globally", "pos": "adverb", "definition": "Throughout the world", "example": "The brand is recognized globally.", "frequency": "common" },
-        { "word": "globalization", "pos": "noun", "definition": "The process of worldwide integration", "example": "Globalization has changed trade.", "frequency": "common" },
-        { "word": "globalize", "pos": "verb", "definition": "To become global in scope", "example": "Companies globalize to grow.", "frequency": "less-common" }
+        {
+          "word": "global",
+          "pos": "adjective",
+          "definition": "Liên quan đến hoặc có ảnh hưởng trên toàn thế giới",
+          "example": "Global warming is a serious issue.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "globally",
+          "pos": "adverb",
+          "definition": "Trên phạm vi toàn thế giới",
+          "example": "The brand is recognized globally.",
+          "frequency": "common"
+        },
+        {
+          "word": "globalization",
+          "pos": "noun",
+          "definition": "Quá trình tích hợp và kết nối kinh tế, văn hóa toàn cầu",
+          "example": "Globalization has changed trade.",
+          "frequency": "common"
+        },
+        {
+          "word": "globalize",
+          "pos": "verb",
+          "definition": "Mở rộng quy mô hoặc tầm ảnh hưởng ra toàn cầu",
+          "example": "Companies globalize to grow.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ization", "meaning": "process of becoming" },
-        { "type": "suffix", "form": "-ize", "meaning": "to make or become" }
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ization",
+          "meaning": "quá trình trở thành"
+        },
+        {
+          "type": "suffix",
+          "form": "-ize",
+          "meaning": "làm cho hoặc trở thành"
+        }
       ]
     },
     {
@@ -570,19 +1753,68 @@
       "etymology": "Greek: oikos (house) + nomos (law)",
       "cefr": "B1",
       "category": "academic",
-      "tags": ["finance", "business"],
+      "tags": [
+        "finance",
+        "business"
+      ],
       "forms": [
-        { "word": "economy", "pos": "noun", "definition": "The system of production and wealth", "example": "The economy grew by 3% last year.", "frequency": "very-common" },
-        { "word": "economic", "pos": "adjective", "definition": "Relating to the economy", "example": "Economic growth benefits everyone.", "frequency": "very-common" },
-        { "word": "economically", "pos": "adverb", "definition": "In an economic way", "example": "The project is economically viable.", "frequency": "common" },
-        { "word": "economist", "pos": "noun", "definition": "An expert in economics", "example": "The economist predicted a recession.", "frequency": "common" },
-        { "word": "economics", "pos": "noun", "definition": "The study of production and wealth", "example": "She studied economics at university.", "frequency": "common" }
+        {
+          "word": "economy",
+          "pos": "noun",
+          "definition": "Hệ thống sản xuất, phân phối và quản lý tài sản của một quốc gia",
+          "example": "The economy grew by 3% last year.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "economic",
+          "pos": "adjective",
+          "definition": "Liên quan đến nền kinh tế hoặc tài chính",
+          "example": "Economic growth benefits everyone.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "economically",
+          "pos": "adverb",
+          "definition": "Theo phương diện kinh tế; tiết kiệm chi phí",
+          "example": "The project is economically viable.",
+          "frequency": "common"
+        },
+        {
+          "word": "economist",
+          "pos": "noun",
+          "definition": "Chuyên gia nghiên cứu và phân tích về kinh tế",
+          "example": "The economist predicted a recession.",
+          "frequency": "common"
+        },
+        {
+          "word": "economics",
+          "pos": "noun",
+          "definition": "Ngành khoa học nghiên cứu về sản xuất và phân phối tài sản",
+          "example": "She studied economics at university.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ic", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ically", "meaning": "in a way relating to" },
-        { "type": "suffix", "form": "-ist", "meaning": "specialist in" },
-        { "type": "suffix", "form": "-ics", "meaning": "study of" }
+        {
+          "type": "suffix",
+          "form": "-ic",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ically",
+          "meaning": "theo cách liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ist",
+          "meaning": "chuyên gia về"
+        },
+        {
+          "type": "suffix",
+          "form": "-ics",
+          "meaning": "ngành học về"
+        }
       ]
     },
     {
@@ -591,17 +1823,56 @@
       "etymology": "Greek: techne (art, skill) + logos (study)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["tech", "science"],
+      "tags": [
+        "tech",
+        "science"
+      ],
       "forms": [
-        { "word": "technology", "pos": "noun", "definition": "The application of scientific knowledge", "example": "Technology has changed our lives.", "frequency": "very-common" },
-        { "word": "technological", "pos": "adjective", "definition": "Relating to technology", "example": "Technological advances are rapid.", "frequency": "common" },
-        { "word": "technologically", "pos": "adverb", "definition": "In terms of technology", "example": "The device is technologically advanced.", "frequency": "less-common" },
-        { "word": "technologist", "pos": "noun", "definition": "An expert in technology", "example": "The technologist solved the issue.", "frequency": "less-common" }
+        {
+          "word": "technology",
+          "pos": "noun",
+          "definition": "Ứng dụng kiến thức khoa học vào thực tiễn để giải quyết vấn đề",
+          "example": "Technology has changed our lives.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "technological",
+          "pos": "adjective",
+          "definition": "Liên quan đến công nghệ và ứng dụng kỹ thuật",
+          "example": "Technological advances are rapid.",
+          "frequency": "common"
+        },
+        {
+          "word": "technologically",
+          "pos": "adverb",
+          "definition": "Về mặt công nghệ; thông qua phương tiện kỹ thuật",
+          "example": "The device is technologically advanced.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "technologist",
+          "pos": "noun",
+          "definition": "Chuyên gia trong lĩnh vực công nghệ",
+          "example": "The technologist solved the issue.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ical", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ically", "meaning": "in a way relating to" },
-        { "type": "suffix", "form": "-ist", "meaning": "specialist in" }
+        {
+          "type": "suffix",
+          "form": "-ical",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ically",
+          "meaning": "theo cách liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ist",
+          "meaning": "chuyên gia về"
+        }
       ]
     },
     {
@@ -610,17 +1881,56 @@
       "etymology": "Latin: solvere (to loosen, free)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["problem-solving", "academic"],
+      "tags": [
+        "problem-solving",
+        "academic"
+      ],
       "forms": [
-        { "word": "solve", "pos": "verb", "definition": "To find an answer or solution", "example": "Can you solve this math problem?", "frequency": "very-common" },
-        { "word": "solution", "pos": "noun", "definition": "A means of solving a problem", "example": "We found a solution to the issue.", "frequency": "very-common" },
-        { "word": "solvable", "pos": "adjective", "definition": "Able to be solved", "example": "Most problems are solvable.", "frequency": "less-common" },
-        { "word": "unsolvable", "pos": "adjective", "definition": "Not able to be solved", "example": "An unsolvable mystery intrigued them.", "frequency": "rare" }
+        {
+          "word": "solve",
+          "pos": "verb",
+          "definition": "Tìm ra câu trả lời hoặc phương pháp giải quyết vấn đề",
+          "example": "Can you solve this math problem?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "solution",
+          "pos": "noun",
+          "definition": "Phương án hoặc phương pháp giải quyết một vấn đề",
+          "example": "We found a solution to the issue.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "solvable",
+          "pos": "adjective",
+          "definition": "Có thể giải quyết hoặc tìm ra đáp án",
+          "example": "Most problems are solvable.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "unsolvable",
+          "pos": "adjective",
+          "definition": "Không thể giải quyết hoặc tìm ra đáp án",
+          "example": "An unsolvable mystery intrigued them.",
+          "frequency": "rare"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-tion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-tion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        }
       ]
     },
     {
@@ -629,18 +1939,63 @@
       "etymology": "Latin: bene (well) + facere (do)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["advantage", "academic"],
+      "tags": [
+        "advantage",
+        "academic"
+      ],
       "forms": [
-        { "word": "benefit", "pos": "noun", "definition": "An advantage or good result", "example": "Exercise has many benefits.", "frequency": "very-common" },
-        { "word": "benefit", "pos": "verb", "definition": "To gain an advantage from something", "example": "You will benefit from reading more.", "frequency": "very-common" },
-        { "word": "beneficial", "pos": "adjective", "definition": "Producing good results; helpful", "example": "Sleep is beneficial for health.", "frequency": "common" },
-        { "word": "beneficially", "pos": "adverb", "definition": "In a beneficial way", "example": "Exercise beneficially affects mood.", "frequency": "rare" },
-        { "word": "beneficiary", "pos": "noun", "definition": "A person who benefits from something", "example": "She is the beneficiary of the will.", "frequency": "less-common" }
+        {
+          "word": "benefit",
+          "pos": "noun",
+          "definition": "Lợi ích hoặc điều thuận lợi thu được từ điều gì đó",
+          "example": "Exercise has many benefits.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "benefit",
+          "pos": "verb",
+          "definition": "Lợi ích hoặc điều thuận lợi thu được từ điều gì đó",
+          "example": "You will benefit from reading more.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "beneficial",
+          "pos": "adjective",
+          "definition": "Mang lại lợi ích và kết quả tích cực",
+          "example": "Sleep is beneficial for health.",
+          "frequency": "common"
+        },
+        {
+          "word": "beneficially",
+          "pos": "adverb",
+          "definition": "Theo cách có lợi và tạo ra kết quả tốt",
+          "example": "Exercise beneficially affects mood.",
+          "frequency": "rare"
+        },
+        {
+          "word": "beneficiary",
+          "pos": "noun",
+          "definition": "Người được hưởng lợi từ điều gì đó hoặc một khoản tiền",
+          "example": "She is the beneficiary of the will.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ial", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ially", "meaning": "in a way relating to" },
-        { "type": "suffix", "form": "-iary", "meaning": "one who receives" }
+        {
+          "type": "suffix",
+          "form": "-ial",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ially",
+          "meaning": "theo cách liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-iary",
+          "meaning": "người nhận hoặc được hưởng lợi"
+        }
       ]
     },
     {
@@ -649,19 +2004,68 @@
       "etymology": "Latin: praedicere (to say beforehand)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["forecasting", "academic"],
+      "tags": [
+        "forecasting",
+        "academic"
+      ],
       "forms": [
-        { "word": "predict", "pos": "verb", "definition": "To say what will happen in the future", "example": "Scientists predict a hot summer.", "frequency": "common" },
-        { "word": "prediction", "pos": "noun", "definition": "A statement about what will happen", "example": "His prediction came true.", "frequency": "common" },
-        { "word": "predictable", "pos": "adjective", "definition": "Able to be predicted", "example": "The outcome was predictable.", "frequency": "common" },
-        { "word": "predictably", "pos": "adverb", "definition": "In a predictable way", "example": "Predictably, he arrived late.", "frequency": "less-common" },
-        { "word": "unpredictable", "pos": "adjective", "definition": "Not able to be predicted", "example": "Weather is unpredictable.", "frequency": "common" }
+        {
+          "word": "predict",
+          "pos": "verb",
+          "definition": "Dự đoán hoặc nói trước điều gì sẽ xảy ra trong tương lai",
+          "example": "Scientists predict a hot summer.",
+          "frequency": "common"
+        },
+        {
+          "word": "prediction",
+          "pos": "noun",
+          "definition": "Tuyên bố hoặc nhận định về điều sẽ xảy ra trong tương lai",
+          "example": "His prediction came true.",
+          "frequency": "common"
+        },
+        {
+          "word": "predictable",
+          "pos": "adjective",
+          "definition": "Có thể dự đoán trước được; theo quy luật",
+          "example": "The outcome was predictable.",
+          "frequency": "common"
+        },
+        {
+          "word": "predictably",
+          "pos": "adverb",
+          "definition": "Theo cách có thể dự đoán trước",
+          "example": "Predictably, he arrived late.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "unpredictable",
+          "pos": "adjective",
+          "definition": "Không thể dự đoán trước; bất thường",
+          "example": "Weather is unpredictable.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
-        { "type": "suffix", "form": "-ably", "meaning": "in a manner" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ably",
+          "meaning": "theo cách thức"
+        }
       ]
     },
     {
@@ -670,18 +2074,63 @@
       "etymology": "Latin: supportare (to carry up)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["help", "assistance"],
+      "tags": [
+        "help",
+        "assistance"
+      ],
       "forms": [
-        { "word": "support", "pos": "verb", "definition": "To give help or assistance", "example": "Friends support you in hard times.", "frequency": "very-common" },
-        { "word": "support", "pos": "noun", "definition": "Help or assistance given", "example": "Thank you for your support.", "frequency": "very-common" },
-        { "word": "supportive", "pos": "adjective", "definition": "Providing help and encouragement", "example": "She has a supportive family.", "frequency": "common" },
-        { "word": "supporter", "pos": "noun", "definition": "A person who supports something", "example": "He is a loyal supporter.", "frequency": "common" },
-        { "word": "unsupportive", "pos": "adjective", "definition": "Not providing support", "example": "An unsupportive environment hurts.", "frequency": "less-common" }
+        {
+          "word": "support",
+          "pos": "verb",
+          "definition": "Cung cấp sự giúp đỡ, khuyến khích hoặc hỗ trợ",
+          "example": "Friends support you in hard times.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "support",
+          "pos": "noun",
+          "definition": "Cung cấp sự giúp đỡ, khuyến khích hoặc hỗ trợ",
+          "example": "Thank you for your support.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "supportive",
+          "pos": "adjective",
+          "definition": "Cung cấp sự giúp đỡ và khuyến khích tích cực",
+          "example": "She has a supportive family.",
+          "frequency": "common"
+        },
+        {
+          "word": "supporter",
+          "pos": "noun",
+          "definition": "Người ủng hộ hoặc hỗ trợ điều gì đó",
+          "example": "He is a loyal supporter.",
+          "frequency": "common"
+        },
+        {
+          "word": "unsupportive",
+          "pos": "adjective",
+          "definition": "Không cung cấp sự hỗ trợ hoặc khuyến khích",
+          "example": "An unsupportive environment hurts.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ive", "meaning": "tending to" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có xu hướng"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -690,18 +2139,63 @@
       "etymology": "Latin: innovare (to renew)",
       "cefr": "C1",
       "category": "business",
-      "tags": ["business", "creativity"],
+      "tags": [
+        "business",
+        "creativity"
+      ],
       "forms": [
-        { "word": "innovate", "pos": "verb", "definition": "To introduce new ideas or methods", "example": "Companies must innovate to survive.", "frequency": "less-common" },
-        { "word": "innovation", "pos": "noun", "definition": "A new idea or method introduced", "example": "Technological innovation changed the world.", "frequency": "common" },
-        { "word": "innovative", "pos": "adjective", "definition": "Using new and creative ideas", "example": "An innovative approach to teaching.", "frequency": "common" },
-        { "word": "innovatively", "pos": "adverb", "definition": "In an innovative manner", "example": "Think innovatively to succeed.", "frequency": "rare" },
-        { "word": "innovator", "pos": "noun", "definition": "A person who introduces innovations", "example": "She was a great innovator.", "frequency": "less-common" }
+        {
+          "word": "innovate",
+          "pos": "verb",
+          "definition": "Giới thiệu ý tưởng, phương pháp hoặc sản phẩm mới mẻ",
+          "example": "Companies must innovate to survive.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "innovation",
+          "pos": "noun",
+          "definition": "Ý tưởng, phương pháp hoặc sản phẩm mới được tạo ra",
+          "example": "Technological innovation changed the world.",
+          "frequency": "common"
+        },
+        {
+          "word": "innovative",
+          "pos": "adjective",
+          "definition": "Sử dụng ý tưởng mới và cách tiếp cận sáng tạo",
+          "example": "An innovative approach to teaching.",
+          "frequency": "common"
+        },
+        {
+          "word": "innovatively",
+          "pos": "adverb",
+          "definition": "Theo cách sáng tạo và đổi mới",
+          "example": "Think innovatively to succeed.",
+          "frequency": "rare"
+        },
+        {
+          "word": "innovator",
+          "pos": "noun",
+          "definition": "Người tiên phong giới thiệu những đổi mới",
+          "example": "She was a great innovator.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ive", "meaning": "tending to" },
-        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "có xu hướng"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -710,21 +2204,80 @@
       "etymology": "Latin: relatus (carried back)",
       "cefr": "B1",
       "category": "academic",
-      "tags": ["connection", "academic"],
+      "tags": [
+        "connection",
+        "academic"
+      ],
       "forms": [
-        { "word": "relate", "pos": "verb", "definition": "To connect or have a relationship", "example": "Can you relate to this feeling?", "frequency": "common" },
-        { "word": "relation", "pos": "noun", "definition": "The connection between things", "example": "There is a relation between diet and health.", "frequency": "common" },
-        { "word": "relationship", "pos": "noun", "definition": "The way two things are connected", "example": "A good relationship is built on trust.", "frequency": "very-common" },
-        { "word": "relative", "pos": "adjective", "definition": "Considered in comparison to something else", "example": "It's all relative to your experience.", "frequency": "common" },
-        { "word": "relatively", "pos": "adverb", "definition": "In comparison to others; somewhat", "example": "The exam was relatively easy.", "frequency": "very-common" },
-        { "word": "unrelated", "pos": "adjective", "definition": "Not connected to something else", "example": "The topics were unrelated.", "frequency": "common" }
+        {
+          "word": "relate",
+          "pos": "verb",
+          "definition": "Kết nối hoặc có mối liên hệ với điều gì đó",
+          "example": "Can you relate to this feeling?",
+          "frequency": "common"
+        },
+        {
+          "word": "relation",
+          "pos": "noun",
+          "definition": "Mối liên hệ hoặc kết nối giữa các sự vật",
+          "example": "There is a relation between diet and health.",
+          "frequency": "common"
+        },
+        {
+          "word": "relationship",
+          "pos": "noun",
+          "definition": "Cách thức hai người hoặc sự vật liên kết với nhau",
+          "example": "A good relationship is built on trust.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "relative",
+          "pos": "adjective",
+          "definition": "Được xem xét trong sự so sánh với điều gì đó khác",
+          "example": "It's all relative to your experience.",
+          "frequency": "common"
+        },
+        {
+          "word": "relatively",
+          "pos": "adverb",
+          "definition": "So với những thứ khác; ở mức độ tương đối",
+          "example": "The exam was relatively easy.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "unrelated",
+          "pos": "adjective",
+          "definition": "Không có mối liên hệ hoặc kết nối với điều gì đó",
+          "example": "The topics were unrelated.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ship", "meaning": "state or condition" },
-        { "type": "suffix", "form": "-ive", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ively", "meaning": "in a manner" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ship",
+          "meaning": "trạng thái hoặc điều kiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ive",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ively",
+          "meaning": "theo cách thức"
+        }
       ]
     },
     {
@@ -733,15 +2286,44 @@
       "etymology": "Latin: expandere (to spread out)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["growth", "academic"],
+      "tags": [
+        "growth",
+        "academic"
+      ],
       "forms": [
-        { "word": "expand", "pos": "verb", "definition": "To become or make larger", "example": "The company plans to expand overseas.", "frequency": "common" },
-        { "word": "expansion", "pos": "noun", "definition": "The act of expanding", "example": "Business expansion requires capital.", "frequency": "common" },
-        { "word": "expansive", "pos": "adjective", "definition": "Covering a wide area or range", "example": "An expansive garden with many flowers.", "frequency": "less-common" }
+        {
+          "word": "expand",
+          "pos": "verb",
+          "definition": "Trở nên lớn hơn hoặc làm cho điều gì đó lớn hơn",
+          "example": "The company plans to expand overseas.",
+          "frequency": "common"
+        },
+        {
+          "word": "expansion",
+          "pos": "noun",
+          "definition": "Hành động hoặc quá trình mở rộng",
+          "example": "Business expansion requires capital.",
+          "frequency": "common"
+        },
+        {
+          "word": "expansive",
+          "pos": "adjective",
+          "definition": "Bao phủ diện tích hoặc phạm vi rộng lớn",
+          "example": "An expansive garden with many flowers.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-sion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-sive", "meaning": "tending to" }
+        {
+          "type": "suffix",
+          "form": "-sion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-sive",
+          "meaning": "có xu hướng"
+        }
       ]
     },
     {
@@ -750,15 +2332,44 @@
       "etymology": "Latin: assessare (to sit beside as judge)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["evaluation", "academic"],
+      "tags": [
+        "evaluation",
+        "academic"
+      ],
       "forms": [
-        { "word": "assess", "pos": "verb", "definition": "To evaluate or judge something", "example": "Teachers assess student progress.", "frequency": "common" },
-        { "word": "assessment", "pos": "noun", "definition": "The act of evaluating something", "example": "The risk assessment was thorough.", "frequency": "common" },
-        { "word": "assessor", "pos": "noun", "definition": "A person who assesses", "example": "The assessor evaluated the property.", "frequency": "less-common" }
+        {
+          "word": "assess",
+          "pos": "verb",
+          "definition": "Đánh giá và nhận xét về chất lượng hoặc giá trị của điều gì đó",
+          "example": "Teachers assess student progress.",
+          "frequency": "common"
+        },
+        {
+          "word": "assessment",
+          "pos": "noun",
+          "definition": "Hành động đánh giá hoặc bản đánh giá chính thức",
+          "example": "The risk assessment was thorough.",
+          "frequency": "common"
+        },
+        {
+          "word": "assessor",
+          "pos": "noun",
+          "definition": "Người được giao nhiệm vụ đánh giá",
+          "example": "The assessor evaluated the property.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ment", "meaning": "act or result" },
-        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -767,17 +2378,56 @@
       "etymology": "Latin: relevare (to raise up)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["pertinence", "academic"],
+      "tags": [
+        "pertinence",
+        "academic"
+      ],
       "forms": [
-        { "word": "relevant", "pos": "adjective", "definition": "Closely connected or appropriate", "example": "Include only relevant information.", "frequency": "common" },
-        { "word": "relevantly", "pos": "adverb", "definition": "In a relevant manner", "example": "She spoke relevantly on the topic.", "frequency": "rare" },
-        { "word": "relevance", "pos": "noun", "definition": "The quality of being relevant", "example": "The relevance of history is clear.", "frequency": "common" },
-        { "word": "irrelevant", "pos": "adjective", "definition": "Not connected or appropriate", "example": "That point is irrelevant.", "frequency": "common" }
+        {
+          "word": "relevant",
+          "pos": "adjective",
+          "definition": "Có liên quan mật thiết hoặc phù hợp với vấn đề đang bàn",
+          "example": "Include only relevant information.",
+          "frequency": "common"
+        },
+        {
+          "word": "relevantly",
+          "pos": "adverb",
+          "definition": "Theo cách liên quan và phù hợp",
+          "example": "She spoke relevantly on the topic.",
+          "frequency": "rare"
+        },
+        {
+          "word": "relevance",
+          "pos": "noun",
+          "definition": "Mức độ liên quan và phù hợp của điều gì đó",
+          "example": "The relevance of history is clear.",
+          "frequency": "common"
+        },
+        {
+          "word": "irrelevant",
+          "pos": "adjective",
+          "definition": "Không có liên quan hoặc không phù hợp với vấn đề",
+          "example": "That point is irrelevant.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "ir-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ance", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "ir-",
+          "meaning": "không, phủ định (trước r)"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ance",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -786,17 +2436,56 @@
       "etymology": "Latin: diversus (turned different ways)",
       "cefr": "C1",
       "category": "academic",
-      "tags": ["variety", "inclusion"],
+      "tags": [
+        "variety",
+        "inclusion"
+      ],
       "forms": [
-        { "word": "diverse", "pos": "adjective", "definition": "Showing a great deal of variety", "example": "The city has a diverse population.", "frequency": "common" },
-        { "word": "diversity", "pos": "noun", "definition": "The state of being diverse", "example": "Diversity strengthens communities.", "frequency": "common" },
-        { "word": "diversify", "pos": "verb", "definition": "To make more varied", "example": "Investors diversify their portfolios.", "frequency": "common" },
-        { "word": "diversification", "pos": "noun", "definition": "The act of diversifying", "example": "Product diversification grows revenue.", "frequency": "less-common" }
+        {
+          "word": "diverse",
+          "pos": "adjective",
+          "definition": "Thể hiện sự đa dạng và phong phú về nhiều khía cạnh",
+          "example": "The city has a diverse population.",
+          "frequency": "common"
+        },
+        {
+          "word": "diversity",
+          "pos": "noun",
+          "definition": "Trạng thái đa dạng và phong phú",
+          "example": "Diversity strengthens communities.",
+          "frequency": "common"
+        },
+        {
+          "word": "diversify",
+          "pos": "verb",
+          "definition": "Làm cho trở nên đa dạng và phong phú hơn",
+          "example": "Investors diversify their portfolios.",
+          "frequency": "common"
+        },
+        {
+          "word": "diversification",
+          "pos": "noun",
+          "definition": "Quá trình đa dạng hóa để giảm rủi ro",
+          "example": "Product diversification grows revenue.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ity", "meaning": "state or quality" },
-        { "type": "suffix", "form": "-ify", "meaning": "to make or become" },
-        { "type": "suffix", "form": "-ification", "meaning": "process of making" }
+        {
+          "type": "suffix",
+          "form": "-ity",
+          "meaning": "trạng thái hoặc chất lượng"
+        },
+        {
+          "type": "suffix",
+          "form": "-ify",
+          "meaning": "làm cho hoặc trở thành"
+        },
+        {
+          "type": "suffix",
+          "form": "-ification",
+          "meaning": "quá trình tạo ra"
+        }
       ]
     },
     {
@@ -805,15 +2494,44 @@
       "etymology": "Old English: gewaer (watchful)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["consciousness", "knowledge"],
+      "tags": [
+        "consciousness",
+        "knowledge"
+      ],
       "forms": [
-        { "word": "aware", "pos": "adjective", "definition": "Having knowledge of a situation", "example": "Are you aware of the risks?", "frequency": "very-common" },
-        { "word": "awareness", "pos": "noun", "definition": "Knowledge of a situation", "example": "Raise awareness about mental health.", "frequency": "very-common" },
-        { "word": "unaware", "pos": "adjective", "definition": "Not having knowledge of something", "example": "She was unaware of the problem.", "frequency": "common" }
+        {
+          "word": "aware",
+          "pos": "adjective",
+          "definition": "Có hiểu biết và ý thức về tình huống hoặc vấn đề",
+          "example": "Are you aware of the risks?",
+          "frequency": "very-common"
+        },
+        {
+          "word": "awareness",
+          "pos": "noun",
+          "definition": "Sự hiểu biết và nhận thức về điều gì đó",
+          "example": "Raise awareness about mental health.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "unaware",
+          "pos": "adjective",
+          "definition": "Không có hiểu biết hoặc ý thức về điều gì đó",
+          "example": "She was unaware of the problem.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ness", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ness",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -822,14 +2540,39 @@
       "etymology": "Latin: assumere (to take up)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["thinking", "academic"],
+      "tags": [
+        "thinking",
+        "academic"
+      ],
       "forms": [
-        { "word": "assume", "pos": "verb", "definition": "To accept as true without proof", "example": "Don't assume you know the answer.", "frequency": "common" },
-        { "word": "assumption", "pos": "noun", "definition": "A thing accepted as true without proof", "example": "That's a false assumption.", "frequency": "common" },
-        { "word": "assuming", "pos": "adjective", "definition": "Arrogantly presumptuous", "example": "He was assuming in his behavior.", "frequency": "less-common" }
+        {
+          "word": "assume",
+          "pos": "verb",
+          "definition": "Chấp nhận điều gì đó là đúng mà không cần bằng chứng",
+          "example": "Don't assume you know the answer.",
+          "frequency": "common"
+        },
+        {
+          "word": "assumption",
+          "pos": "noun",
+          "definition": "Điều được chấp nhận là đúng mà chưa được chứng minh",
+          "example": "That's a false assumption.",
+          "frequency": "common"
+        },
+        {
+          "word": "assuming",
+          "pos": "adjective",
+          "definition": "Có thái độ tự cao và cho rằng điều gì đó là đúng",
+          "example": "He was assuming in his behavior.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-tion", "meaning": "act or result" }
+        {
+          "type": "suffix",
+          "form": "-tion",
+          "meaning": "hành động hoặc kết quả"
+        }
       ]
     },
     {
@@ -838,18 +2581,63 @@
       "etymology": "Latin: fundus (bottom, base)",
       "cefr": "B2",
       "category": "business",
-      "tags": ["finance", "business"],
+      "tags": [
+        "finance",
+        "business"
+      ],
       "forms": [
-        { "word": "fund", "pos": "noun", "definition": "A sum of money saved or collected", "example": "A pension fund protects workers.", "frequency": "common" },
-        { "word": "fund", "pos": "verb", "definition": "To provide money for something", "example": "The government funds public schools.", "frequency": "common" },
-        { "word": "funding", "pos": "noun", "definition": "Money provided for a purpose", "example": "Research funding was approved.", "frequency": "common" },
-        { "word": "fundraise", "pos": "verb", "definition": "To collect money for a cause", "example": "They fundraise for charity every year.", "frequency": "common" },
-        { "word": "fundraiser", "pos": "noun", "definition": "A person or event that collects funds", "example": "The fundraiser raised thousands.", "frequency": "common" }
+        {
+          "word": "fund",
+          "pos": "noun",
+          "definition": "Khoản tiền được tiết kiệm hoặc quyên góp cho mục đích cụ thể",
+          "example": "A pension fund protects workers.",
+          "frequency": "common"
+        },
+        {
+          "word": "fund",
+          "pos": "verb",
+          "definition": "Khoản tiền được tiết kiệm hoặc quyên góp cho mục đích cụ thể",
+          "example": "The government funds public schools.",
+          "frequency": "common"
+        },
+        {
+          "word": "funding",
+          "pos": "noun",
+          "definition": "Tiền hoặc nguồn tài chính được cung cấp cho một dự án",
+          "example": "Research funding was approved.",
+          "frequency": "common"
+        },
+        {
+          "word": "fundraise",
+          "pos": "verb",
+          "definition": "Quyên góp tiền cho một mục đích từ thiện hoặc dự án",
+          "example": "They fundraise for charity every year.",
+          "frequency": "common"
+        },
+        {
+          "word": "fundraiser",
+          "pos": "noun",
+          "definition": "Người hoặc sự kiện được tổ chức để quyên góp tiền",
+          "example": "The fundraiser raised thousands.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ing", "meaning": "action or result" },
-        { "type": "suffix", "form": "-raise", "meaning": "to increase" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ing",
+          "meaning": "hành động hoặc kết quả của hành động"
+        },
+        {
+          "type": "suffix",
+          "form": "-raise",
+          "meaning": "tăng lên hoặc thu thập"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -858,17 +2646,56 @@
       "etymology": "Latin: contribuere (to bring together)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["giving", "academic"],
+      "tags": [
+        "giving",
+        "academic"
+      ],
       "forms": [
-        { "word": "contribute", "pos": "verb", "definition": "To give something as part of a whole", "example": "Everyone should contribute to society.", "frequency": "common" },
-        { "word": "contribution", "pos": "noun", "definition": "Something given as part of a whole", "example": "Her contribution was invaluable.", "frequency": "common" },
-        { "word": "contributor", "pos": "noun", "definition": "A person who contributes", "example": "She is a regular contributor.", "frequency": "common" },
-        { "word": "contributory", "pos": "adjective", "definition": "Playing a part in causing something", "example": "Stress is a contributory factor.", "frequency": "less-common" }
+        {
+          "word": "contribute",
+          "pos": "verb",
+          "definition": "Đóng góp điều gì đó như một phần của tổng thể chung",
+          "example": "Everyone should contribute to society.",
+          "frequency": "common"
+        },
+        {
+          "word": "contribution",
+          "pos": "noun",
+          "definition": "Thứ được đóng góp như một phần của tổng thể",
+          "example": "Her contribution was invaluable.",
+          "frequency": "common"
+        },
+        {
+          "word": "contributor",
+          "pos": "noun",
+          "definition": "Người đóng góp cho điều gì đó",
+          "example": "She is a regular contributor.",
+          "frequency": "common"
+        },
+        {
+          "word": "contributory",
+          "pos": "adjective",
+          "definition": "Đóng vai trò một phần trong việc gây ra kết quả",
+          "example": "Stress is a contributory factor.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-or", "meaning": "one who does" },
-        { "type": "suffix", "form": "-ory", "meaning": "relating to" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "người thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ory",
+          "meaning": "liên quan đến hoặc có chức năng"
+        }
       ]
     },
     {
@@ -877,15 +2704,44 @@
       "etymology": "Latin: implementum (that which fills up)",
       "cefr": "C1",
       "category": "business",
-      "tags": ["execution", "business"],
+      "tags": [
+        "execution",
+        "business"
+      ],
       "forms": [
-        { "word": "implement", "pos": "verb", "definition": "To put a plan or decision into effect", "example": "We will implement the changes soon.", "frequency": "common" },
-        { "word": "implementation", "pos": "noun", "definition": "The process of putting something into effect", "example": "Implementation of the policy began.", "frequency": "common" },
-        { "word": "implementer", "pos": "noun", "definition": "A person who implements something", "example": "The implementer followed the plan.", "frequency": "rare" }
+        {
+          "word": "implement",
+          "pos": "verb",
+          "definition": "Thực hiện hoặc đưa một kế hoạch vào thực tế",
+          "example": "We will implement the changes soon.",
+          "frequency": "common"
+        },
+        {
+          "word": "implementation",
+          "pos": "noun",
+          "definition": "Quá trình đưa kế hoạch hoặc quyết định vào thực tế",
+          "example": "Implementation of the policy began.",
+          "frequency": "common"
+        },
+        {
+          "word": "implementer",
+          "pos": "noun",
+          "definition": "Người chịu trách nhiệm thực hiện kế hoạch",
+          "example": "The implementer followed the plan.",
+          "frequency": "rare"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ation", "meaning": "act or process" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ation",
+          "meaning": "hành động hoặc quá trình"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -894,18 +2750,63 @@
       "etymology": "Latin: succedere (come after, go well)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["success", "achievement"],
+      "tags": [
+        "success",
+        "achievement"
+      ],
       "forms": [
-        { "word": "succeed", "pos": "verb", "definition": "To achieve a desired result", "example": "Work hard and you will succeed.", "frequency": "very-common" },
-        { "word": "success", "pos": "noun", "definition": "The achievement of a desired result", "example": "Success requires persistence.", "frequency": "very-common" },
-        { "word": "successful", "pos": "adjective", "definition": "Having achieved success", "example": "She is a successful entrepreneur.", "frequency": "very-common" },
-        { "word": "successfully", "pos": "adverb", "definition": "In a successful manner", "example": "The mission was completed successfully.", "frequency": "very-common" },
-        { "word": "unsuccessful", "pos": "adjective", "definition": "Not achieving success", "example": "The attempt was unsuccessful.", "frequency": "common" }
+        {
+          "word": "succeed",
+          "pos": "verb",
+          "definition": "Đạt được mục tiêu hoặc kết quả mong muốn",
+          "example": "Work hard and you will succeed.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "success",
+          "pos": "noun",
+          "definition": "Sự đạt được mục tiêu hoặc kết quả tốt đẹp",
+          "example": "Success requires persistence.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "successful",
+          "pos": "adjective",
+          "definition": "Đã đạt được thành công hoặc kết quả tốt",
+          "example": "She is a successful entrepreneur.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "successfully",
+          "pos": "adverb",
+          "definition": "Theo cách thành công và đạt được mục tiêu",
+          "example": "The mission was completed successfully.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "unsuccessful",
+          "pos": "adjective",
+          "definition": "Không đạt được thành công hoặc kết quả mong muốn",
+          "example": "The attempt was unsuccessful.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ful", "meaning": "full of" },
-        { "type": "suffix", "form": "-fully", "meaning": "in a manner" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ful",
+          "meaning": "đầy đủ, có nhiều"
+        },
+        {
+          "type": "suffix",
+          "form": "-fully",
+          "meaning": "theo cách thức"
+        }
       ]
     },
     {
@@ -914,21 +2815,80 @@
       "etymology": "Latin: dependere (to hang from)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["reliance", "academic"],
+      "tags": [
+        "reliance",
+        "academic"
+      ],
       "forms": [
-        { "word": "depend", "pos": "verb", "definition": "To be determined or influenced by", "example": "Success depends on your effort.", "frequency": "very-common" },
-        { "word": "dependence", "pos": "noun", "definition": "The state of depending on something", "example": "Reduce dependence on fossil fuels.", "frequency": "common" },
-        { "word": "dependent", "pos": "adjective", "definition": "Relying on someone or something", "example": "Children are dependent on parents.", "frequency": "common" },
-        { "word": "dependable", "pos": "adjective", "definition": "Trustworthy and reliable", "example": "She is a dependable colleague.", "frequency": "common" },
-        { "word": "independent", "pos": "adjective", "definition": "Not depending on others", "example": "Financial independence is important.", "frequency": "very-common" },
-        { "word": "independently", "pos": "adverb", "definition": "Without help from others", "example": "She works independently.", "frequency": "common" }
+        {
+          "word": "depend",
+          "pos": "verb",
+          "definition": "Dựa vào hoặc được quyết định bởi điều gì đó khác",
+          "example": "Success depends on your effort.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "dependence",
+          "pos": "noun",
+          "definition": "Trạng thái phụ thuộc vào ai đó hoặc điều gì đó",
+          "example": "Reduce dependence on fossil fuels.",
+          "frequency": "common"
+        },
+        {
+          "word": "dependent",
+          "pos": "adjective",
+          "definition": "Dựa vào hoặc cần sự giúp đỡ của ai đó",
+          "example": "Children are dependent on parents.",
+          "frequency": "common"
+        },
+        {
+          "word": "dependable",
+          "pos": "adjective",
+          "definition": "Đáng tin cậy và luôn nhất quán",
+          "example": "She is a dependable colleague.",
+          "frequency": "common"
+        },
+        {
+          "word": "independent",
+          "pos": "adjective",
+          "definition": "Không phụ thuộc vào người khác; tự chủ",
+          "example": "Financial independence is important.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "independently",
+          "pos": "adverb",
+          "definition": "Không cần sự giúp đỡ của người khác; tự lập",
+          "example": "She works independently.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "in-", "meaning": "not" },
-        { "type": "suffix", "form": "-ence", "meaning": "state or quality" },
-        { "type": "suffix", "form": "-ent", "meaning": "having the quality of" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
-        { "type": "suffix", "form": "-ently", "meaning": "in a manner" }
+        {
+          "type": "prefix",
+          "form": "in-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ence",
+          "meaning": "trạng thái hoặc chất lượng"
+        },
+        {
+          "type": "suffix",
+          "form": "-ent",
+          "meaning": "có tính chất của"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ently",
+          "meaning": "theo cách thức"
+        }
       ]
     },
     {
@@ -937,19 +2897,68 @@
       "etymology": "Latin: applicare (to attach, join)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["usage", "academic"],
+      "tags": [
+        "usage",
+        "academic"
+      ],
       "forms": [
-        { "word": "apply", "pos": "verb", "definition": "To put something to use or request formally", "example": "Apply for the job online.", "frequency": "very-common" },
-        { "word": "application", "pos": "noun", "definition": "A formal request or program", "example": "Submit your application by Friday.", "frequency": "very-common" },
-        { "word": "applicable", "pos": "adjective", "definition": "Relevant or appropriate", "example": "This rule is applicable to everyone.", "frequency": "common" },
-        { "word": "applicant", "pos": "noun", "definition": "A person who applies for something", "example": "There were many applicants for the role.", "frequency": "common" },
-        { "word": "inapplicable", "pos": "adjective", "definition": "Not relevant or appropriate", "example": "That rule is inapplicable here.", "frequency": "less-common" }
+        {
+          "word": "apply",
+          "pos": "verb",
+          "definition": "Sử dụng hoặc đăng ký chính thức cho điều gì đó",
+          "example": "Apply for the job online.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "application",
+          "pos": "noun",
+          "definition": "Đơn xin chính thức hoặc chương trình phần mềm",
+          "example": "Submit your application by Friday.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "applicable",
+          "pos": "adjective",
+          "definition": "Có liên quan và có thể áp dụng vào tình huống cụ thể",
+          "example": "This rule is applicable to everyone.",
+          "frequency": "common"
+        },
+        {
+          "word": "applicant",
+          "pos": "noun",
+          "definition": "Người nộp đơn xin việc làm, học bổng hoặc vị trí",
+          "example": "There were many applicants for the role.",
+          "frequency": "common"
+        },
+        {
+          "word": "inapplicable",
+          "pos": "adjective",
+          "definition": "Không liên quan hoặc không thể áp dụng vào tình huống",
+          "example": "That rule is inapplicable here.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "in-", "meaning": "not" },
-        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" },
-        { "type": "suffix", "form": "-ant", "meaning": "one who does" }
+        {
+          "type": "prefix",
+          "form": "in-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ation",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-ant",
+          "meaning": "người thực hiện hành động"
+        }
       ]
     },
     {
@@ -958,19 +2967,68 @@
       "etymology": "Latin: competere (to strive together)",
       "cefr": "B1",
       "category": "business",
-      "tags": ["competition", "business"],
+      "tags": [
+        "competition",
+        "business"
+      ],
       "forms": [
-        { "word": "compete", "pos": "verb", "definition": "To try to win against others", "example": "Companies compete for customers.", "frequency": "common" },
-        { "word": "competition", "pos": "noun", "definition": "The activity of competing", "example": "Competition drives innovation.", "frequency": "very-common" },
-        { "word": "competitive", "pos": "adjective", "definition": "Having a strong desire to win", "example": "The market is highly competitive.", "frequency": "common" },
-        { "word": "competitively", "pos": "adverb", "definition": "In a competitive manner", "example": "Price competitively to attract buyers.", "frequency": "less-common" },
-        { "word": "competitor", "pos": "noun", "definition": "A person or company that competes", "example": "Our main competitor launched a product.", "frequency": "common" }
+        {
+          "word": "compete",
+          "pos": "verb",
+          "definition": "Cố gắng giành chiến thắng hoặc đạt được kết quả tốt hơn người khác",
+          "example": "Companies compete for customers.",
+          "frequency": "common"
+        },
+        {
+          "word": "competition",
+          "pos": "noun",
+          "definition": "Hoạt động tranh tài hoặc cuộc thi giữa các đối thủ",
+          "example": "Competition drives innovation.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "competitive",
+          "pos": "adjective",
+          "definition": "Có động lực mạnh mẽ để chiến thắng và vượt trội",
+          "example": "The market is highly competitive.",
+          "frequency": "common"
+        },
+        {
+          "word": "competitively",
+          "pos": "adverb",
+          "definition": "Theo cách cạnh tranh và ganh đua",
+          "example": "Price competitively to attract buyers.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "competitor",
+          "pos": "noun",
+          "definition": "Người hoặc công ty tham gia cạnh tranh trong cùng lĩnh vực",
+          "example": "Our main competitor launched a product.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-tion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-tive", "meaning": "tending to" },
-        { "type": "suffix", "form": "-tively", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-tor", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-tion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-tive",
+          "meaning": "có xu hướng"
+        },
+        {
+          "type": "suffix",
+          "form": "-tively",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-tor",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -979,19 +3037,68 @@
       "etymology": "Latin: educare (to lead out)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["learning", "school"],
+      "tags": [
+        "learning",
+        "school"
+      ],
       "forms": [
-        { "word": "educate", "pos": "verb", "definition": "To give knowledge or training to", "example": "Parents educate children at home.", "frequency": "common" },
-        { "word": "education", "pos": "noun", "definition": "The process of gaining knowledge", "example": "Education opens many doors.", "frequency": "very-common" },
-        { "word": "educational", "pos": "adjective", "definition": "Relating to education", "example": "Educational videos help students.", "frequency": "common" },
-        { "word": "educationally", "pos": "adverb", "definition": "In terms of education", "example": "Educationally disadvantaged children need help.", "frequency": "rare" },
-        { "word": "educator", "pos": "noun", "definition": "A person who educates", "example": "Great educators inspire students.", "frequency": "common" }
+        {
+          "word": "educate",
+          "pos": "verb",
+          "definition": "Truyền đạt kiến thức hoặc đào tạo kỹ năng cho ai đó",
+          "example": "Parents educate children at home.",
+          "frequency": "common"
+        },
+        {
+          "word": "education",
+          "pos": "noun",
+          "definition": "Quá trình tiếp thu kiến thức và phát triển kỹ năng",
+          "example": "Education opens many doors.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "educational",
+          "pos": "adjective",
+          "definition": "Liên quan đến giáo dục hoặc mang tính giáo dục",
+          "example": "Educational videos help students.",
+          "frequency": "common"
+        },
+        {
+          "word": "educationally",
+          "pos": "adverb",
+          "definition": "Về mặt giáo dục và học tập",
+          "example": "Educationally disadvantaged children need help.",
+          "frequency": "rare"
+        },
+        {
+          "word": "educator",
+          "pos": "noun",
+          "definition": "Người làm công tác giảng dạy và giáo dục",
+          "example": "Great educators inspire students.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-al", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ally", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-or", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-al",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ally",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -1000,15 +3107,44 @@
       "etymology": "Latin: arguere (to make clear, accuse)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["debate", "academic"],
+      "tags": [
+        "debate",
+        "academic"
+      ],
       "forms": [
-        { "word": "argue", "pos": "verb", "definition": "To give reasons for or against something", "example": "Lawyers argue their case in court.", "frequency": "very-common" },
-        { "word": "argument", "pos": "noun", "definition": "A reason given for a viewpoint", "example": "His argument was convincing.", "frequency": "very-common" },
-        { "word": "argumentative", "pos": "adjective", "definition": "Prone to arguing", "example": "Don't be so argumentative.", "frequency": "common" }
+        {
+          "word": "argue",
+          "pos": "verb",
+          "definition": "Đưa ra lý lẽ hoặc tranh luận ủng hộ hoặc phản đối điều gì đó",
+          "example": "Lawyers argue their case in court.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "argument",
+          "pos": "noun",
+          "definition": "Lý lẽ hoặc căn cứ được đưa ra để bảo vệ quan điểm",
+          "example": "His argument was convincing.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "argumentative",
+          "pos": "adjective",
+          "definition": "Hay tranh luận và thích bảo vệ ý kiến của mình",
+          "example": "Don't be so argumentative.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ment", "meaning": "result or process" },
-        { "type": "suffix", "form": "-ative", "meaning": "tending to" }
+        {
+          "type": "suffix",
+          "form": "-ment",
+          "meaning": "kết quả hoặc quá trình"
+        },
+        {
+          "type": "suffix",
+          "form": "-ative",
+          "meaning": "có xu hướng"
+        }
       ]
     },
     {
@@ -1017,16 +3153,51 @@
       "etymology": "Latin: influere (to flow into)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["power", "impact"],
+      "tags": [
+        "power",
+        "impact"
+      ],
       "forms": [
-        { "word": "influence", "pos": "noun", "definition": "The power to affect others", "example": "Her influence in the field is great.", "frequency": "very-common" },
-        { "word": "influence", "pos": "verb", "definition": "To have an effect on something", "example": "Media influences public opinion.", "frequency": "very-common" },
-        { "word": "influential", "pos": "adjective", "definition": "Having great influence", "example": "She is an influential leader.", "frequency": "common" },
-        { "word": "influentially", "pos": "adverb", "definition": "In an influential manner", "example": "He spoke influentially.", "frequency": "rare" }
+        {
+          "word": "influence",
+          "pos": "noun",
+          "definition": "Khả năng tác động hoặc thay đổi quan điểm, hành vi của người khác",
+          "example": "Her influence in the field is great.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "influence",
+          "pos": "verb",
+          "definition": "Khả năng tác động hoặc thay đổi quan điểm, hành vi của người khác",
+          "example": "Media influences public opinion.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "influential",
+          "pos": "adjective",
+          "definition": "Có tầm ảnh hưởng lớn đến người khác hoặc tình huống",
+          "example": "She is an influential leader.",
+          "frequency": "common"
+        },
+        {
+          "word": "influentially",
+          "pos": "adverb",
+          "definition": "Theo cách có ảnh hưởng và tác động mạnh",
+          "example": "He spoke influentially.",
+          "frequency": "rare"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ial", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ially", "meaning": "in a manner" }
+        {
+          "type": "suffix",
+          "form": "-ial",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ially",
+          "meaning": "theo cách thức"
+        }
       ]
     },
     {
@@ -1035,17 +3206,56 @@
       "etymology": "Latin: promovere (to move forward)",
       "cefr": "B2",
       "category": "business",
-      "tags": ["marketing", "growth"],
+      "tags": [
+        "marketing",
+        "growth"
+      ],
       "forms": [
-        { "word": "promote", "pos": "verb", "definition": "To support or advance something", "example": "They promoted the new product online.", "frequency": "common" },
-        { "word": "promotion", "pos": "noun", "definition": "The act of promoting or advancement", "example": "She got a promotion at work.", "frequency": "common" },
-        { "word": "promotional", "pos": "adjective", "definition": "Relating to promoting something", "example": "Promotional offers attract customers.", "frequency": "common" },
-        { "word": "promoter", "pos": "noun", "definition": "A person who promotes something", "example": "He's a concert promoter.", "frequency": "common" }
+        {
+          "word": "promote",
+          "pos": "verb",
+          "definition": "Hỗ trợ, thúc đẩy hoặc quảng bá điều gì đó",
+          "example": "They promoted the new product online.",
+          "frequency": "common"
+        },
+        {
+          "word": "promotion",
+          "pos": "noun",
+          "definition": "Hành động quảng bá hoặc sự thăng chức trong công việc",
+          "example": "She got a promotion at work.",
+          "frequency": "common"
+        },
+        {
+          "word": "promotional",
+          "pos": "adjective",
+          "definition": "Liên quan đến hoạt động quảng bá hoặc tiếp thị",
+          "example": "Promotional offers attract customers.",
+          "frequency": "common"
+        },
+        {
+          "word": "promoter",
+          "pos": "noun",
+          "definition": "Người tổ chức hoặc quảng bá sự kiện, sản phẩm",
+          "example": "He's a concert promoter.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ional", "meaning": "relating to" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ional",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -1054,17 +3264,56 @@
       "etymology": "Greek: strategos (army leader)",
       "cefr": "B2",
       "category": "business",
-      "tags": ["planning", "business"],
+      "tags": [
+        "planning",
+        "business"
+      ],
       "forms": [
-        { "word": "strategy", "pos": "noun", "definition": "A plan designed to achieve a goal", "example": "A clear strategy is needed.", "frequency": "very-common" },
-        { "word": "strategic", "pos": "adjective", "definition": "Relating to strategy", "example": "Strategic planning drives success.", "frequency": "common" },
-        { "word": "strategically", "pos": "adverb", "definition": "In a strategic manner", "example": "Position yourself strategically.", "frequency": "common" },
-        { "word": "strategist", "pos": "noun", "definition": "A person skilled in strategy", "example": "The military strategist planned carefully.", "frequency": "less-common" }
+        {
+          "word": "strategy",
+          "pos": "noun",
+          "definition": "Kế hoạch tổng thể được thiết kế để đạt được mục tiêu dài hạn",
+          "example": "A clear strategy is needed.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "strategic",
+          "pos": "adjective",
+          "definition": "Liên quan đến chiến lược và kế hoạch dài hạn",
+          "example": "Strategic planning drives success.",
+          "frequency": "common"
+        },
+        {
+          "word": "strategically",
+          "pos": "adverb",
+          "definition": "Theo cách chiến lược và có tính toán kỹ lưỡng",
+          "example": "Position yourself strategically.",
+          "frequency": "common"
+        },
+        {
+          "word": "strategist",
+          "pos": "noun",
+          "definition": "Người giỏi lập kế hoạch và tư duy chiến lược",
+          "example": "The military strategist planned carefully.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ic", "meaning": "relating to" },
-        { "type": "suffix", "form": "-ically", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ist", "meaning": "specialist in" }
+        {
+          "type": "suffix",
+          "form": "-ic",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-ically",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ist",
+          "meaning": "chuyên gia về"
+        }
       ]
     },
     {
@@ -1073,18 +3322,63 @@
       "etymology": "Latin: accuratus (done with care)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["precision", "academic"],
+      "tags": [
+        "precision",
+        "academic"
+      ],
       "forms": [
-        { "word": "accurate", "pos": "adjective", "definition": "Correct and without errors", "example": "The data must be accurate.", "frequency": "common" },
-        { "word": "accurately", "pos": "adverb", "definition": "In an accurate manner", "example": "Measure accurately for best results.", "frequency": "common" },
-        { "word": "accuracy", "pos": "noun", "definition": "The quality of being accurate", "example": "Accuracy is vital in science.", "frequency": "common" },
-        { "word": "inaccurate", "pos": "adjective", "definition": "Not correct or exact", "example": "The report contained inaccurate data.", "frequency": "common" },
-        { "word": "inaccuracy", "pos": "noun", "definition": "The state of being inaccurate", "example": "The inaccuracy caused confusion.", "frequency": "less-common" }
+        {
+          "word": "accurate",
+          "pos": "adjective",
+          "definition": "Chính xác, đúng và không có sai sót",
+          "example": "The data must be accurate.",
+          "frequency": "common"
+        },
+        {
+          "word": "accurately",
+          "pos": "adverb",
+          "definition": "Theo cách chính xác và không sai sót",
+          "example": "Measure accurately for best results.",
+          "frequency": "common"
+        },
+        {
+          "word": "accuracy",
+          "pos": "noun",
+          "definition": "Mức độ chính xác và không có lỗi",
+          "example": "Accuracy is vital in science.",
+          "frequency": "common"
+        },
+        {
+          "word": "inaccurate",
+          "pos": "adjective",
+          "definition": "Không chính xác; có sai sót",
+          "example": "The report contained inaccurate data.",
+          "frequency": "common"
+        },
+        {
+          "word": "inaccuracy",
+          "pos": "noun",
+          "definition": "Sai lầm hoặc điều không chính xác trong thông tin",
+          "example": "The inaccuracy caused confusion.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "in-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-cy", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "in-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-cy",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -1093,17 +3387,56 @@
       "etymology": "Latin: interpretare (to explain, understand)",
       "cefr": "C1",
       "category": "academic",
-      "tags": ["meaning", "language"],
+      "tags": [
+        "meaning",
+        "language"
+      ],
       "forms": [
-        { "word": "interpret", "pos": "verb", "definition": "To explain the meaning of something", "example": "How do you interpret this poem?", "frequency": "common" },
-        { "word": "interpretation", "pos": "noun", "definition": "An explanation of the meaning", "example": "Her interpretation was surprising.", "frequency": "common" },
-        { "word": "interpreter", "pos": "noun", "definition": "A person who interprets language", "example": "The interpreter translated the speech.", "frequency": "common" },
-        { "word": "misinterpret", "pos": "verb", "definition": "To interpret incorrectly", "example": "Don't misinterpret my words.", "frequency": "common" }
+        {
+          "word": "interpret",
+          "pos": "verb",
+          "definition": "Giải thích hoặc làm rõ ý nghĩa của điều gì đó",
+          "example": "How do you interpret this poem?",
+          "frequency": "common"
+        },
+        {
+          "word": "interpretation",
+          "pos": "noun",
+          "definition": "Sự giải thích hoặc cách hiểu về ý nghĩa",
+          "example": "Her interpretation was surprising.",
+          "frequency": "common"
+        },
+        {
+          "word": "interpreter",
+          "pos": "noun",
+          "definition": "Người phiên dịch ngôn ngữ hoặc giải thích nội dung",
+          "example": "The interpreter translated the speech.",
+          "frequency": "common"
+        },
+        {
+          "word": "misinterpret",
+          "pos": "verb",
+          "definition": "Hiểu sai hoặc diễn giải không đúng ý nghĩa",
+          "example": "Don't misinterpret my words.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "mis-", "meaning": "wrongly" },
-        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "prefix",
+          "form": "mis-",
+          "meaning": "sai, không đúng"
+        },
+        {
+          "type": "suffix",
+          "form": "-ation",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -1112,19 +3445,68 @@
       "etymology": "Latin: observare (to watch over)",
       "cefr": "B2",
       "category": "academic",
-      "tags": ["science", "attention"],
+      "tags": [
+        "science",
+        "attention"
+      ],
       "forms": [
-        { "word": "observe", "pos": "verb", "definition": "To watch carefully or notice", "example": "Scientists observe animal behavior.", "frequency": "common" },
-        { "word": "observation", "pos": "noun", "definition": "The act of watching carefully", "example": "Through careful observation, patterns emerge.", "frequency": "common" },
-        { "word": "observational", "pos": "adjective", "definition": "Based on observation", "example": "Observational studies track behavior.", "frequency": "less-common" },
-        { "word": "observer", "pos": "noun", "definition": "A person who observes", "example": "The observer took detailed notes.", "frequency": "common" },
-        { "word": "observable", "pos": "adjective", "definition": "Able to be observed", "example": "The change was barely observable.", "frequency": "less-common" }
+        {
+          "word": "observe",
+          "pos": "verb",
+          "definition": "Quan sát cẩn thận hoặc chú ý đến điều gì đó",
+          "example": "Scientists observe animal behavior.",
+          "frequency": "common"
+        },
+        {
+          "word": "observation",
+          "pos": "noun",
+          "definition": "Hành động quan sát hoặc nhận xét được ghi nhận",
+          "example": "Through careful observation, patterns emerge.",
+          "frequency": "common"
+        },
+        {
+          "word": "observational",
+          "pos": "adjective",
+          "definition": "Dựa trên quan sát và ghi chép thực tế",
+          "example": "Observational studies track behavior.",
+          "frequency": "less-common"
+        },
+        {
+          "word": "observer",
+          "pos": "noun",
+          "definition": "Người quan sát và theo dõi diễn biến sự việc",
+          "example": "The observer took detailed notes.",
+          "frequency": "common"
+        },
+        {
+          "word": "observable",
+          "pos": "adjective",
+          "definition": "Có thể quan sát và nhận thấy được",
+          "example": "The change was barely observable.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ational", "meaning": "relating to" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" },
-        { "type": "suffix", "form": "-able", "meaning": "capable of being" }
+        {
+          "type": "suffix",
+          "form": "-ation",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ational",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        },
+        {
+          "type": "suffix",
+          "form": "-able",
+          "meaning": "có khả năng thực hiện"
+        }
       ]
     },
     {
@@ -1133,16 +3515,51 @@
       "etymology": "Latin: calumniare (to accuse falsely)",
       "cefr": "B1",
       "category": "common",
-      "tags": ["difficulty", "growth"],
+      "tags": [
+        "difficulty",
+        "growth"
+      ],
       "forms": [
-        { "word": "challenge", "pos": "noun", "definition": "A difficult task or situation", "example": "Learning a language is a challenge.", "frequency": "very-common" },
-        { "word": "challenge", "pos": "verb", "definition": "To invite or test someone", "example": "The teacher challenged the students.", "frequency": "very-common" },
-        { "word": "challenging", "pos": "adjective", "definition": "Difficult but interesting", "example": "The work is challenging but rewarding.", "frequency": "very-common" },
-        { "word": "challenger", "pos": "noun", "definition": "A person who challenges another", "example": "The challenger defeated the champion.", "frequency": "less-common" }
+        {
+          "word": "challenge",
+          "pos": "noun",
+          "definition": "Nhiệm vụ hoặc tình huống đòi hỏi nỗ lực và kỹ năng",
+          "example": "Learning a language is a challenge.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "challenge",
+          "pos": "verb",
+          "definition": "Nhiệm vụ hoặc tình huống đòi hỏi nỗ lực và kỹ năng",
+          "example": "The teacher challenged the students.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "challenging",
+          "pos": "adjective",
+          "definition": "Khó khăn nhưng thú vị và đáng để theo đuổi",
+          "example": "The work is challenging but rewarding.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "challenger",
+          "pos": "noun",
+          "definition": "Người thách thức hoặc đối thủ cạnh tranh",
+          "example": "The challenger defeated the champion.",
+          "frequency": "less-common"
+        }
       ],
       "affixes": [
-        { "type": "suffix", "form": "-ing", "meaning": "having the quality of" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "suffix",
+          "form": "-ing",
+          "meaning": "có tính chất của"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     },
     {
@@ -1151,18 +3568,63 @@
       "etymology": "Latin: religare (to bind back)",
       "cefr": "B2",
       "category": "common",
-      "tags": ["trust", "quality"],
+      "tags": [
+        "trust",
+        "quality"
+      ],
       "forms": [
-        { "word": "reliable", "pos": "adjective", "definition": "Consistently dependable and trustworthy", "example": "Choose a reliable car brand.", "frequency": "common" },
-        { "word": "reliably", "pos": "adverb", "definition": "In a reliable manner", "example": "The system works reliably.", "frequency": "common" },
-        { "word": "reliability", "pos": "noun", "definition": "The quality of being reliable", "example": "Reliability is key to customer trust.", "frequency": "common" },
-        { "word": "unreliable", "pos": "adjective", "definition": "Not reliable or dependable", "example": "The data was unreliable.", "frequency": "common" },
-        { "word": "rely", "pos": "verb", "definition": "To depend on with trust", "example": "You can rely on me.", "frequency": "very-common" }
+        {
+          "word": "reliable",
+          "pos": "adjective",
+          "definition": "Đáng tin cậy, nhất quán và luôn hoạt động tốt",
+          "example": "Choose a reliable car brand.",
+          "frequency": "common"
+        },
+        {
+          "word": "reliably",
+          "pos": "adverb",
+          "definition": "Theo cách đáng tin cậy và nhất quán",
+          "example": "The system works reliably.",
+          "frequency": "common"
+        },
+        {
+          "word": "reliability",
+          "pos": "noun",
+          "definition": "Chất lượng đáng tin cậy và hoạt động ổn định",
+          "example": "Reliability is key to customer trust.",
+          "frequency": "common"
+        },
+        {
+          "word": "unreliable",
+          "pos": "adjective",
+          "definition": "Không đáng tin cậy; hay thất thường",
+          "example": "The data was unreliable.",
+          "frequency": "common"
+        },
+        {
+          "word": "rely",
+          "pos": "verb",
+          "definition": "Tin tưởng và dựa vào ai đó hoặc điều gì đó",
+          "example": "You can rely on me.",
+          "frequency": "very-common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "un-", "meaning": "not" },
-        { "type": "suffix", "form": "-ly", "meaning": "in a manner" },
-        { "type": "suffix", "form": "-ity", "meaning": "state or quality" }
+        {
+          "type": "prefix",
+          "form": "un-",
+          "meaning": "không, phủ định"
+        },
+        {
+          "type": "suffix",
+          "form": "-ly",
+          "meaning": "theo cách thức"
+        },
+        {
+          "type": "suffix",
+          "form": "-ity",
+          "meaning": "trạng thái hoặc chất lượng"
+        }
       ]
     },
     {
@@ -1171,19 +3633,68 @@
       "etymology": "Latin: connectere (to bind together)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["network", "relationship"],
+      "tags": [
+        "network",
+        "relationship"
+      ],
       "forms": [
-        { "word": "connect", "pos": "verb", "definition": "To join or link things together", "example": "Connect the cable to the device.", "frequency": "very-common" },
-        { "word": "connection", "pos": "noun", "definition": "A link between things or people", "example": "We have a strong connection.", "frequency": "very-common" },
-        { "word": "connected", "pos": "adjective", "definition": "Joined or linked to something", "example": "Stay connected with friends online.", "frequency": "very-common" },
-        { "word": "disconnected", "pos": "adjective", "definition": "Not joined or linked", "example": "I feel disconnected from my roots.", "frequency": "common" },
-        { "word": "connector", "pos": "noun", "definition": "A device or thing that connects", "example": "Use a USB connector.", "frequency": "common" }
+        {
+          "word": "connect",
+          "pos": "verb",
+          "definition": "Nối liền hoặc liên kết các thứ hoặc người lại với nhau",
+          "example": "Connect the cable to the device.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "connection",
+          "pos": "noun",
+          "definition": "Mối liên kết hoặc quan hệ giữa các thứ hoặc người",
+          "example": "We have a strong connection.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "connected",
+          "pos": "adjective",
+          "definition": "Được nối liền hoặc liên kết với điều gì đó",
+          "example": "Stay connected with friends online.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "disconnected",
+          "pos": "adjective",
+          "definition": "Không còn được nối liền hoặc liên kết; rời rạc",
+          "example": "I feel disconnected from my roots.",
+          "frequency": "common"
+        },
+        {
+          "word": "connector",
+          "pos": "noun",
+          "definition": "Thiết bị hoặc thứ dùng để kết nối các thành phần",
+          "example": "Use a USB connector.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "dis-", "meaning": "apart, not" },
-        { "type": "suffix", "form": "-ion", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ed", "meaning": "in a state of" },
-        { "type": "suffix", "form": "-or", "meaning": "one that does" }
+        {
+          "type": "prefix",
+          "form": "dis-",
+          "meaning": "tách rời, không"
+        },
+        {
+          "type": "suffix",
+          "form": "-ion",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ed",
+          "meaning": "trong trạng thái"
+        },
+        {
+          "type": "suffix",
+          "form": "-or",
+          "meaning": "thứ thực hiện chức năng"
+        }
       ]
     },
     {
@@ -1192,19 +3703,68 @@
       "etymology": "Greek: organon (instrument, tool)",
       "cefr": "A2",
       "category": "common",
-      "tags": ["management", "planning"],
+      "tags": [
+        "management",
+        "planning"
+      ],
       "forms": [
-        { "word": "organize", "pos": "verb", "definition": "To arrange in a systematic way", "example": "Organize your desk to work better.", "frequency": "very-common" },
-        { "word": "organization", "pos": "noun", "definition": "A group with a common purpose; orderly arrangement", "example": "She works for a non-profit organization.", "frequency": "very-common" },
-        { "word": "organizational", "pos": "adjective", "definition": "Relating to an organization", "example": "Organizational skills are valued.", "frequency": "common" },
-        { "word": "organizer", "pos": "noun", "definition": "A person who organizes", "example": "The event organizer did a great job.", "frequency": "common" },
-        { "word": "disorganized", "pos": "adjective", "definition": "Not well organized", "example": "A disorganized workspace slows you down.", "frequency": "common" }
+        {
+          "word": "organize",
+          "pos": "verb",
+          "definition": "Sắp xếp các thứ theo cách có hệ thống và trật tự",
+          "example": "Organize your desk to work better.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "organization",
+          "pos": "noun",
+          "definition": "Nhóm người có mục đích chung hoặc sự sắp xếp có trật tự",
+          "example": "She works for a non-profit organization.",
+          "frequency": "very-common"
+        },
+        {
+          "word": "organizational",
+          "pos": "adjective",
+          "definition": "Liên quan đến cách tổ chức và quản lý",
+          "example": "Organizational skills are valued.",
+          "frequency": "common"
+        },
+        {
+          "word": "organizer",
+          "pos": "noun",
+          "definition": "Người lập kế hoạch và điều phối sự kiện hoặc hoạt động",
+          "example": "The event organizer did a great job.",
+          "frequency": "common"
+        },
+        {
+          "word": "disorganized",
+          "pos": "adjective",
+          "definition": "Không được sắp xếp gọn gàng; lộn xộn",
+          "example": "A disorganized workspace slows you down.",
+          "frequency": "common"
+        }
       ],
       "affixes": [
-        { "type": "prefix", "form": "dis-", "meaning": "apart, not" },
-        { "type": "suffix", "form": "-ation", "meaning": "act or result" },
-        { "type": "suffix", "form": "-ational", "meaning": "relating to" },
-        { "type": "suffix", "form": "-er", "meaning": "one who does" }
+        {
+          "type": "prefix",
+          "form": "dis-",
+          "meaning": "tách rời, không"
+        },
+        {
+          "type": "suffix",
+          "form": "-ation",
+          "meaning": "hành động hoặc kết quả"
+        },
+        {
+          "type": "suffix",
+          "form": "-ational",
+          "meaning": "liên quan đến"
+        },
+        {
+          "type": "suffix",
+          "form": "-er",
+          "meaning": "người thực hiện"
+        }
       ]
     }
   ]

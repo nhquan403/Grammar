@@ -6,7 +6,7 @@ export interface WordForm {
   word: string
   pos: PartOfSpeech
   definition: string
-  example: string
+  example?: string  // optional — user-added words may omit examples
   frequency: 'very-common' | 'common' | 'less-common' | 'rare'
 }
 
@@ -25,6 +25,7 @@ export interface WordFamily {
   cefr: CefrLevel
   category: WordCategory
   tags: string[]
+  isCustom?: boolean  // true = user-added; undefined/false = built-in (read-only)
 }
 
 export interface ReviewStats {

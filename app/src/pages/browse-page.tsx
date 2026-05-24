@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import { AppHeader } from '@/components/layout/app-header'
 import { WordSearchInput } from '@/components/word/word-search-input'
 import { CefrFilterChips } from '@/components/word/cefr-filter-chips'
@@ -5,6 +6,7 @@ import { WordFamilyCard } from '@/components/word/word-family-card'
 import { useWordSearch } from '@/hooks/use-word-search'
 
 export function BrowsePage() {
+  const navigate = useNavigate()
   const { results, filters, isLoading, setQuery, setCefr, setCategory } = useWordSearch()
 
   return (
@@ -39,6 +41,23 @@ export function BrowsePage() {
           onCategoryChange={setCategory}
         />
       </div>
+
+      {/* FAB: Add new word */}
+      <button
+        onClick={() => navigate('/word/add')}
+        aria-label="Thêm từ mới"
+        style={{
+          position: 'fixed', bottom: 80, right: 20, zIndex: 50,
+          width: 52, height: 52, borderRadius: 26,
+          background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
+          color: 'white', border: 'none', cursor: 'pointer',
+          boxShadow: '0 4px 20px rgba(99,102,241,0.45)',
+          fontSize: 26, display: 'flex', alignItems: 'center', justifyContent: 'center',
+          touchAction: 'manipulation',
+        }}
+      >
+        +
+      </button>
 
       {/* Word list */}
       <div style={{ flex: 1, overflowY: 'auto' }}>

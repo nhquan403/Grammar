@@ -53,6 +53,11 @@ export function WordFamilyCard({ family }: Props) {
           <span style={{ fontSize: 10, fontWeight: 700, padding: '2px 6px', borderRadius: 10, background: cefrStyle.bg, color: cefrStyle.text }}>
             {family.cefr}
           </span>
+          {family.isCustom && (
+            <span style={{ fontSize: 9, fontWeight: 700, padding: '2px 6px', borderRadius: 6, background: '#e0e7ff', color: '#4338ca' }}>
+              Của tôi
+            </span>
+          )}
           <span style={{ fontSize: 12, color: '#94a3b8' }}>
             {family.forms.length} forms
           </span>

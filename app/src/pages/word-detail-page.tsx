@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { ArrowLeft } from 'lucide-react'
+import { ArrowLeft, Pencil } from 'lucide-react'
 import { db } from '@/db/vocab-database'
+import { deleteCustomWordFamily } from '@/services/custom-word-family-service'
 import { FlashcardWordFamilyDisplay } from '@/components/flashcard/flashcard-word-family-display'
 
 const CEFR_STYLES: Record<string, { bg: string; text: string }> = {
@@ -24,10 +25,23 @@ export function WordDetailPage() {
     )
   }
 
+  const isCustom = family.isCustom === true
   const cefrStyle = CEFR_STYLES[family.cefr] ?? { bg: '#f1f5f9', text: '#475569' }
   const nextReview = stats?.nextReviewDate
     ? new Date(stats.nextReviewDate).toLocaleDateString('vi-VN')
     : 'Chưa học'
+
+  const handleDelete = async () => {
+    if (!familyId) return
+    const ok = window.confirm(`Xóa "${family.rootWord}"? Hành động không thể hoàn tác.`)
+    if (!ok) return
+    try {
+      await deleteCustomWordFamily(familyId)
+      navigate('/browse')
+    } catch (err) {
+      window.alert('Lỗi khi xóa: ' + (err instanceof Error ? err.message : 'Vui lòng thử lại'))
+    }
+  }
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100%' }}>
@@ -50,6 +64,15 @@ export function WordDetailPage() {
         <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 8px', borderRadius: 10, background: cefrStyle.bg, color: cefrStyle.text }}>
           {family.cefr}
         </span>
+        {isCustom && (
+          <button
+            onClick={() => navigate(`/word/edit/${familyId}`)}
+            style={{ minWidth: 36, minHeight: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#eef2ff', border: 'none', borderRadius: 10, cursor: 'pointer', color: '#6366f1' }}
+            aria-label="Sửa từ"
+          >
+            <Pencil size={16} />
+          </button>
+        )}
       </div>
 
       <div style={{ flex: 1, padding: 16, display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -73,6 +96,22 @@ export function WordDetailPage() {
         <div style={{ background: 'white', borderRadius: 16, padding: 16, border: '1px solid #e2e8f0' }}>
           <FlashcardWordFamilyDisplay family={family} />
         </div>
+
+        {/* Delete button — custom words only */}
+        {isCustom && (
+          <button
+            onClick={handleDelete}
+            style={{
+              padding: '12px', borderRadius: 14, border: '1px solid #fecaca',
+              background: '#fff5f5', color: '#ef4444', fontWeight: 600, fontSize: 14,
+              cursor: 'pointer', touchAction: 'manipulation', width: '100%',
+            }}
+          >
+            🗑️ Xóa từ này
+          </button>
+        )}
+
+        <div style={{ height: 8 }} />
       </div>
     </div>
   )

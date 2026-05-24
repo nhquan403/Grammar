@@ -5,6 +5,7 @@ import { HomePage } from '@/pages/home-page'
 import { StudyPage } from '@/pages/study-page'
 import { BrowsePage } from '@/pages/browse-page'
 import { WordDetailPage } from '@/pages/word-detail-page'
+import { WordFamilyFormPage } from '@/pages/word-family-form-page'
 import { StatsPage } from '@/pages/stats-page'
 import { useDarkMode } from '@/hooks/use-dark-mode'
 import { usePwaInstallPrompt } from '@/hooks/use-pwa-install-prompt'
@@ -32,6 +33,9 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/study" element={<StudyPage />} />
             <Route path="/browse" element={<BrowsePage />} />
+            {/* /word/add and /word/edit/:familyId MUST be declared before /word/:familyId */}
+            <Route path="/word/add" element={<WordFamilyFormPage />} />
+            <Route path="/word/edit/:familyId" element={<WordFamilyFormPage />} />
             <Route path="/word/:familyId" element={<WordDetailPage />} />
             <Route path="/stats" element={<StatsPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />

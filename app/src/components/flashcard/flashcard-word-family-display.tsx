@@ -66,9 +66,11 @@ export function FlashcardWordFamilyDisplay({ family }: Props) {
                           — {form.definition}
                         </span>
                       </div>
-                      <p style={{ fontSize: 12, color: '#94a3b8', fontStyle: 'italic', marginTop: 2 }}>
-                        "{form.example}"
-                      </p>
+                      {form.example && (
+                        <p style={{ fontSize: 12, color: '#94a3b8', fontStyle: 'italic', marginTop: 2 }}>
+                          "{form.example}"
+                        </p>
+                      )}
                     </div>
                   ))}
                 </div>
