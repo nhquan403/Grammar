@@ -7,6 +7,7 @@ import { BrowsePage } from '@/pages/browse-page'
 import { WordDetailPage } from '@/pages/word-detail-page'
 import { WordFamilyFormPage } from '@/pages/word-family-form-page'
 import { StatsPage } from '@/pages/stats-page'
+import { QuizPage } from '@/pages/quiz-page'
 import { useDarkMode } from '@/hooks/use-dark-mode'
 import { usePwaInstallPrompt } from '@/hooks/use-pwa-install-prompt'
 
@@ -37,6 +38,7 @@ export default function App() {
             <Route path="/word/add" element={<WordFamilyFormPage />} />
             <Route path="/word/edit/:familyId" element={<WordFamilyFormPage />} />
             <Route path="/word/:familyId" element={<WordDetailPage />} />
+            <Route path="/quiz" element={<QuizPage />} />
             <Route path="/stats" element={<StatsPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

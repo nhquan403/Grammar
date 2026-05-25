@@ -1,13 +1,14 @@
 import { NavLink } from 'react-router-dom'
-import { Home, BookOpen, Search, BarChart2 } from 'lucide-react'
+import { Home, BookOpen, Search, BarChart2, PenLine } from 'lucide-react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { getDueCount } from '@/services/review-schedule-service'
 
 const NAV_ITEMS = [
-  { to: '/', icon: Home, label: 'Home' },
-  { to: '/study', icon: BookOpen, label: 'Study' },
-  { to: '/browse', icon: Search, label: 'Browse' },
-  { to: '/stats', icon: BarChart2, label: 'Stats' }
+  { to: '/',       icon: Home,      label: 'Home'  },
+  { to: '/study',  icon: BookOpen,  label: 'Study' },
+  { to: '/quiz',   icon: PenLine,   label: 'Quiz'  },
+  { to: '/browse', icon: Search,    label: 'Browse'},
+  { to: '/stats',  icon: BarChart2, label: 'Stats' },
 ] as const
 
 export function MobileBottomNav() {
@@ -39,12 +40,12 @@ export function MobileBottomNav() {
             `flex flex-col items-center justify-center gap-0.5 rounded-xl px-3 transition-colors
              ${isActive ? 'text-indigo-600' : 'text-slate-400'}`
           }
-          style={{ minWidth: 48, minHeight: 48 }}
+          style={{ minWidth: 40, minHeight: 44 }}
         >
           {({ isActive }) => (
             <>
               <div className="relative">
-                <Icon size={22} strokeWidth={isActive ? 2.5 : 1.8} />
+                <Icon size={20} strokeWidth={isActive ? 2.5 : 1.8} />
                 {label === 'Study' && dueCount > 0 && (
                   <span
                     className="absolute flex items-center justify-center bg-red-500 text-white font-bold"
