@@ -1,5 +1,6 @@
 import { db } from '@/db/vocab-database'
 import type { WordFamily } from '@/types/vocab-types'
+import { SEED_WORD_FAMILIES } from '@/data/seed-word-families'
 
 // Generate unique ID from rootWord + timestamp to avoid collisions
 export function generateFamilyId(rootWord: string): string {
@@ -58,6 +59,40 @@ export async function deleteCustomWordFamily(id: string): Promise<void> {
     await db.wordFamilies.delete(id)
     await db.reviewStats.delete(id)
   })
+}
+
+// Bulk-import seed word families from the bundled dataset.
+// Idempotent: skips families whose ID already exists in the DB.
+// Returns the count of newly imported families.
+export async function importSeedWordFamilies(): Promise<number> {
+  const now = Date.now()
+  let imported = 0
+
+  // Check which IDs already exist to avoid duplicates
+  const existingIds = new Set(await db.wordFamilies.toCollection().primaryKeys() as string[])
+  const newFamilies = SEED_WORD_FAMILIES.filter(f => !existingIds.has(f.id))
+
+  if (newFamilies.length === 0) return 0
+
+  await db.transaction('rw', [db.wordFamilies, db.reviewStats], async () => {
+    await db.wordFamilies.bulkAdd(newFamilies)
+    await db.reviewStats.bulkAdd(
+      newFamilies.map(f => ({
+        familyId: f.id,
+        easeFactor: 2.5,
+        interval: 0,
+        repetitions: 0,
+        lastReviewDate: 0,
+        nextReviewDate: now,  // due immediately
+        correctCount: 0,
+        wrongCount: 0,
+        addedAt: now,
+      }))
+    )
+    imported = newFamilies.length
+  })
+
+  return imported
 }
 
 // Auto-translate English text to Vietnamese via MyMemory API (free, no key needed)

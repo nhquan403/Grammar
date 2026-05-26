@@ -1,0 +1,6710 @@
+[
+  {
+    "rootWord": "resolve",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "formal",
+      "decision"
+    ],
+    "forms": [
+      {
+        "word": "resolve",
+        "pos": "verb",
+        "definition": "giải quyết",
+        "frequency": "common"
+      },
+      {
+        "word": "resolve",
+        "pos": "noun",
+        "definition": "sự quyết định",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-resolve-001",
+    "isCustom": true
+  },
+  {
+    "rootWord": "abide",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "formal",
+      "rules"
+    ],
+    "forms": [
+      {
+        "word": "abide by",
+        "pos": "verb",
+        "definition": "tuân theo",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-abide-002",
+    "isCustom": true
+  },
+  {
+    "rootWord": "consume",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "economy",
+      "product"
+    ],
+    "forms": [
+      {
+        "word": "consume",
+        "pos": "verb",
+        "definition": "tiêu thụ",
+        "frequency": "common"
+      },
+      {
+        "word": "consumer",
+        "pos": "noun",
+        "definition": "khách hàng",
+        "frequency": "common"
+      },
+      {
+        "word": "consumable",
+        "pos": "adjective",
+        "definition": "có thể tiêu thụ được",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người/vật thực hiện hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-consume-003",
+    "isCustom": true
+  },
+  {
+    "rootWord": "engage",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "participation",
+      "activity"
+    ],
+    "forms": [
+      {
+        "word": "engage",
+        "pos": "verb",
+        "definition": "tham gia",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-engage-004",
+    "isCustom": true
+  },
+  {
+    "rootWord": "establish",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "organization",
+      "formal"
+    ],
+    "forms": [
+      {
+        "word": "establish",
+        "pos": "verb",
+        "definition": "thành lập",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-establish-005",
+    "isCustom": true
+  },
+  {
+    "rootWord": "cancel",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "event",
+      "booking"
+    ],
+    "forms": [
+      {
+        "word": "cancellation",
+        "pos": "noun",
+        "definition": "sự hủy bỏ",
+        "frequency": "common"
+      },
+      {
+        "word": "cancel",
+        "pos": "verb",
+        "definition": "hủy bỏ, bãi bỏ",
+        "frequency": "common"
+      },
+      {
+        "word": "canceled",
+        "pos": "adjective",
+        "definition": "(cái gì đó) đã bị hủy bỏ",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã bị, có tính chất"
+      }
+    ],
+    "id": "seed-cancel-006",
+    "isCustom": true
+  },
+  {
+    "rootWord": "party",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "legal",
+      "group"
+    ],
+    "forms": [
+      {
+        "word": "party",
+        "pos": "noun",
+        "definition": "(luật) bên, người tham gia",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-party-007",
+    "isCustom": true
+  },
+  {
+    "rootWord": "inspire",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "creativity",
+      "emotion"
+    ],
+    "forms": [
+      {
+        "word": "inspiration",
+        "pos": "noun",
+        "definition": "sự truyền cảm hứng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-inspire-008",
+    "isCustom": true
+  },
+  {
+    "rootWord": "persuade",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "communication",
+      "influence"
+    ],
+    "forms": [
+      {
+        "word": "persuasion",
+        "pos": "noun",
+        "definition": "sự thuyết phục",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-sion",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-persuade-009",
+    "isCustom": true
+  },
+  {
+    "rootWord": "satisfy",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "emotion",
+      "quality"
+    ],
+    "forms": [
+      {
+        "word": "satisfaction",
+        "pos": "noun",
+        "definition": "sự hài lòng",
+        "frequency": "common"
+      },
+      {
+        "word": "satisfy",
+        "pos": "verb",
+        "definition": "làm hài lòng",
+        "frequency": "common"
+      },
+      {
+        "word": "satisfactory",
+        "pos": "adjective",
+        "definition": "thỏa đáng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-satisfy-010",
+    "isCustom": true
+  },
+  {
+    "rootWord": "produce",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "work",
+      "daily",
+      "efficiency"
+    ],
+    "forms": [
+      {
+        "word": "productive",
+        "pos": "adjective",
+        "definition": "có hiệu quả",
+        "frequency": "common"
+      },
+      {
+        "word": "product",
+        "pos": "noun",
+        "definition": "sản phẩm",
+        "frequency": "very-common"
+      },
+      {
+        "word": "produce",
+        "pos": "verb",
+        "definition": "sản xuất",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ive",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-produce-011",
+    "isCustom": true
+  },
+  {
+    "rootWord": "current",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "time"
+    ],
+    "forms": [
+      {
+        "word": "currently",
+        "pos": "adverb",
+        "definition": "hiện tại",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-current-012",
+    "isCustom": true
+  },
+  {
+    "rootWord": "attract",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "appeal",
+      "marketing"
+    ],
+    "forms": [
+      {
+        "word": "attract",
+        "pos": "verb",
+        "definition": "thu hút",
+        "frequency": "common"
+      },
+      {
+        "word": "attraction",
+        "pos": "noun",
+        "definition": "sức hút",
+        "frequency": "common"
+      },
+      {
+        "word": "attractive",
+        "pos": "adjective",
+        "definition": "hấp dẫn",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ive",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-attract-013",
+    "isCustom": true
+  },
+  {
+    "rootWord": "compare",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "analysis",
+      "data"
+    ],
+    "forms": [
+      {
+        "word": "compare",
+        "pos": "verb",
+        "definition": "so sánh",
+        "frequency": "common"
+      },
+      {
+        "word": "comparison",
+        "pos": "noun",
+        "definition": "sự so sánh",
+        "frequency": "common"
+      },
+      {
+        "word": "comparable",
+        "pos": "adjective",
+        "definition": "có thể so sánh",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ison",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-compare-014",
+    "isCustom": true
+  },
+  {
+    "rootWord": "compete",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "market",
+      "sport"
+    ],
+    "forms": [
+      {
+        "word": "compete",
+        "pos": "verb",
+        "definition": "cạnh tranh",
+        "frequency": "common"
+      },
+      {
+        "word": "competition",
+        "pos": "noun",
+        "definition": "cuộc đua, cuộc thi",
+        "frequency": "common"
+      },
+      {
+        "word": "competitive",
+        "pos": "adjective",
+        "definition": "cạnh tranh",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ition",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-itive",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-compete-015",
+    "isCustom": true
+  },
+  {
+    "rootWord": "market",
+    "cefr": "B1",
+    "category": "business",
+    "tags": [
+      "sales",
+      "product"
+    ],
+    "forms": [
+      {
+        "word": "market",
+        "pos": "verb",
+        "definition": "tiếp thị, quảng cáo",
+        "frequency": "common"
+      },
+      {
+        "word": "marketing",
+        "pos": "noun",
+        "definition": "sự tiếp thị",
+        "frequency": "common"
+      },
+      {
+        "word": "marketable",
+        "pos": "adjective",
+        "definition": "có thể bán được trên thị trường",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-market-016",
+    "isCustom": true
+  },
+  {
+    "rootWord": "agree",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "opinion",
+      "contract"
+    ],
+    "forms": [
+      {
+        "word": "agree",
+        "pos": "verb",
+        "definition": "đồng ý",
+        "frequency": "very-common"
+      },
+      {
+        "word": "agreement",
+        "pos": "noun",
+        "definition": "hợp đồng, thỏa thuận",
+        "frequency": "common"
+      },
+      {
+        "word": "agreeable",
+        "pos": "adjective",
+        "definition": "vừa ý, thân thành",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-agree-017",
+    "isCustom": true
+  },
+  {
+    "rootWord": "assure",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "guarantee",
+      "certainty"
+    ],
+    "forms": [
+      {
+        "word": "assure",
+        "pos": "verb",
+        "definition": "bảo đảm, cam đoan",
+        "frequency": "common"
+      },
+      {
+        "word": "assurance",
+        "pos": "noun",
+        "definition": "sự cam đoan",
+        "frequency": "common"
+      },
+      {
+        "word": "assuredly",
+        "pos": "adverb",
+        "definition": "một cách chắc chắn",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-assure-018",
+    "isCustom": true
+  },
+  {
+    "rootWord": "obligate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "legal",
+      "duty"
+    ],
+    "forms": [
+      {
+        "word": "obligate",
+        "pos": "verb",
+        "definition": "bắt buộc",
+        "frequency": "less-common"
+      },
+      {
+        "word": "obligation",
+        "pos": "noun",
+        "definition": "sự bắt buộc",
+        "frequency": "common"
+      },
+      {
+        "word": "obligatory",
+        "pos": "adjective",
+        "definition": "bắt buộc (tính từ)",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-obligate-019",
+    "isCustom": true
+  },
+  {
+    "rootWord": "provide",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "supply",
+      "daily",
+      "service",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "provide",
+        "pos": "verb",
+        "definition": "cung cấp",
+        "frequency": "common"
+      },
+      {
+        "word": "provider",
+        "pos": "noun",
+        "definition": "nguồn cung cấp, người cung cấp",
+        "frequency": "common"
+      },
+      {
+        "word": "provision",
+        "pos": "noun",
+        "definition": "sự cung cấp",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người/vật thực hiện hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ion",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-provide-020",
+    "isCustom": true
+  },
+  {
+    "rootWord": "specify",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "details",
+      "technical"
+    ],
+    "forms": [
+      {
+        "word": "specify",
+        "pos": "verb",
+        "definition": "làm rõ",
+        "frequency": "common"
+      },
+      {
+        "word": "specification",
+        "pos": "noun",
+        "definition": "sự làm rõ, sự chỉ rõ",
+        "frequency": "common"
+      },
+      {
+        "word": "specific",
+        "pos": "adjective",
+        "definition": "cụ thể, rõ ràng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ic",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-specify-021",
+    "isCustom": true
+  },
+  {
+    "rootWord": "promise",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "commitment",
+      "agreement"
+    ],
+    "forms": [
+      {
+        "word": "promise",
+        "pos": "verb",
+        "definition": "hứa",
+        "frequency": "very-common"
+      },
+      {
+        "word": "promise",
+        "pos": "noun",
+        "definition": "lời cam kết, lời hứa",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-promise-022",
+    "isCustom": true
+  },
+  {
+    "rootWord": "offer",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "proposal",
+      "sales"
+    ],
+    "forms": [
+      {
+        "word": "offer",
+        "pos": "verb",
+        "definition": "đề nghị",
+        "frequency": "very-common"
+      },
+      {
+        "word": "offer",
+        "pos": "noun",
+        "definition": "lời đề nghị/bản đề nghị",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-offer-023",
+    "isCustom": true
+  },
+  {
+    "rootWord": "cover",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "finance",
+      "insurance"
+    ],
+    "forms": [
+      {
+        "word": "cover",
+        "pos": "verb",
+        "definition": "bao gồm (chi phí)",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-cover-024",
+    "isCustom": true
+  },
+  {
+    "rootWord": "imply",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "communication",
+      "inference"
+    ],
+    "forms": [
+      {
+        "word": "imply",
+        "pos": "verb",
+        "definition": "ngụ ý",
+        "frequency": "common"
+      },
+      {
+        "word": "implication",
+        "pos": "noun",
+        "definition": "hàm ý",
+        "frequency": "common"
+      },
+      {
+        "word": "implicit",
+        "pos": "adjective",
+        "definition": "có ngụ ý, ngầm",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-it",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-imply-025",
+    "isCustom": true
+  },
+  {
+    "rootWord": "character",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "description",
+      "feature"
+    ],
+    "forms": [
+      {
+        "word": "characteristic",
+        "pos": "noun",
+        "definition": "đặc điểm/tính cách",
+        "frequency": "common"
+      },
+      {
+        "word": "characteristic",
+        "pos": "adjective",
+        "definition": "đặc trưng, cá tính",
+        "frequency": "common"
+      },
+      {
+        "word": "characterize",
+        "pos": "verb",
+        "definition": "đặc trưng hóa",
+        "frequency": "common"
+      },
+      {
+        "word": "characteristically",
+        "pos": "adverb",
+        "definition": "một cách đặc trưng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-istic",
+        "meaning": "có tính chất"
+      },
+      {
+        "type": "suffix",
+        "form": "-ize",
+        "meaning": "làm cho"
+      },
+      {
+        "type": "suffix",
+        "form": "-ally",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-character-026",
+    "isCustom": true
+  },
+  {
+    "rootWord": "consequence",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "result",
+      "impact"
+    ],
+    "forms": [
+      {
+        "word": "consequence",
+        "pos": "noun",
+        "definition": "hậu quả",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-consequence-027",
+    "isCustom": true
+  },
+  {
+    "rootWord": "expire",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "time",
+      "deadline"
+    ],
+    "forms": [
+      {
+        "word": "expiration",
+        "pos": "noun",
+        "definition": "sự hết hạn",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-expire-028",
+    "isCustom": true
+  },
+  {
+    "rootWord": "substitute",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "change",
+      "replacement"
+    ],
+    "forms": [
+      {
+        "word": "substitution",
+        "pos": "noun",
+        "definition": "sự thay thế",
+        "frequency": "common"
+      },
+      {
+        "word": "substitute",
+        "pos": "verb",
+        "definition": "thay thế",
+        "frequency": "common"
+      },
+      {
+        "word": "substitutive",
+        "pos": "adjective",
+        "definition": "có thể thay thế",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ive",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-substitute-029",
+    "isCustom": true
+  },
+  {
+    "rootWord": "vary",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "diversity",
+      "choice"
+    ],
+    "forms": [
+      {
+        "word": "variety",
+        "pos": "noun",
+        "definition": "đa dạng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-vary-030",
+    "isCustom": true
+  },
+  {
+    "rootWord": "strong",
+    "cefr": "A1",
+    "category": "common",
+    "tags": [
+      "physical",
+      "quality"
+    ],
+    "forms": [
+      {
+        "word": "strong",
+        "pos": "adjective",
+        "definition": "mạnh",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-strong-031",
+    "isCustom": true
+  },
+  {
+    "rootWord": "primary",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "emphasis",
+      "reason"
+    ],
+    "forms": [
+      {
+        "word": "primarily",
+        "pos": "adverb",
+        "definition": "chủ yếu, trước tiên",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-primary-032",
+    "isCustom": true
+  },
+  {
+    "rootWord": "consider",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "thought",
+      "amount"
+    ],
+    "forms": [
+      {
+        "word": "consider",
+        "pos": "verb",
+        "definition": "xem xét",
+        "frequency": "common"
+      },
+      {
+        "word": "consideration",
+        "pos": "noun",
+        "definition": "sự xem xét",
+        "frequency": "common"
+      },
+      {
+        "word": "considerable",
+        "pos": "adjective",
+        "definition": "đáng kể",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-consider-033",
+    "isCustom": true
+  },
+  {
+    "rootWord": "protect",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "safety",
+      "security"
+    ],
+    "forms": [
+      {
+        "word": "protect",
+        "pos": "verb",
+        "definition": "bảo vệ",
+        "frequency": "common"
+      },
+      {
+        "word": "protection",
+        "pos": "noun",
+        "definition": "sự bảo vệ",
+        "frequency": "common"
+      },
+      {
+        "word": "protective",
+        "pos": "adjective",
+        "definition": "mang tính bảo vệ",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ive",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-protect-034",
+    "isCustom": true
+  },
+  {
+    "rootWord": "repute",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "image",
+      "trust"
+    ],
+    "forms": [
+      {
+        "word": "reputation",
+        "pos": "noun",
+        "definition": "danh tiếng",
+        "frequency": "common"
+      },
+      {
+        "word": "reputable",
+        "pos": "adjective",
+        "definition": "có uy tín",
+        "frequency": "common"
+      },
+      {
+        "word": "reputed",
+        "pos": "adjective",
+        "definition": "có tiếng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "có"
+      }
+    ],
+    "id": "seed-repute-035",
+    "isCustom": true
+  },
+  {
+    "rootWord": "require",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "necessity",
+      "condition"
+    ],
+    "forms": [
+      {
+        "word": "require",
+        "pos": "verb",
+        "definition": "yêu cầu",
+        "frequency": "common"
+      },
+      {
+        "word": "requirement",
+        "pos": "noun",
+        "definition": "yêu cầu",
+        "frequency": "common"
+      },
+      {
+        "word": "requisite",
+        "pos": "adjective",
+        "definition": "cần thiết",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ite",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-require-036",
+    "isCustom": true
+  },
+  {
+    "rootWord": "avoid",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "danger",
+      "action"
+    ],
+    "forms": [
+      {
+        "word": "avoid",
+        "pos": "verb",
+        "definition": "tránh xa né",
+        "frequency": "common"
+      },
+      {
+        "word": "avoidance",
+        "pos": "noun",
+        "definition": "sự tránh né",
+        "frequency": "common"
+      },
+      {
+        "word": "avoided",
+        "pos": "adjective",
+        "definition": "tránh",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã bị, có tính chất"
+      }
+    ],
+    "id": "seed-avoid-037",
+    "isCustom": true
+  },
+  {
+    "rootWord": "demonstrate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "proof",
+      "presentation"
+    ],
+    "forms": [
+      {
+        "word": "demonstrate",
+        "pos": "verb",
+        "definition": "chứng minh, trình bày",
+        "frequency": "common"
+      },
+      {
+        "word": "demonstration",
+        "pos": "noun",
+        "definition": "sự trình bày",
+        "frequency": "common"
+      },
+      {
+        "word": "demonstrative",
+        "pos": "adjective",
+        "definition": "minh chứng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ative",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-demonstrate-038",
+    "isCustom": true
+  },
+  {
+    "rootWord": "develop",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "growth",
+      "technology"
+    ],
+    "forms": [
+      {
+        "word": "develop",
+        "pos": "verb",
+        "definition": "phát triển, xây dựng",
+        "frequency": "common"
+      },
+      {
+        "word": "development",
+        "pos": "noun",
+        "definition": "sự phát triển",
+        "frequency": "common"
+      },
+      {
+        "word": "developer",
+        "pos": "noun",
+        "definition": "người phát triển",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện hành động"
+      }
+    ],
+    "id": "seed-develop-039",
+    "isCustom": true
+  },
+  {
+    "rootWord": "evaluate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "assessment",
+      "quality"
+    ],
+    "forms": [
+      {
+        "word": "evaluate",
+        "pos": "verb",
+        "definition": "đánh giá",
+        "frequency": "common"
+      },
+      {
+        "word": "evaluation",
+        "pos": "noun",
+        "definition": "sự đánh giá",
+        "frequency": "common"
+      },
+      {
+        "word": "evaluator",
+        "pos": "noun",
+        "definition": "người đánh giá",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-or",
+        "meaning": "người thực hiện hành động"
+      }
+    ],
+    "id": "seed-evaluate-040",
+    "isCustom": true
+  },
+  {
+    "rootWord": "strategy",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "planning",
+      "management"
+    ],
+    "forms": [
+      {
+        "word": "strategize",
+        "pos": "verb",
+        "definition": "lập chiến lược, chiến lược hóa",
+        "frequency": "less-common"
+      },
+      {
+        "word": "strategy",
+        "pos": "noun",
+        "definition": "chiến lược",
+        "frequency": "common"
+      },
+      {
+        "word": "strategic",
+        "pos": "adjective",
+        "definition": "mang tính chiến lược",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ize",
+        "meaning": "làm cho"
+      },
+      {
+        "type": "suffix",
+        "form": "-ic",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-strategy-041",
+    "isCustom": true
+  },
+  {
+    "rootWord": "touch",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "communication"
+    ],
+    "forms": [
+      {
+        "word": "get in touch",
+        "pos": "verb",
+        "definition": "liên hệ, liên lạc",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-touch-042",
+    "isCustom": true
+  },
+  {
+    "rootWord": "hold",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "event",
+      "meeting"
+    ],
+    "forms": [
+      {
+        "word": "hold",
+        "pos": "verb",
+        "definition": "tổ chức",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-hold-043",
+    "isCustom": true
+  },
+  {
+    "rootWord": "locate",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "place",
+      "geography"
+    ],
+    "forms": [
+      {
+        "word": "location",
+        "pos": "noun",
+        "definition": "địa điểm",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-locate-044",
+    "isCustom": true
+  },
+  {
+    "rootWord": "crowd",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "population",
+      "space"
+    ],
+    "forms": [
+      {
+        "word": "overcrowded",
+        "pos": "adjective",
+        "definition": "đông, đông đúc",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "prefix",
+        "form": "over-",
+        "meaning": "quá mức"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-crowd-045",
+    "isCustom": true
+  },
+  {
+    "rootWord": "select",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "choice",
+      "data"
+    ],
+    "forms": [
+      {
+        "word": "select",
+        "pos": "verb",
+        "definition": "chọn, lựa chọn",
+        "frequency": "common"
+      },
+      {
+        "word": "selection",
+        "pos": "noun",
+        "definition": "sự lựa chọn",
+        "frequency": "common"
+      },
+      {
+        "word": "selective",
+        "pos": "adjective",
+        "definition": "có chọn lọc",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ive",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-select-046",
+    "isCustom": true
+  },
+  {
+    "rootWord": "session",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "meeting",
+      "period"
+    ],
+    "forms": [
+      {
+        "word": "session",
+        "pos": "noun",
+        "definition": "phiên; buổi; buổi họp",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-session-047",
+    "isCustom": true
+  },
+  {
+    "rootWord": "part",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "participation"
+    ],
+    "forms": [
+      {
+        "word": "take part in",
+        "pos": "verb",
+        "definition": "tham gia vào",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-part-048",
+    "isCustom": true
+  },
+  {
+    "rootWord": "access",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "data",
+      "entry"
+    ],
+    "forms": [
+      {
+        "word": "access",
+        "pos": "verb",
+        "definition": "truy cập, kết nối",
+        "frequency": "common"
+      },
+      {
+        "word": "access",
+        "pos": "noun",
+        "definition": "truy cập, kết nối",
+        "frequency": "common"
+      },
+      {
+        "word": "accessible",
+        "pos": "adjective",
+        "definition": "có thể truy cập",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ible",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-access-049",
+    "isCustom": true
+  },
+  {
+    "rootWord": "delete",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "computer",
+      "remove"
+    ],
+    "forms": [
+      {
+        "word": "delete",
+        "pos": "verb",
+        "definition": "xóa",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-delete-050",
+    "isCustom": true
+  },
+  {
+    "rootWord": "display",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "screen",
+      "show"
+    ],
+    "forms": [
+      {
+        "word": "display",
+        "pos": "verb",
+        "definition": "hiển thị, trình bày",
+        "frequency": "common"
+      },
+      {
+        "word": "display",
+        "pos": "noun",
+        "definition": "hiển thị, trình bày",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-display-051",
+    "isCustom": true
+  },
+  {
+    "rootWord": "figure",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "problem-solving",
+      "understanding"
+    ],
+    "forms": [
+      {
+        "word": "figure out",
+        "pos": "verb",
+        "definition": "tìm ra, hiểu ra",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-figure-052",
+    "isCustom": true
+  },
+  {
+    "rootWord": "search",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "information",
+      "investigation"
+    ],
+    "forms": [
+      {
+        "word": "search",
+        "pos": "verb",
+        "definition": "tìm kiếm",
+        "frequency": "very-common"
+      },
+      {
+        "word": "search",
+        "pos": "noun",
+        "definition": "cuộc điều tra",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-search-053",
+    "isCustom": true
+  },
+  {
+    "rootWord": "shut",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "computer",
+      "close"
+    ],
+    "forms": [
+      {
+        "word": "shut down",
+        "pos": "verb",
+        "definition": "tắt, đóng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-shut-054",
+    "isCustom": true
+  },
+  {
+    "rootWord": "warn",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "danger",
+      "alert"
+    ],
+    "forms": [
+      {
+        "word": "warning",
+        "pos": "noun",
+        "definition": "cảnh báo",
+        "frequency": "common"
+      },
+      {
+        "word": "warn",
+        "pos": "verb",
+        "definition": "cảnh báo",
+        "frequency": "common"
+      },
+      {
+        "word": "warning",
+        "pos": "adjective",
+        "definition": "mang tính cảnh báo",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "sự, hành động/có tính chất"
+      }
+    ],
+    "id": "seed-warn-055",
+    "isCustom": true
+  },
+  {
+    "rootWord": "accommodate",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "travel",
+      "service"
+    ],
+    "forms": [
+      {
+        "word": "accommodate",
+        "pos": "verb",
+        "definition": "đáp ứng, chu cấp",
+        "frequency": "common"
+      },
+      {
+        "word": "accommodation",
+        "pos": "noun",
+        "definition": "chỗ ở, nơi ở",
+        "frequency": "common"
+      },
+      {
+        "word": "accommodating",
+        "pos": "adjective",
+        "definition": "có khả năng đáp ứng, chu cấp",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-accommodate-056",
+    "isCustom": true
+  },
+  {
+    "rootWord": "arrange",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "planning",
+      "event"
+    ],
+    "forms": [
+      {
+        "word": "arrangement",
+        "pos": "noun",
+        "definition": "sự sắp xếp, kế hoạch",
+        "frequency": "common"
+      },
+      {
+        "word": "arrange",
+        "pos": "verb",
+        "definition": "sắp xếp",
+        "frequency": "common"
+      },
+      {
+        "word": "arranged",
+        "pos": "adjective",
+        "definition": "đã được sắp xếp",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được"
+      }
+    ],
+    "id": "seed-arrange-057",
+    "isCustom": true
+  },
+  {
+    "rootWord": "associate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "organization",
+      "connection"
+    ],
+    "forms": [
+      {
+        "word": "association",
+        "pos": "noun",
+        "definition": "tổ chức, hội, hiệp hội",
+        "frequency": "common"
+      },
+      {
+        "word": "associate",
+        "pos": "verb",
+        "definition": "có liên hệ với",
+        "frequency": "common"
+      },
+      {
+        "word": "associated",
+        "pos": "adjective",
+        "definition": "có liên hệ với",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "có liên quan"
+      }
+    ],
+    "id": "seed-associate-058",
+    "isCustom": true
+  },
+  {
+    "rootWord": "attend",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "event",
+      "meeting"
+    ],
+    "forms": [
+      {
+        "word": "attend",
+        "pos": "verb",
+        "definition": "tham gia, tham dự",
+        "frequency": "common"
+      },
+      {
+        "word": "attendee",
+        "pos": "noun",
+        "definition": "người tham dự",
+        "frequency": "common"
+      },
+      {
+        "word": "attendance",
+        "pos": "noun",
+        "definition": "sự tham dự",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ee",
+        "meaning": "người nhận/chịu"
+      },
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-attend-059",
+    "isCustom": true
+  },
+  {
+    "rootWord": "register",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "enrollment",
+      "event",
+      "general",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "register",
+        "pos": "verb",
+        "definition": "đăng ký",
+        "frequency": "common"
+      },
+      {
+        "word": "register",
+        "pos": "noun",
+        "definition": "sổ đăng ký",
+        "frequency": "common"
+      },
+      {
+        "word": "registration",
+        "pos": "noun",
+        "definition": "sự đăng ký",
+        "frequency": "common"
+      },
+      {
+        "word": "registered",
+        "pos": "adjective",
+        "definition": "đã đăng ký, được đăng ký",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được, có trạng thái"
+      }
+    ],
+    "id": "seed-register-060",
+    "isCustom": true
+  },
+  {
+    "rootWord": "allocate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "resources",
+      "management"
+    ],
+    "forms": [
+      {
+        "word": "allocate",
+        "pos": "verb",
+        "definition": "phân bổ",
+        "frequency": "common"
+      },
+      {
+        "word": "allocation",
+        "pos": "noun",
+        "definition": "sự phân bổ",
+        "frequency": "common"
+      },
+      {
+        "word": "allocated",
+        "pos": "adjective",
+        "definition": "được phân bổ",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "được"
+      }
+    ],
+    "id": "seed-allocate-061",
+    "isCustom": true
+  },
+  {
+    "rootWord": "duplicate",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "copy",
+      "data"
+    ],
+    "forms": [
+      {
+        "word": "duplicate",
+        "pos": "verb",
+        "definition": "sao chép",
+        "frequency": "common"
+      },
+      {
+        "word": "duplicate",
+        "pos": "noun",
+        "definition": "bản sao",
+        "frequency": "common"
+      },
+      {
+        "word": "duplication",
+        "pos": "noun",
+        "definition": "sự sao chép",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-duplicate-062",
+    "isCustom": true
+  },
+  {
+    "rootWord": "fail",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "mistake",
+      "error"
+    ],
+    "forms": [
+      {
+        "word": "failure",
+        "pos": "noun",
+        "definition": "sự thất bại",
+        "frequency": "common"
+      },
+      {
+        "word": "fail",
+        "pos": "verb",
+        "definition": "thất bại",
+        "frequency": "common"
+      },
+      {
+        "word": "fallible",
+        "pos": "adjective",
+        "definition": "có thể sai sót",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ure",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ible",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-fail-063",
+    "isCustom": true
+  },
+  {
+    "rootWord": "ignore",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "attention",
+      "knowledge"
+    ],
+    "forms": [
+      {
+        "word": "ignore",
+        "pos": "verb",
+        "definition": "phớt lờ",
+        "frequency": "common"
+      },
+      {
+        "word": "ignorance",
+        "pos": "noun",
+        "definition": "sự thiếu hiểu biết",
+        "frequency": "common"
+      },
+      {
+        "word": "ignored",
+        "pos": "adjective",
+        "definition": "phớt lờ",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "bị"
+      }
+    ],
+    "id": "seed-ignore-064",
+    "isCustom": true
+  },
+  {
+    "rootWord": "need",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "condition",
+      "flexibility"
+    ],
+    "forms": [
+      {
+        "word": "as needed",
+        "pos": "adverb",
+        "definition": "nếu / khi cần thiết",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-need-065",
+    "isCustom": true
+  },
+  {
+    "rootWord": "capacity",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "volume",
+      "ability"
+    ],
+    "forms": [
+      {
+        "word": "capacity",
+        "pos": "noun",
+        "definition": "sức chứa; công suất",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-capacity-066",
+    "isCustom": true
+  },
+  {
+    "rootWord": "endure",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "quality",
+      "product"
+    ],
+    "forms": [
+      {
+        "word": "durable",
+        "pos": "adjective",
+        "definition": "bền, lâu bền",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-endure-067",
+    "isCustom": true
+  },
+  {
+    "rootWord": "physical",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "body",
+      "health"
+    ],
+    "forms": [
+      {
+        "word": "physically",
+        "pos": "adverb",
+        "definition": "về thể chất / thể xác",
+        "frequency": "common"
+      },
+      {
+        "word": "physical",
+        "pos": "adjective",
+        "definition": "(thuộc) thể chất; (thuộc) thân thể",
+        "frequency": "very-common"
+      },
+      {
+        "word": "physique",
+        "pos": "noun",
+        "definition": "vóc dáng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ally",
+        "meaning": "một cách"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-physical-068",
+    "isCustom": true
+  },
+  {
+    "rootWord": "top",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "management",
+      "knowledge"
+    ],
+    "forms": [
+      {
+        "word": "stay on top of",
+        "pos": "verb",
+        "definition": "hiểu được / nắm được",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-top-069",
+    "isCustom": true
+  },
+  {
+    "rootWord": "stock",
+    "cefr": "B1",
+    "category": "business",
+    "tags": [
+      "inventory",
+      "supply"
+    ],
+    "forms": [
+      {
+        "word": "stock",
+        "pos": "noun",
+        "definition": "nguồn cung cấp",
+        "frequency": "common"
+      },
+      {
+        "word": "stock",
+        "pos": "verb",
+        "definition": "tích trữ, cất (hàng) trong kho",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-stock-070",
+    "isCustom": true
+  },
+  {
+    "rootWord": "make",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "material",
+      "composition"
+    ],
+    "forms": [
+      {
+        "word": "be made of",
+        "pos": "verb",
+        "definition": "làm từ",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-make-071",
+    "isCustom": true
+  },
+  {
+    "rootWord": "bring",
+    "cefr": "B1",
+    "category": "business",
+    "tags": [
+      "employment",
+      "recruitment"
+    ],
+    "forms": [
+      {
+        "word": "bring in",
+        "pos": "verb",
+        "definition": "thuê; tuyển dụng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-bring-072",
+    "isCustom": true
+  },
+  {
+    "rootWord": "glimpse",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "sight",
+      "brief"
+    ],
+    "forms": [
+      {
+        "word": "glimpse",
+        "pos": "noun",
+        "definition": "cái nhìn lướt qua",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-glimpse-073",
+    "isCustom": true
+  },
+  {
+    "rootWord": "code",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "programming",
+      "rules",
+      "technology",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "code",
+        "pos": "noun",
+        "definition": "quy tắc; mật mã",
+        "frequency": "common"
+      },
+      {
+        "word": "coded",
+        "pos": "adjective",
+        "definition": "được mã hóa",
+        "frequency": "common"
+      },
+      {
+        "word": "code",
+        "pos": "verb",
+        "definition": "mã hóa",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được, có tính chất"
+      }
+    ],
+    "id": "seed-code-074",
+    "isCustom": true
+  },
+  {
+    "rootWord": "out",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "lack",
+      "supply"
+    ],
+    "forms": [
+      {
+        "word": "out of",
+        "pos": "adjective",
+        "definition": "hết; thiếu",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-out-075",
+    "isCustom": true
+  },
+  {
+    "rootWord": "verbal",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "communication",
+      "spoken"
+    ],
+    "forms": [
+      {
+        "word": "verbally",
+        "pos": "adverb",
+        "definition": "bằng lời nói; bằng miệng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ally",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-verbal-076",
+    "isCustom": true
+  },
+  {
+    "rootWord": "afford",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "finance"
+    ],
+    "forms": [
+      {
+        "word": "affordable",
+        "pos": "adjective",
+        "definition": "giá cả phải chăng",
+        "frequency": "common"
+      },
+      {
+        "word": "afford",
+        "pos": "verb",
+        "definition": "có đủ khả năng; có đủ điều kiện (làm việc gì)",
+        "frequency": "common"
+      },
+      {
+        "word": "affordability",
+        "pos": "noun",
+        "definition": "khả năng chi trả",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      },
+      {
+        "type": "suffix",
+        "form": "-ity",
+        "meaning": "tính chất, trạng thái"
+      }
+    ],
+    "id": "seed-afford-077",
+    "isCustom": true
+  },
+  {
+    "rootWord": "initiate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "initiate",
+        "pos": "verb",
+        "definition": "bắt đầu; khởi xướng",
+        "frequency": "common"
+      },
+      {
+        "word": "initiative",
+        "pos": "noun",
+        "definition": "sự khởi xướng; bắt đầu; chiến lược",
+        "frequency": "common"
+      },
+      {
+        "word": "initiation",
+        "pos": "noun",
+        "definition": "sự đi vào, sự bắt đầu, sự khởi đầu",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ive",
+        "meaning": "có tính chất, có khả năng"
+      },
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, quá trình"
+      }
+    ],
+    "id": "seed-initiate-078",
+    "isCustom": true
+  },
+  {
+    "rootWord": "recur",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "formal"
+    ],
+    "forms": [
+      {
+        "word": "recur",
+        "pos": "verb",
+        "definition": "lặp lại, diễn ra lại",
+        "frequency": "less-common"
+      },
+      {
+        "word": "recurrence",
+        "pos": "noun",
+        "definition": "sự lặp lại; sự tái diễn",
+        "frequency": "less-common"
+      },
+      {
+        "word": "recurring",
+        "pos": "adjective",
+        "definition": "tái diễn",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "sự, trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "đang, có tính chất"
+      }
+    ],
+    "id": "seed-recur-079",
+    "isCustom": true
+  },
+  {
+    "rootWord": "reduce",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "reduce",
+        "pos": "verb",
+        "definition": "giảm; hạ",
+        "frequency": "common"
+      },
+      {
+        "word": "reduction",
+        "pos": "noun",
+        "definition": "sự giảm xuống",
+        "frequency": "common"
+      },
+      {
+        "word": "reducible",
+        "pos": "adjective",
+        "definition": "có thể giảm bớt",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, quá trình"
+      },
+      {
+        "type": "suffix",
+        "form": "-ible",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-reduce-080",
+    "isCustom": true
+  },
+  {
+    "rootWord": "appreciate",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "emotion"
+    ],
+    "forms": [
+      {
+        "word": "appreciation",
+        "pos": "noun",
+        "definition": "sự cảm kích và biết ơn; sự trân trọng",
+        "frequency": "very-common"
+      },
+      {
+        "word": "appreciate",
+        "pos": "verb",
+        "definition": "trân trọng; đánh giá cao",
+        "frequency": "very-common"
+      },
+      {
+        "word": "appreciated",
+        "pos": "adjective",
+        "definition": "cảm kích",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự việc, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được, có tính chất"
+      }
+    ],
+    "id": "seed-appreciate-081",
+    "isCustom": true
+  },
+  {
+    "rootWord": "expose",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "expose",
+        "pos": "verb",
+        "definition": "tiếp xúc với ...",
+        "frequency": "common"
+      },
+      {
+        "word": "exposure",
+        "pos": "noun",
+        "definition": "việc tiếp xúc với ...",
+        "frequency": "common"
+      },
+      {
+        "word": "exposed",
+        "pos": "adjective",
+        "definition": "được tiếp xúc với ...",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ure",
+        "meaning": "hành động, kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được, có tính chất"
+      }
+    ],
+    "id": "seed-expose-082",
+    "isCustom": true
+  },
+  {
+    "rootWord": "practice",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily",
+      "education"
+    ],
+    "forms": [
+      {
+        "word": "practice",
+        "pos": "noun",
+        "definition": "sự luyện tập; thói quen; thông lệ",
+        "frequency": "very-common"
+      },
+      {
+        "word": "practice",
+        "pos": "verb",
+        "definition": "luyện tập",
+        "frequency": "very-common"
+      },
+      {
+        "word": "practical",
+        "pos": "adjective",
+        "definition": "thực tế",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "thuộc về, có tính chất"
+      }
+    ],
+    "id": "seed-practice-083",
+    "isCustom": true
+  },
+  {
+    "rootWord": "reinforce",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "reinforce",
+        "pos": "verb",
+        "definition": "củng cố; tăng cường",
+        "frequency": "less-common"
+      },
+      {
+        "word": "reinforcement",
+        "pos": "noun",
+        "definition": "sự củng cố; tăng cường",
+        "frequency": "less-common"
+      },
+      {
+        "word": "reinforcing",
+        "pos": "other",
+        "definition": "hành động củng cố; tăng cường",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "đang diễn ra, hành động"
+      }
+    ],
+    "id": "seed-reinforce-084",
+    "isCustom": true
+  },
+  {
+    "rootWord": "facilitate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "facilitate",
+        "pos": "verb",
+        "definition": "tạo điều kiện, làm cho thuận lợi",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-facilitate-085",
+    "isCustom": true
+  },
+  {
+    "rootWord": "popular",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "social"
+    ],
+    "forms": [
+      {
+        "word": "popularity",
+        "pos": "noun",
+        "definition": "sự phổ biến",
+        "frequency": "common"
+      },
+      {
+        "word": "popularize",
+        "pos": "verb",
+        "definition": "phổ cập",
+        "frequency": "common"
+      },
+      {
+        "word": "popular",
+        "pos": "adjective",
+        "definition": "phổ biến",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ity",
+        "meaning": "tạo danh từ từ tính từ"
+      },
+      {
+        "type": "suffix",
+        "form": "-ize",
+        "meaning": "biến thành, làm cho"
+      }
+    ],
+    "id": "seed-popular-086",
+    "isCustom": true
+  },
+  {
+    "rootWord": "replace",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "action",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "replace",
+        "pos": "verb",
+        "definition": "thay thế",
+        "frequency": "very-common"
+      },
+      {
+        "word": "replacement",
+        "pos": "noun",
+        "definition": "sự thay thế",
+        "frequency": "common"
+      },
+      {
+        "word": "replaceable",
+        "pos": "adjective",
+        "definition": "có thể thay thế",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "prefix",
+        "form": "re-",
+        "meaning": "làm lại, trở lại"
+      },
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả của hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-replace-087",
+    "isCustom": true
+  },
+  {
+    "rootWord": "sharp",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "sharp",
+        "pos": "adjective",
+        "definition": "đột ngột; sắc nhọn; thông minh",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-sharp-088",
+    "isCustom": true
+  },
+  {
+    "rootWord": "skill",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "work",
+      "daily",
+      "ability"
+    ],
+    "forms": [
+      {
+        "word": "skill",
+        "pos": "noun",
+        "definition": "kỹ năng",
+        "frequency": "very-common"
+      },
+      {
+        "word": "skilled",
+        "pos": "adjective",
+        "definition": "có kỹ năng",
+        "frequency": "common"
+      },
+      {
+        "word": "skillfully",
+        "pos": "adverb",
+        "definition": "một cách có kỹ thuật",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "có, được"
+      },
+      {
+        "type": "suffix",
+        "form": "-fully",
+        "meaning": "một cách đầy đủ, có"
+      }
+    ],
+    "id": "seed-skill-089",
+    "isCustom": true
+  },
+  {
+    "rootWord": "store",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily",
+      "commerce"
+    ],
+    "forms": [
+      {
+        "word": "store",
+        "pos": "verb",
+        "definition": "cất, giữ, lưu trữ",
+        "frequency": "very-common"
+      },
+      {
+        "word": "store",
+        "pos": "noun",
+        "definition": "cửa hàng",
+        "frequency": "very-common"
+      },
+      {
+        "word": "storage",
+        "pos": "noun",
+        "definition": "sự lưu trữ",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-age",
+        "meaning": "hành động, kết quả, nơi chốn"
+      }
+    ],
+    "id": "seed-store-090",
+    "isCustom": true
+  },
+  {
+    "rootWord": "beforehand",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "beforehand",
+        "pos": "adverb",
+        "definition": "trước",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-beforehand-091",
+    "isCustom": true
+  },
+  {
+    "rootWord": "complicate",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "general",
+      "medical",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "complication",
+        "pos": "noun",
+        "definition": "sự phức tạp",
+        "frequency": "common"
+      },
+      {
+        "word": "complicate",
+        "pos": "verb",
+        "definition": "làm phức tạp hóa, làm rắc rối",
+        "frequency": "common"
+      },
+      {
+        "word": "complicated",
+        "pos": "adjective",
+        "definition": "phức tạp, rắc rối",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "tạo danh từ từ động từ"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "có trạng thái, đã được"
+      }
+    ],
+    "id": "seed-complicate-092",
+    "isCustom": true
+  },
+  {
+    "rootWord": "fold",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "fold",
+        "pos": "verb",
+        "definition": "gấp, gập",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-fold-093",
+    "isCustom": true
+  },
+  {
+    "rootWord": "layout",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "design",
+      "technical"
+    ],
+    "forms": [
+      {
+        "word": "layout",
+        "pos": "noun",
+        "definition": "cách trình bày, bố trí",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-layout-094",
+    "isCustom": true
+  },
+  {
+    "rootWord": "mention",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "general",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "mention",
+        "pos": "noun",
+        "definition": "sự đề cập",
+        "frequency": "very-common"
+      },
+      {
+        "word": "mention",
+        "pos": "verb",
+        "definition": "nhắc đến",
+        "frequency": "very-common"
+      },
+      {
+        "word": "mentionable",
+        "pos": "adjective",
+        "definition": "đáng chú ý, có thể nhắc đến",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể, đáng"
+      }
+    ],
+    "id": "seed-mention-095",
+    "isCustom": true
+  },
+  {
+    "rootWord": "petition",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "legal",
+      "politics",
+      "political"
+    ],
+    "forms": [
+      {
+        "word": "petition",
+        "pos": "noun",
+        "definition": "đơn yêu cầu",
+        "frequency": "less-common"
+      },
+      {
+        "word": "petition",
+        "pos": "verb",
+        "definition": "yêu cầu",
+        "frequency": "less-common"
+      },
+      {
+        "word": "petitioner",
+        "pos": "noun",
+        "definition": "người kiến nghị, người làm đơn",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện hành động"
+      }
+    ],
+    "id": "seed-petition-096",
+    "isCustom": true
+  },
+  {
+    "rootWord": "revise",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "study",
+      "editing",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "revise",
+        "pos": "verb",
+        "definition": "sửa đổi, xem lại",
+        "frequency": "common"
+      },
+      {
+        "word": "revised",
+        "pos": "adjective",
+        "definition": "đã sửa đổi, được sửa lại",
+        "frequency": "common"
+      },
+      {
+        "word": "revision",
+        "pos": "noun",
+        "definition": "sự sửa đổi, bản sửa đổi, sự ôn tập",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "prefix",
+        "form": "re-",
+        "meaning": "làm lại, xem lại"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được, có trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ion",
+        "meaning": "hành động, quá trình, kết quả"
+      }
+    ],
+    "id": "seed-revise-097",
+    "isCustom": true
+  },
+  {
+    "rootWord": "revolution",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "politics",
+      "change"
+    ],
+    "forms": [
+      {
+        "word": "revolutionize",
+        "pos": "verb",
+        "definition": "cách mạng hóa",
+        "frequency": "less-common"
+      },
+      {
+        "word": "revolution",
+        "pos": "noun",
+        "definition": "sự cải tiến; cuộc cách mạng",
+        "frequency": "common"
+      },
+      {
+        "word": "revolutionary",
+        "pos": "adjective",
+        "definition": "mang tính cách mạng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ize",
+        "meaning": "biến thành, làm cho"
+      },
+      {
+        "type": "suffix",
+        "form": "-ary",
+        "meaning": "liên quan đến, thuộc về"
+      }
+    ],
+    "id": "seed-revolution-098",
+    "isCustom": true
+  },
+  {
+    "rootWord": "technical",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "technology"
+    ],
+    "forms": [
+      {
+        "word": "technically",
+        "pos": "adverb",
+        "definition": "mang tính kỹ thuật",
+        "frequency": "common"
+      },
+      {
+        "word": "technical",
+        "pos": "adjective",
+        "definition": "thuộc về kỹ thuật",
+        "frequency": "common"
+      },
+      {
+        "word": "technicality",
+        "pos": "noun",
+        "definition": "chi tiết kỹ thuật",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      },
+      {
+        "type": "suffix",
+        "form": "-ity",
+        "meaning": "tính chất, trạng thái"
+      }
+    ],
+    "id": "seed-technical-099",
+    "isCustom": true
+  },
+  {
+    "rootWord": "proof",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "publishing",
+      "editing"
+    ],
+    "forms": [
+      {
+        "word": "proof",
+        "pos": "verb",
+        "definition": "đọc soát, hiệu đính",
+        "frequency": "less-common"
+      },
+      {
+        "word": "proofreader",
+        "pos": "noun",
+        "definition": "người hiệu đính",
+        "frequency": "less-common"
+      },
+      {
+        "word": "proofing",
+        "pos": "other",
+        "definition": "việc hiệu đính",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-reader",
+        "meaning": "người đọc (trong ngữ cảnh này)"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "hành động, quá trình"
+      }
+    ],
+    "id": "seed-proof-100",
+    "isCustom": true
+  },
+  {
+    "rootWord": "match",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "match",
+        "pos": "verb",
+        "definition": "phù hợp",
+        "frequency": "very-common"
+      },
+      {
+        "word": "match",
+        "pos": "noun",
+        "definition": "sự phù hợp",
+        "frequency": "very-common"
+      },
+      {
+        "word": "matching",
+        "pos": "adjective",
+        "definition": "phù hợp",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "tạo tính từ (có tính chất/đang)"
+      }
+    ],
+    "id": "seed-match-101",
+    "isCustom": true
+  },
+  {
+    "rootWord": "profile",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "profile",
+        "pos": "verb",
+        "definition": "phân biệt",
+        "frequency": "common"
+      },
+      {
+        "word": "profile",
+        "pos": "noun",
+        "definition": "hồ sơ",
+        "frequency": "common"
+      },
+      {
+        "word": "profiled",
+        "pos": "adjective",
+        "definition": "đã được phân loại",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "tạo tính từ (đã được/có tính chất)"
+      }
+    ],
+    "id": "seed-profile-102",
+    "isCustom": true
+  },
+  {
+    "rootWord": "apply",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "application",
+      "work",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "apply",
+        "pos": "verb",
+        "definition": "nộp đơn, ứng tuyển",
+        "frequency": "very-common"
+      },
+      {
+        "word": "applicant",
+        "pos": "noun",
+        "definition": "ứng viên",
+        "frequency": "common"
+      },
+      {
+        "word": "application",
+        "pos": "noun",
+        "definition": "đơn ứng tuyển, ứng dụng",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ant",
+        "meaning": "người thực hiện hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "hành động hoặc kết quả"
+      }
+    ],
+    "id": "seed-apply-103",
+    "isCustom": true
+  },
+  {
+    "rootWord": "present",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "communication",
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "present",
+        "pos": "verb",
+        "definition": "thuyết trình, đưa ra",
+        "frequency": "very-common"
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "definition": "bài thuyết trình",
+        "frequency": "common"
+      },
+      {
+        "word": "presentable",
+        "pos": "adjective",
+        "definition": "chỉn chu, gọn gàng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "hành động hoặc quá trình"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể được"
+      }
+    ],
+    "id": "seed-present-104",
+    "isCustom": true
+  },
+  {
+    "rootWord": "ready",
+    "cefr": "A1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "be ready for",
+        "pos": "other",
+        "definition": "sẵn sàng",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-ready-105",
+    "isCustom": true
+  },
+  {
+    "rootWord": "follow",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "follow up",
+        "pos": "other",
+        "definition": "theo sát",
+        "frequency": "common"
+      },
+      {
+        "word": "follow-up",
+        "pos": "noun",
+        "definition": "sự tiếp nối",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-follow-106",
+    "isCustom": true
+  },
+  {
+    "rootWord": "able",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "ability",
+        "pos": "noun",
+        "definition": "khả năng",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ity",
+        "meaning": "tạo danh từ chỉ trạng thái, khả năng"
+      }
+    ],
+    "id": "seed-able-107",
+    "isCustom": true
+  },
+  {
+    "rootWord": "background",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "background",
+        "pos": "noun",
+        "definition": "lý lịch",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-background-108",
+    "isCustom": true
+  },
+  {
+    "rootWord": "confident",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "personality"
+    ],
+    "forms": [
+      {
+        "word": "confidence",
+        "pos": "noun",
+        "definition": "sự tự tin",
+        "frequency": "common"
+      },
+      {
+        "word": "confident",
+        "pos": "adjective",
+        "definition": "tự tin",
+        "frequency": "common"
+      },
+      {
+        "word": "confidently",
+        "pos": "adverb",
+        "definition": "một cách tự tin",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "tạo danh từ chỉ trạng thái, chất lượng"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "theo cách..."
+      }
+    ],
+    "id": "seed-confident-109",
+    "isCustom": true
+  },
+  {
+    "rootWord": "expert",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "professional",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "expert",
+        "pos": "noun",
+        "definition": "chuyên gia",
+        "frequency": "common"
+      },
+      {
+        "word": "expertise",
+        "pos": "noun",
+        "definition": "kiến thức chuyên môn",
+        "frequency": "common"
+      },
+      {
+        "word": "expert",
+        "pos": "adjective",
+        "definition": "tinh thông, chuyên nghiệp",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ise",
+        "meaning": "trạng thái của chuyên gia"
+      }
+    ],
+    "id": "seed-expert-110",
+    "isCustom": true
+  },
+  {
+    "rootWord": "accomplish",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "business",
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "accomplishment",
+        "pos": "noun",
+        "definition": "thành tích",
+        "frequency": "common"
+      },
+      {
+        "word": "accomplish",
+        "pos": "verb",
+        "definition": "đạt được",
+        "frequency": "common"
+      },
+      {
+        "word": "accomplished",
+        "pos": "adjective",
+        "definition": "có nhiều thành tựu, thành công",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "tạo danh từ chỉ hành động, kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "tạo tính từ (đã được/có tính chất)"
+      }
+    ],
+    "id": "seed-accomplish-111",
+    "isCustom": true
+  },
+  {
+    "rootWord": "candidate",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "candidate",
+        "pos": "noun",
+        "definition": "ứng viên",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-candidate-112",
+    "isCustom": true
+  },
+  {
+    "rootWord": "qualify",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "business",
+      "ielts",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "qualifications",
+        "pos": "noun",
+        "definition": "bằng cấp (số nhiều)",
+        "frequency": "common"
+      },
+      {
+        "word": "qualify",
+        "pos": "verb",
+        "definition": "đạt tiêu chuẩn",
+        "frequency": "common"
+      },
+      {
+        "word": "qualification",
+        "pos": "noun",
+        "definition": "bằng cấp, chứng chỉ",
+        "frequency": "common"
+      },
+      {
+        "word": "qualified",
+        "pos": "adjective",
+        "definition": "đạt tiêu chuẩn",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "tạo danh từ chỉ hành động, quá trình"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "tạo tính từ (đã được/có tính chất)"
+      }
+    ],
+    "id": "seed-qualify-113",
+    "isCustom": true
+  },
+  {
+    "rootWord": "weak",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "weakly",
+        "pos": "adverb",
+        "definition": "một cách yếu ớt",
+        "frequency": "less-common"
+      },
+      {
+        "word": "weak",
+        "pos": "adjective",
+        "definition": "yếu",
+        "frequency": "common"
+      },
+      {
+        "word": "weakness",
+        "pos": "noun",
+        "definition": "điểm yếu, sự yếu đuối",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "tạo trạng từ"
+      },
+      {
+        "type": "suffix",
+        "form": "-ness",
+        "meaning": "trạng thái hoặc phẩm chất"
+      }
+    ],
+    "id": "seed-weak-114",
+    "isCustom": true
+  },
+  {
+    "rootWord": "recruit",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "hr"
+    ],
+    "forms": [
+      {
+        "word": "recruit",
+        "pos": "verb",
+        "definition": "tuyển dụng",
+        "frequency": "common"
+      },
+      {
+        "word": "recruitment",
+        "pos": "noun",
+        "definition": "việc tuyển dụng",
+        "frequency": "common"
+      },
+      {
+        "word": "recruiter",
+        "pos": "noun",
+        "definition": "người tuyển dụng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "tạo danh từ chỉ kết quả hoặc hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "tạo danh từ chỉ người thực hiện hành động"
+      }
+    ],
+    "id": "seed-recruit-115",
+    "isCustom": true
+  },
+  {
+    "rootWord": "submit",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "submit",
+        "pos": "verb",
+        "definition": "nộp",
+        "frequency": "common"
+      },
+      {
+        "word": "submission",
+        "pos": "noun",
+        "definition": "(sự) nộp",
+        "frequency": "common"
+      },
+      {
+        "word": "submittal",
+        "pos": "noun",
+        "definition": "(sự) nộp",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ion",
+        "meaning": "tạo danh từ chỉ hành động hoặc kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "tạo danh từ chỉ hành động hoặc kết quả"
+      }
+    ],
+    "id": "seed-submit-116",
+    "isCustom": true
+  },
+  {
+    "rootWord": "conduct",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "common",
+      "formal",
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "conduct",
+        "pos": "verb",
+        "definition": "thực hiện",
+        "frequency": "common"
+      },
+      {
+        "word": "conduct",
+        "pos": "noun",
+        "definition": "ứng xử",
+        "frequency": "common"
+      },
+      {
+        "word": "conductor",
+        "pos": "noun",
+        "definition": "người chỉ huy, người chỉ đạo, người bán vé",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-or",
+        "meaning": "người thực hiện/vật thực hiện"
+      }
+    ],
+    "id": "seed-conduct-117",
+    "isCustom": true
+  },
+  {
+    "rootWord": "raise",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "common",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "raise",
+        "pos": "verb",
+        "definition": "tăng",
+        "frequency": "very-common"
+      },
+      {
+        "word": "raise",
+        "pos": "noun",
+        "definition": "mức tăng",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-raise-118",
+    "isCustom": true
+  },
+  {
+    "rootWord": "update",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "common",
+      "business",
+      "technology"
+    ],
+    "forms": [
+      {
+        "word": "update",
+        "pos": "verb",
+        "definition": "cập nhật",
+        "frequency": "common"
+      },
+      {
+        "word": "update",
+        "pos": "noun",
+        "definition": "sự, bản cập nhật",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-update-119",
+    "isCustom": true
+  },
+  {
+    "rootWord": "aware",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "common",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "be aware of",
+        "pos": "verb",
+        "definition": "lưu ý",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-aware-120",
+    "isCustom": true
+  },
+  {
+    "rootWord": "look up to",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "common",
+      "phrasal verb"
+    ],
+    "forms": [
+      {
+        "word": "look up to",
+        "pos": "verb",
+        "definition": "ngưỡng mộ",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-look-up-to-121",
+    "isCustom": true
+  },
+  {
+    "rootWord": "set up",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "common",
+      "phrasal verb"
+    ],
+    "forms": [
+      {
+        "word": "set up",
+        "pos": "verb",
+        "definition": "cài đặt, bố trí",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-set-up-122",
+    "isCustom": true
+  },
+  {
+    "rootWord": "base",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "common",
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "basis",
+        "pos": "noun",
+        "definition": "nền tảng",
+        "frequency": "common"
+      },
+      {
+        "word": "base",
+        "pos": "verb",
+        "definition": "căn cứ, dựa vào",
+        "frequency": "very-common"
+      },
+      {
+        "word": "based",
+        "pos": "adjective",
+        "definition": "được dựa trên",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-base-123",
+    "isCustom": true
+  },
+  {
+    "rootWord": "mentor",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "common"
+    ],
+    "forms": [
+      {
+        "word": "mentor",
+        "pos": "noun",
+        "definition": "người hướng dẫn, người cố vấn",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-mentor-124",
+    "isCustom": true
+  },
+  {
+    "rootWord": "wage",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "common",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "wage",
+        "pos": "noun",
+        "definition": "tiền công (theo giờ)",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-wage-125",
+    "isCustom": true
+  },
+  {
+    "rootWord": "vest",
+    "cefr": "C1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business",
+      "legal"
+    ],
+    "forms": [
+      {
+        "word": "vested",
+        "pos": "adjective",
+        "definition": "được đảm bảo quyền lợi",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-vest-126",
+    "isCustom": true
+  },
+  {
+    "rootWord": "flexible",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "common",
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "flexibly",
+        "pos": "adverb",
+        "definition": "một cách linh hoạt",
+        "frequency": "common"
+      },
+      {
+        "word": "flexible",
+        "pos": "adjective",
+        "definition": "linh hoạt",
+        "frequency": "common"
+      },
+      {
+        "word": "flexibility",
+        "pos": "noun",
+        "definition": "sự linh hoạt",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "tạo trạng từ"
+      },
+      {
+        "type": "suffix",
+        "form": "-ity",
+        "meaning": "tính chất, trạng thái"
+      }
+    ],
+    "id": "seed-flexible-127",
+    "isCustom": true
+  },
+  {
+    "rootWord": "delicate",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "common",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "delicately",
+        "pos": "adverb",
+        "definition": "một cách tế nhị",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "tạo trạng từ"
+      }
+    ],
+    "id": "seed-delicate-128",
+    "isCustom": true
+  },
+  {
+    "rootWord": "generate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "technology"
+    ],
+    "forms": [
+      {
+        "word": "generate",
+        "pos": "verb",
+        "definition": "tạo ra",
+        "frequency": "common"
+      },
+      {
+        "word": "generator",
+        "pos": "noun",
+        "definition": "máy phát điện",
+        "frequency": "common"
+      },
+      {
+        "word": "generated",
+        "pos": "adjective",
+        "definition": "được tạo ra",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-or",
+        "meaning": "vật/người tạo ra"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "đã được/bị (tạo ra)"
+      }
+    ],
+    "id": "seed-generate-129",
+    "isCustom": true
+  },
+  {
+    "rootWord": "hire",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "hire",
+        "pos": "verb",
+        "definition": "thuê mướn",
+        "frequency": "very-common"
+      },
+      {
+        "word": "hire",
+        "pos": "noun",
+        "definition": "người được thuê, nhân viên",
+        "frequency": "very-common"
+      },
+      {
+        "word": "hiring",
+        "pos": "other",
+        "definition": "(việc) tuyển dụng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "hành động/quá trình"
+      }
+    ],
+    "id": "seed-hire-130",
+    "isCustom": true
+  },
+  {
+    "rootWord": "reject",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "formal"
+    ],
+    "forms": [
+      {
+        "word": "reject",
+        "pos": "verb",
+        "definition": "từ chối",
+        "frequency": "common"
+      },
+      {
+        "word": "rejection",
+        "pos": "noun",
+        "definition": "sự từ chối",
+        "frequency": "common"
+      },
+      {
+        "word": "rejecting",
+        "pos": "other",
+        "definition": "(việc) từ chối",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự/việc"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "hành động/quá trình"
+      }
+    ],
+    "id": "seed-reject-131",
+    "isCustom": true
+  },
+  {
+    "rootWord": "succeed",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "motivation"
+    ],
+    "forms": [
+      {
+        "word": "succeed",
+        "pos": "verb",
+        "definition": "thành công",
+        "frequency": "common"
+      },
+      {
+        "word": "success",
+        "pos": "noun",
+        "definition": "sự thành công",
+        "frequency": "common"
+      },
+      {
+        "word": "successful",
+        "pos": "adjective",
+        "definition": "thành công",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ful",
+        "meaning": "đầy đủ, có tính chất"
+      }
+    ],
+    "id": "seed-succeed-132",
+    "isCustom": true
+  },
+  {
+    "rootWord": "train",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily",
+      "education",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "train",
+        "pos": "verb",
+        "definition": "đào tạo, huấn luyện",
+        "frequency": "very-common"
+      },
+      {
+        "word": "trainer",
+        "pos": "noun",
+        "definition": "người đào tạo, huấn luyện viên",
+        "frequency": "common"
+      },
+      {
+        "word": "trainee",
+        "pos": "noun",
+        "definition": "thực tập sinh",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện"
+      },
+      {
+        "type": "suffix",
+        "form": "-ee",
+        "meaning": "người được nhận hành động"
+      }
+    ],
+    "id": "seed-train-133",
+    "isCustom": true
+  },
+  {
+    "rootWord": "benefit",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "benefit",
+        "pos": "verb",
+        "definition": "được lợi",
+        "frequency": "very-common"
+      },
+      {
+        "word": "benefit",
+        "pos": "noun",
+        "definition": "lợi ích",
+        "frequency": "very-common"
+      },
+      {
+        "word": "beneficial",
+        "pos": "adjective",
+        "definition": "có lợi",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ial",
+        "meaning": "thuộc về, có tính chất"
+      }
+    ],
+    "id": "seed-benefit-134",
+    "isCustom": true
+  },
+  {
+    "rootWord": "compensate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "compensate",
+        "pos": "verb",
+        "definition": "đền bù, bù đắp",
+        "frequency": "less-common"
+      },
+      {
+        "word": "compensation",
+        "pos": "noun",
+        "definition": "tiền lương, sự bù đắp",
+        "frequency": "less-common"
+      },
+      {
+        "word": "compensatory",
+        "pos": "adjective",
+        "definition": "đền bù",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "có tính chất, liên quan đến"
+      }
+    ],
+    "id": "seed-compensate-135",
+    "isCustom": true
+  },
+  {
+    "rootWord": "negotiate",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "negotiate",
+        "pos": "verb",
+        "definition": "đàm phán",
+        "frequency": "less-common"
+      },
+      {
+        "word": "negotiation",
+        "pos": "noun",
+        "definition": "sự đàm phán; cuộc đàm phán",
+        "frequency": "less-common"
+      },
+      {
+        "word": "negotiator",
+        "pos": "noun",
+        "definition": "người đàm phán",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-or",
+        "meaning": "người thực hiện"
+      }
+    ],
+    "id": "seed-negotiate-136",
+    "isCustom": true
+  },
+  {
+    "rootWord": "retire",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "retire",
+        "pos": "verb",
+        "definition": "nghỉ hưu",
+        "frequency": "common"
+      },
+      {
+        "word": "retirement",
+        "pos": "noun",
+        "definition": "sự nghỉ hưu",
+        "frequency": "common"
+      },
+      {
+        "word": "retired",
+        "pos": "adjective",
+        "definition": "đã nghỉ hưu",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-retire-137",
+    "isCustom": true
+  },
+  {
+    "rootWord": "achieve",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "achievement",
+        "pos": "noun",
+        "definition": "thành tích; thành tựu",
+        "frequency": "common"
+      },
+      {
+        "word": "achieve",
+        "pos": "verb",
+        "definition": "đạt được; giành được",
+        "frequency": "common"
+      },
+      {
+        "word": "achiever",
+        "pos": "noun",
+        "definition": "người có thành tích",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện"
+      }
+    ],
+    "id": "seed-achieve-138",
+    "isCustom": true
+  },
+  {
+    "rootWord": "contribute",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "contribute",
+        "pos": "verb",
+        "definition": "đóng góp",
+        "frequency": "common"
+      },
+      {
+        "word": "contribution",
+        "pos": "noun",
+        "definition": "sự đóng góp",
+        "frequency": "common"
+      },
+      {
+        "word": "contributor",
+        "pos": "noun",
+        "definition": "người đóng góp",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-or",
+        "meaning": "người thực hiện"
+      }
+    ],
+    "id": "seed-contribute-139",
+    "isCustom": true
+  },
+  {
+    "rootWord": "dedicate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "dedicate",
+        "pos": "verb",
+        "definition": "cống hiến",
+        "frequency": "less-common"
+      },
+      {
+        "word": "dedication",
+        "pos": "noun",
+        "definition": "sự cống hiến",
+        "frequency": "less-common"
+      },
+      {
+        "word": "dedicated",
+        "pos": "adjective",
+        "definition": "tận tụy; tận tâm",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-dedicate-140",
+    "isCustom": true
+  },
+  {
+    "rootWord": "loyal",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "loyal",
+        "pos": "adjective",
+        "definition": "trung thành",
+        "frequency": "very-common"
+      },
+      {
+        "word": "loyalty",
+        "pos": "noun",
+        "definition": "sự trung thành",
+        "frequency": "common"
+      },
+      {
+        "word": "loyally",
+        "pos": "adverb",
+        "definition": "(một cách) trung thành",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ty",
+        "meaning": "tính chất, trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-loyal-141",
+    "isCustom": true
+  },
+  {
+    "rootWord": "promote",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "promote",
+        "pos": "verb",
+        "definition": "thăng chức; đẩy mạnh",
+        "frequency": "less-common"
+      },
+      {
+        "word": "promotion",
+        "pos": "noun",
+        "definition": "sự thăng chức; sự đẩy mạnh",
+        "frequency": "less-common"
+      },
+      {
+        "word": "promoter",
+        "pos": "noun",
+        "definition": "người tổ chức; người khởi xướng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện"
+      }
+    ],
+    "id": "seed-promote-142",
+    "isCustom": true
+  },
+  {
+    "rootWord": "comfort",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "comfort",
+        "pos": "noun",
+        "definition": "sự thoải mái; sự tiện nghi",
+        "frequency": "very-common"
+      },
+      {
+        "word": "comfortable",
+        "pos": "adjective",
+        "definition": "thoải mái; tiện nghi",
+        "frequency": "very-common"
+      },
+      {
+        "word": "comfortably",
+        "pos": "adverb",
+        "definition": "(một cách) thoải mái; (một cách) dễ chịu",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-comfort-143",
+    "isCustom": true
+  },
+  {
+    "rootWord": "expand",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "expand",
+        "pos": "verb",
+        "definition": "mở rộng",
+        "frequency": "common"
+      },
+      {
+        "word": "expansion",
+        "pos": "noun",
+        "definition": "sự mở rộng",
+        "frequency": "common"
+      },
+      {
+        "word": "expanded",
+        "pos": "adjective",
+        "definition": "được mở rộng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-sion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-expand-144",
+    "isCustom": true
+  },
+  {
+    "rootWord": "explore",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "explore",
+        "pos": "verb",
+        "definition": "khám phá; thám hiểm",
+        "frequency": "common"
+      },
+      {
+        "word": "exploration",
+        "pos": "noun",
+        "definition": "sự khám phá; sự thám hiểm",
+        "frequency": "common"
+      },
+      {
+        "word": "exploratory",
+        "pos": "adjective",
+        "definition": "có tính thám hiểm",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "có tính chất, liên quan đến"
+      }
+    ],
+    "id": "seed-explore-145",
+    "isCustom": true
+  },
+  {
+    "rootWord": "mandate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "mandatory",
+        "pos": "adjective",
+        "definition": "bắt buộc",
+        "frequency": "less-common"
+      },
+      {
+        "word": "mandate",
+        "pos": "noun",
+        "definition": "nhiệm vụ; sự ủy nhiệm; sự ủy thác",
+        "frequency": "less-common"
+      },
+      {
+        "word": "mandate",
+        "pos": "verb",
+        "definition": "ủy nhiệm; ủy thác",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "có tính chất, liên quan đến"
+      }
+    ],
+    "id": "seed-mandate-146",
+    "isCustom": true
+  },
+  {
+    "rootWord": "merchandise",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "merchandise",
+        "pos": "noun",
+        "definition": "hàng hóa",
+        "frequency": "less-common"
+      },
+      {
+        "word": "merchandise",
+        "pos": "verb",
+        "definition": "buôn bán",
+        "frequency": "less-common"
+      },
+      {
+        "word": "merchant",
+        "pos": "noun",
+        "definition": "nhà buôn; thương gia",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-merchandise-147",
+    "isCustom": true
+  },
+  {
+    "rootWord": "strict",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "strictness",
+        "pos": "noun",
+        "definition": "tính nghiêm khắc",
+        "frequency": "less-common"
+      },
+      {
+        "word": "strict",
+        "pos": "adjective",
+        "definition": "nghiêm khắc",
+        "frequency": "common"
+      },
+      {
+        "word": "strictly",
+        "pos": "adverb",
+        "definition": "một cách nghiêm khắc; hoàn toàn",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ness",
+        "meaning": "tính chất, trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-strict-148",
+    "isCustom": true
+  },
+  {
+    "rootWord": "diversify",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "diversify",
+        "pos": "verb",
+        "definition": "đa dạng hóa",
+        "frequency": "less-common"
+      },
+      {
+        "word": "diversity",
+        "pos": "noun",
+        "definition": "sự đa dạng",
+        "frequency": "less-common"
+      },
+      {
+        "word": "diverse",
+        "pos": "adjective",
+        "definition": "đa dạng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ity",
+        "meaning": "tính chất, trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ify",
+        "meaning": "làm cho, trở thành"
+      }
+    ],
+    "id": "seed-diversify-149",
+    "isCustom": true
+  },
+  {
+    "rootWord": "enterprise",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "enterprise",
+        "pos": "noun",
+        "definition": "doanh nghiệp",
+        "frequency": "less-common"
+      },
+      {
+        "word": "enterprising",
+        "pos": "adjective",
+        "definition": "dám nghĩ dám làm",
+        "frequency": "less-common"
+      },
+      {
+        "word": "enterpriser",
+        "pos": "noun",
+        "definition": "người dám làm; chủ doanh nghiệp (= entrepreneur)",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "có tính chất, đang diễn ra"
+      },
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện"
+      }
+    ],
+    "id": "seed-enterprise-150",
+    "isCustom": true
+  },
+  {
+    "rootWord": "essence",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "essentially",
+        "pos": "adverb",
+        "definition": "về cơ bản",
+        "frequency": "common"
+      },
+      {
+        "word": "essential",
+        "pos": "adjective",
+        "definition": "thiết yếu",
+        "frequency": "common"
+      },
+      {
+        "word": "essence",
+        "pos": "noun",
+        "definition": "thực chất; bản chất",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      },
+      {
+        "type": "suffix",
+        "form": "-ial",
+        "meaning": "thuộc về, có tính chất"
+      }
+    ],
+    "id": "seed-essence-151",
+    "isCustom": true
+  },
+  {
+    "rootWord": "function",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "function",
+        "pos": "verb",
+        "definition": "thực hiện chức năng",
+        "frequency": "common"
+      },
+      {
+        "word": "function",
+        "pos": "noun",
+        "definition": "chức năng; buổi họp mặt quan trọng",
+        "frequency": "common"
+      },
+      {
+        "word": "functional",
+        "pos": "adjective",
+        "definition": "hoạt động tốt; mang tính ứng dụng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "thuộc về, có tính chất"
+      }
+    ],
+    "id": "seed-function-152",
+    "isCustom": true
+  },
+  {
+    "rootWord": "maintain",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "maintain",
+        "pos": "verb",
+        "definition": "giữ; duy trì",
+        "frequency": "less-common"
+      },
+      {
+        "word": "maintainability",
+        "pos": "noun",
+        "definition": "khả năng duy trì",
+        "frequency": "rare"
+      },
+      {
+        "word": "maintainable",
+        "pos": "adjective",
+        "definition": "có thể duy trì được",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ability",
+        "meaning": "khả năng"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-maintain-153",
+    "isCustom": true
+  },
+  {
+    "rootWord": "smooth",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "smooth out",
+        "pos": "verb",
+        "definition": "tạo thuận lợi cho cái gì",
+        "frequency": "common"
+      },
+      {
+        "word": "smoothly",
+        "pos": "adverb",
+        "definition": "(một cách) trôi chảy; suôn sẻ",
+        "frequency": "common"
+      },
+      {
+        "word": "smooth",
+        "pos": "adjective",
+        "definition": "trôi chảy; dễ chịu; suôn sẻ",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-smooth-154",
+    "isCustom": true
+  },
+  {
+    "rootWord": "accurate",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "accuracy",
+        "pos": "noun",
+        "definition": "sự chính xác",
+        "frequency": "common"
+      },
+      {
+        "word": "accurate",
+        "pos": "adjective",
+        "definition": "chính xác",
+        "frequency": "common"
+      },
+      {
+        "word": "accurately",
+        "pos": "adverb",
+        "definition": "(một cách) chính xác",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-acy",
+        "meaning": "tính chất, trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-accurate-155",
+    "isCustom": true
+  },
+  {
+    "rootWord": "fulfill",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "fulfill",
+        "pos": "verb",
+        "definition": "thực hiện; hoàn thành",
+        "frequency": "less-common"
+      },
+      {
+        "word": "fulfilling",
+        "pos": "other",
+        "definition": "thực hiện; hoàn thành",
+        "frequency": "less-common"
+      },
+      {
+        "word": "fulfillment",
+        "pos": "noun",
+        "definition": "sự hoàn thành; sự thực hiện",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "đang diễn ra, có tính chất"
+      },
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả"
+      }
+    ],
+    "id": "seed-fulfill-156",
+    "isCustom": true
+  },
+  {
+    "rootWord": "integrate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "integral",
+        "pos": "adjective",
+        "definition": "quan trọng; không thể thiếu",
+        "frequency": "less-common"
+      },
+      {
+        "word": "integrate",
+        "pos": "verb",
+        "definition": "tích hợp",
+        "frequency": "less-common"
+      },
+      {
+        "word": "integration",
+        "pos": "noun",
+        "definition": "sự tích hợp",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "thuộc về, có tính chất"
+      },
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      }
+    ],
+    "id": "seed-integrate-157",
+    "isCustom": true
+  },
+  {
+    "rootWord": "minimize",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "minimize",
+        "pos": "verb",
+        "definition": "tối thiểu hóa",
+        "frequency": "less-common"
+      },
+      {
+        "word": "minimal",
+        "pos": "adjective",
+        "definition": "tối thiểu",
+        "frequency": "less-common"
+      },
+      {
+        "word": "minimum",
+        "pos": "noun",
+        "definition": "mức tối thiểu",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ize",
+        "meaning": "làm cho, trở thành"
+      },
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "thuộc về, có tính chất"
+      }
+    ],
+    "id": "seed-minimize-158",
+    "isCustom": true
+  },
+  {
+    "rootWord": "ship",
+    "cefr": "B1",
+    "category": "business",
+    "tags": [
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "ship",
+        "pos": "verb",
+        "definition": "vận chuyển (hàng hóa)",
+        "frequency": "common"
+      },
+      {
+        "word": "shipper",
+        "pos": "noun",
+        "definition": "người lo thu xếp việc gửi hàng",
+        "frequency": "less-common"
+      },
+      {
+        "word": "shipment",
+        "pos": "noun",
+        "definition": "lô hàng vận chuyển",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "người thực hiện"
+      },
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả"
+      }
+    ],
+    "id": "seed-ship-159",
+    "isCustom": true
+  },
+  {
+    "rootWord": "suffice",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "sufficiently",
+        "pos": "adverb",
+        "definition": "một cách đầy đủ",
+        "frequency": "less-common"
+      },
+      {
+        "word": "sufficient",
+        "pos": "adjective",
+        "definition": "đầy đủ",
+        "frequency": "less-common"
+      },
+      {
+        "word": "suffice",
+        "pos": "verb",
+        "definition": "có đủ",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      },
+      {
+        "type": "suffix",
+        "form": "-ent",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-suffice-160",
+    "isCustom": true
+  },
+  {
+    "rootWord": "compile",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "compile",
+        "pos": "verb",
+        "definition": "tập hợp, thu thập",
+        "frequency": "less-common"
+      },
+      {
+        "word": "compilation",
+        "pos": "noun",
+        "definition": "sự tổng hợp, thu thập",
+        "frequency": "less-common"
+      },
+      {
+        "word": "compiled",
+        "pos": "adjective",
+        "definition": "được tập hợp, thu thập",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-compile-161",
+    "isCustom": true
+  },
+  {
+    "rootWord": "efficient",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "efficient",
+        "pos": "adjective",
+        "definition": "có hiệu quả",
+        "frequency": "common"
+      },
+      {
+        "word": "efficiently",
+        "pos": "adverb",
+        "definition": "một cách hiệu quả",
+        "frequency": "common"
+      },
+      {
+        "word": "efficiency",
+        "pos": "noun",
+        "definition": "tính hiệu quả",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      },
+      {
+        "type": "suffix",
+        "form": "-cy",
+        "meaning": "tính chất, trạng thái"
+      }
+    ],
+    "id": "seed-efficient-162",
+    "isCustom": true
+  },
+  {
+    "rootWord": "estimate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "estimate",
+        "pos": "verb",
+        "definition": "ước tính, ước lượng",
+        "frequency": "less-common"
+      },
+      {
+        "word": "estimation",
+        "pos": "noun",
+        "definition": "sự ước lượng",
+        "frequency": "less-common"
+      },
+      {
+        "word": "estimating",
+        "pos": "other",
+        "definition": "(việc) ước lượng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "đang diễn ra, có tính chất"
+      }
+    ],
+    "id": "seed-estimate-163",
+    "isCustom": true
+  },
+  {
+    "rootWord": "impose",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "ielts"
+    ],
+    "forms": [
+      {
+        "word": "impose",
+        "pos": "verb",
+        "definition": "áp đặt, bắt theo, ban hành",
+        "frequency": "less-common"
+      },
+      {
+        "word": "imposition",
+        "pos": "noun",
+        "definition": "sự áp đặt",
+        "frequency": "less-common"
+      },
+      {
+        "word": "imposing",
+        "pos": "adjective",
+        "definition": "uy nghiêm",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ition",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ing",
+        "meaning": "có tính chất"
+      }
+    ],
+    "id": "seed-impose-164",
+    "isCustom": true
+  },
+  {
+    "rootWord": "mistake",
+    "cefr": "A2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "mistake",
+        "pos": "verb",
+        "definition": "nhầm lẫn",
+        "frequency": "very-common"
+      },
+      {
+        "word": "mistake",
+        "pos": "noun",
+        "definition": "lỗi sai, sự nhầm lẫn",
+        "frequency": "very-common"
+      },
+      {
+        "word": "mistaken",
+        "pos": "adjective",
+        "definition": "nhầm lẫn",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-en",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-mistake-165",
+    "isCustom": true
+  },
+  {
+    "rootWord": "prompt",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "prompt",
+        "pos": "verb",
+        "definition": "khiến cho, gây ra",
+        "frequency": "less-common"
+      },
+      {
+        "word": "promptness",
+        "pos": "noun",
+        "definition": "sự nhanh chóng",
+        "frequency": "less-common"
+      },
+      {
+        "word": "prompt",
+        "pos": "adjective",
+        "definition": "nhanh chóng, lập tức",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ness",
+        "meaning": "tính chất, trạng thái"
+      }
+    ],
+    "id": "seed-prompt-166",
+    "isCustom": true
+  },
+  {
+    "rootWord": "adjust",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "adjust",
+        "pos": "verb",
+        "definition": "điều chỉnh",
+        "frequency": "common"
+      },
+      {
+        "word": "adjustment",
+        "pos": "noun",
+        "definition": "sự điều chỉnh",
+        "frequency": "common"
+      },
+      {
+        "word": "adjustable",
+        "pos": "adjective",
+        "definition": "có thể điều chỉnh",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "hành động, kết quả"
+      },
+      {
+        "type": "suffix",
+        "form": "-able",
+        "meaning": "có thể"
+      }
+    ],
+    "id": "seed-adjust-167",
+    "isCustom": true
+  },
+  {
+    "rootWord": "automate",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "automation",
+        "pos": "noun",
+        "definition": "tự động hóa",
+        "frequency": "less-common"
+      },
+      {
+        "word": "automatic",
+        "pos": "adjective",
+        "definition": "tự động",
+        "frequency": "common"
+      },
+      {
+        "word": "automatically",
+        "pos": "adverb",
+        "definition": "một cách tự động",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ic",
+        "meaning": "có tính chất"
+      },
+      {
+        "type": "suffix",
+        "form": "-ally",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-automate-168",
+    "isCustom": true
+  },
+  {
+    "rootWord": "disturb",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "disturb",
+        "pos": "verb",
+        "definition": "làm phiền",
+        "frequency": "common"
+      },
+      {
+        "word": "disturbance",
+        "pos": "noun",
+        "definition": "sự xáo trộn, sự quấy rầy",
+        "frequency": "common"
+      },
+      {
+        "word": "disturbingly",
+        "pos": "adverb",
+        "definition": "một cách đáng lo ngại",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "tính chất, trạng thái"
+      },
+      {
+        "type": "suffix",
+        "form": "-ingly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-disturb-169",
+    "isCustom": true
+  },
+  {
+    "rootWord": "reflect",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "reflect",
+        "pos": "verb",
+        "definition": "phản ánh",
+        "frequency": "common"
+      },
+      {
+        "word": "reflection",
+        "pos": "noun",
+        "definition": "sự phản ánh; hình ảnh phản chiếu",
+        "frequency": "common"
+      },
+      {
+        "word": "reflector",
+        "pos": "noun",
+        "definition": "tấm hắt sáng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-or",
+        "meaning": "vật thực hiện"
+      }
+    ],
+    "id": "seed-reflect-170",
+    "isCustom": true
+  },
+  {
+    "rootWord": "scan",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "scan",
+        "pos": "verb",
+        "definition": "quét qua, nhìn lướt qua",
+        "frequency": "common"
+      },
+      {
+        "word": "scanner",
+        "pos": "noun",
+        "definition": "máy quét",
+        "frequency": "common"
+      },
+      {
+        "word": "scanned",
+        "pos": "adjective",
+        "definition": "đã được quét",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-er",
+        "meaning": "vật thực hiện"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-scan-171",
+    "isCustom": true
+  },
+  {
+    "rootWord": "subtract",
+    "cefr": "B1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "math"
+    ],
+    "forms": [
+      {
+        "word": "subtract",
+        "pos": "verb",
+        "definition": "trừ đi, loại bỏ",
+        "frequency": "common"
+      },
+      {
+        "word": "subtraction",
+        "pos": "noun",
+        "definition": "sự loại trừ",
+        "frequency": "common"
+      },
+      {
+        "word": "subtracted",
+        "pos": "adjective",
+        "definition": "đã được loại trừ",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-tion",
+        "meaning": "sự, hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ed",
+        "meaning": "quá khứ phân từ/tính từ"
+      }
+    ],
+    "id": "seed-subtract-172",
+    "isCustom": true
+  },
+  {
+    "rootWord": "obvious",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "obviously",
+        "pos": "adverb",
+        "definition": "một cách rõ ràng; hiển nhiên",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ly",
+        "meaning": "một cách"
+      }
+    ],
+    "id": "seed-obvious-173",
+    "isCustom": true
+  },
+  {
+    "rootWord": "value",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "value",
+        "pos": "verb",
+        "definition": "coi trọng; định giá",
+        "frequency": "very-common"
+      },
+      {
+        "word": "value",
+        "pos": "noun",
+        "definition": "giá trị",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-value-174",
+    "isCustom": true
+  },
+  {
+    "rootWord": "bear",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "bear",
+        "pos": "verb",
+        "definition": "chịu đựng",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-bear-175",
+    "isCustom": true
+  },
+  {
+    "rootWord": "behave",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "behavior",
+        "pos": "noun",
+        "definition": "cách cư xử; hành vi",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-behave-176",
+    "isCustom": true
+  },
+  {
+    "rootWord": "checkout",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "checkout",
+        "pos": "noun",
+        "definition": "sự thanh toán; quầy thanh toán",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-checkout-177",
+    "isCustom": true
+  },
+  {
+    "rootWord": "trend",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "trend",
+        "pos": "noun",
+        "definition": "xu hướng",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-trend-178",
+    "isCustom": true
+  },
+  {
+    "rootWord": "everyday",
+    "cefr": "A1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "everyday",
+        "pos": "adjective",
+        "definition": "hàng ngày",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-everyday-179",
+    "isCustom": true
+  },
+  {
+    "rootWord": "obtain",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "obtain",
+        "pos": "verb",
+        "definition": "đạt được; có được",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-obtain-180",
+    "isCustom": true
+  },
+  {
+    "rootWord": "quality",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "quality",
+        "pos": "noun",
+        "definition": "chất lượng; đặc tính",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-quality-181",
+    "isCustom": true
+  },
+  {
+    "rootWord": "source",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "academic"
+    ],
+    "forms": [
+      {
+        "word": "source",
+        "pos": "noun",
+        "definition": "nguồn",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-source-182",
+    "isCustom": true
+  },
+  {
+    "rootWord": "stationery",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "stationery",
+        "pos": "noun",
+        "definition": "văn phòng phẩm",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-stationery-183",
+    "isCustom": true
+  },
+  {
+    "rootWord": "catalog",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "catalog",
+        "pos": "noun",
+        "definition": "danh mục liệt kê",
+        "frequency": "less-common"
+      },
+      {
+        "word": "catalog",
+        "pos": "verb",
+        "definition": "ghi vào danh mục",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-catalog-184",
+    "isCustom": true
+  },
+  {
+    "rootWord": "inventory",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "inventory",
+        "pos": "noun",
+        "definition": "hàng hóa trong kho",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-inventory-185",
+    "isCustom": true
+  },
+  {
+    "rootWord": "remember",
+    "cefr": "A1",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "remember",
+        "pos": "verb",
+        "definition": "nhớ",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-remember-186",
+    "isCustom": true
+  },
+  {
+    "rootWord": "charge",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "charge",
+        "pos": "verb",
+        "definition": "tính phí",
+        "frequency": "very-common"
+      },
+      {
+        "word": "charge",
+        "pos": "noun",
+        "definition": "phí",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-charge-187",
+    "isCustom": true
+  },
+  {
+    "rootWord": "order",
+    "cefr": "A1",
+    "category": "common",
+    "tags": [
+      "business",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "order",
+        "pos": "verb",
+        "definition": "đặt hàng; yêu cầu",
+        "frequency": "very-common"
+      },
+      {
+        "word": "order",
+        "pos": "noun",
+        "definition": "đơn đặt hàng",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-order-188",
+    "isCustom": true
+  },
+  {
+    "rootWord": "discount",
+    "cefr": "B1",
+    "category": "common",
+    "tags": [
+      "business",
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "discount",
+        "pos": "verb",
+        "definition": "giảm giá",
+        "frequency": "common"
+      },
+      {
+        "word": "discount",
+        "pos": "noun",
+        "definition": "(lượng, số tiền) giảm giá",
+        "frequency": "common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-discount-189",
+    "isCustom": true
+  },
+  {
+    "rootWord": "run",
+    "cefr": "A1",
+    "category": "common",
+    "tags": [
+      "daily",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "run",
+        "pos": "verb",
+        "definition": "vận hành",
+        "frequency": "very-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-run-190",
+    "isCustom": true
+  },
+  {
+    "rootWord": "rectify",
+    "cefr": "C1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "rectify",
+        "pos": "verb",
+        "definition": "sửa chữa, khắc phục",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-rectify-191",
+    "isCustom": true
+  },
+  {
+    "rootWord": "verify",
+    "cefr": "B2",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "verify",
+        "pos": "verb",
+        "definition": "xác minh, kiểm chứng",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-verify-192",
+    "isCustom": true
+  },
+  {
+    "rootWord": "liable",
+    "cefr": "C1",
+    "category": "business",
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "forms": [
+      {
+        "word": "liability",
+        "pos": "noun",
+        "definition": "(luật) trách nhiệm",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-liable-193",
+    "isCustom": true
+  },
+  {
+    "rootWord": "discrepant",
+    "cefr": "C1",
+    "category": "academic",
+    "tags": [
+      "academic",
+      "business"
+    ],
+    "forms": [
+      {
+        "word": "discrepancy",
+        "pos": "noun",
+        "definition": "sự khác biệt",
+        "frequency": "rare"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-discrepant-194",
+    "isCustom": true
+  },
+  {
+    "rootWord": "term",
+    "cefr": "B2",
+    "category": "business",
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "forms": [
+      {
+        "word": "terms",
+        "pos": "noun",
+        "definition": "điều kiện, điều khoản",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-term-195",
+    "isCustom": true
+  },
+  {
+    "rootWord": "tedious",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "daily"
+    ],
+    "forms": [
+      {
+        "word": "tedious",
+        "pos": "adjective",
+        "definition": "gây nhàm chán, mệt mỏi",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [],
+    "id": "seed-tedious-196",
+    "isCustom": true
+  },
+  {
+    "rootWord": "hesitate",
+    "cefr": "B2",
+    "category": "common",
+    "tags": [
+      "behavior"
+    ],
+    "forms": [
+      {
+        "word": "hesitate",
+        "pos": "verb",
+        "definition": "lưỡng lự",
+        "frequency": "common"
+      },
+      {
+        "word": "hesitant",
+        "pos": "adjective",
+        "definition": "lưỡng lự",
+        "frequency": "less-common"
+      },
+      {
+        "word": "hesitation",
+        "pos": "noun",
+        "definition": "sự lưỡng lự",
+        "frequency": "less-common"
+      }
+    ],
+    "affixes": [
+      {
+        "type": "suffix",
+        "form": "-ant",
+        "meaning": "thực hiện hoặc gây ra hành động"
+      },
+      {
+        "type": "suffix",
+        "form": "-ation",
+        "meaning": "hành động hoặc kết quả"
+      }
+    ],
+    "id": "seed-hesitate-197",
+    "isCustom": true
+  }
+]
