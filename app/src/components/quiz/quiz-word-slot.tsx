@@ -1,12 +1,8 @@
 import type { QuizSlot } from '@/hooks/use-quiz'
 import type { PartOfSpeech } from '@/types/vocab-types'
 
-const POS_STYLES: Record<PartOfSpeech, { bg: string; text: string; label: string }> = {
-  noun:      { bg: '#dbeafe', text: '#1d4ed8', label: 'N' },
-  verb:      { bg: '#f3e8ff', text: '#7e22ce', label: 'V' },
-  adjective: { bg: '#ffedd5', text: '#c2410c', label: 'ADJ' },
-  adverb:    { bg: '#ccfbf1', text: '#0f766e', label: 'ADV' },
-  other:     { bg: '#f1f5f9', text: '#475569', label: '?' },
+const POS_LABELS: Record<PartOfSpeech, string> = {
+  noun: 'N', verb: 'V', adjective: 'ADJ', adverb: 'ADV', other: '?',
 }
 
 interface Props {
@@ -18,36 +14,32 @@ interface Props {
 }
 
 export function QuizWordSlot({ slot, isSubmitted, onInput, onEnter }: Props) {
-  const posStyle = POS_STYLES[slot.pos as PartOfSpeech] ?? POS_STYLES.other
+  const pos: PartOfSpeech = (slot.pos as PartOfSpeech) in POS_LABELS ? slot.pos as PartOfSpeech : 'other'
   const inputWidth = Math.max(slot.maskLen * 14, 32)
 
   const inputBg =
-    !isSubmitted ? 'white' :
-    slot.status === 'correct' ? '#dcfce7' : '#fee2e2'
+    !isSubmitted ? 'transparent' :
+    slot.status === 'correct' ? 'rgba(34,197,94,0.12)' : 'rgba(239,68,68,0.12)'
 
   const inputColor =
-    !isSubmitted ? '#0f172a' :
-    slot.status === 'correct' ? '#166534' : '#991b1b'
+    !isSubmitted ? 'var(--color-foreground)' :
+    slot.status === 'correct' ? '#22c55e' : '#ef4444'
 
   const inputBorder =
-    !isSubmitted ? '#94a3b8' :
-    slot.status === 'correct' ? '#86efac' : '#fca5a5'
+    !isSubmitted ? 'var(--color-muted-foreground)' :
+    slot.status === 'correct' ? '#22c55e' : '#ef4444'
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
         {/* POS badge */}
-        <span style={{
-          fontSize: 10, fontWeight: 700, padding: '2px 6px', borderRadius: 6,
-          background: posStyle.bg, color: posStyle.text,
-          flexShrink: 0, alignSelf: 'center',
-        }}>
-          {posStyle.label}
+        <span className={`badge pos-${pos}`} style={{ fontSize: 10, padding: '2px 6px', flexShrink: 0, alignSelf: 'center' }}>
+          {POS_LABELS[pos]}
         </span>
 
-        {/* Visible prefix + input suffix */}
+        {/* Visible prefix + hidden suffix input */}
         <span style={{ display: 'inline-flex', alignItems: 'baseline', gap: 0 }}>
-          <span style={{ fontSize: 20, fontWeight: 700, color: '#0f172a', letterSpacing: '-0.3px' }}>
+          <span style={{ fontSize: 20, fontWeight: 700, color: 'var(--color-foreground)', letterSpacing: '-0.3px' }}>
             {slot.visible}
           </span>
           <input
@@ -75,12 +67,12 @@ export function QuizWordSlot({ slot, isSubmitted, onInput, onEnter }: Props) {
         </span>
 
         {/* Definition */}
-        <span style={{ fontSize: 13, color: '#64748b', marginLeft: 2 }}>
+        <span style={{ fontSize: 13, color: 'var(--color-muted-foreground)', marginLeft: 2 }}>
           — {slot.definition}
         </span>
       </div>
 
-      {/* Wrong answer: show correct */}
+      {/* Wrong answer: show correct answer */}
       {isSubmitted && slot.status === 'wrong' && slot.userInput.trim() !== '' && (
         <p style={{ fontSize: 11, color: '#ef4444', marginLeft: 32 }}>
           Đáp án đúng: <strong>{slot.hidden}</strong>

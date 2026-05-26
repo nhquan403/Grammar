@@ -1,3 +1,5 @@
+import { RotateCcw, Home } from 'lucide-react'
+
 interface Props {
   totalCorrect: number
   totalSlots: number
@@ -13,7 +15,7 @@ function ScoreCircle({ percent }: { percent: number }) {
 
   return (
     <svg width={132} height={132} style={{ transform: 'rotate(-90deg)' }}>
-      <circle cx={66} cy={66} r={r} fill="none" stroke="#f1f5f9" strokeWidth={10} />
+      <circle cx={66} cy={66} r={r} fill="none" stroke="var(--color-border)" strokeWidth={10} />
       <circle
         cx={66} cy={66} r={r} fill="none"
         stroke={color} strokeWidth={10}
@@ -26,10 +28,10 @@ function ScoreCircle({ percent }: { percent: number }) {
 }
 
 function getRank(percent: number): { emoji: string; label: string; color: string } {
-  if (percent >= 90) return { emoji: '🏆', label: 'Xuất sắc!', color: '#16a34a' }
-  if (percent >= 70) return { emoji: '⭐', label: 'Tốt lắm!', color: '#2563eb' }
-  if (percent >= 50) return { emoji: '📚', label: 'Cần luyện thêm', color: '#d97706' }
-  return { emoji: '💪', label: 'Cố lên nào!', color: '#dc2626' }
+  if (percent >= 90) return { emoji: '🏆', label: 'Xuất sắc!', color: '#22c55e' }
+  if (percent >= 70) return { emoji: '⭐', label: 'Tốt lắm!', color: 'var(--color-primary)' }
+  if (percent >= 50) return { emoji: '📚', label: 'Cần luyện thêm', color: '#f59e0b' }
+  return { emoji: '💪', label: 'Cố lên nào!', color: '#ef4444' }
 }
 
 export function QuizResultScreen({ totalCorrect, totalSlots, onRestart, onHome }: Props) {
@@ -40,7 +42,8 @@ export function QuizResultScreen({ totalCorrect, totalSlots, onRestart, onHome }
 
   return (
     <div style={{
-      flex: 1, display: 'flex', flexDirection: 'column',
+      flex: 1, overflowY: 'auto',
+      display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center',
       padding: '24px 20px', gap: 24,
     }}>
@@ -54,7 +57,7 @@ export function QuizResultScreen({ totalCorrect, totalSlots, onRestart, onHome }
           <span style={{ fontSize: 30, fontWeight: 800, color: scoreColor, lineHeight: 1 }}>
             {percent}%
           </span>
-          <span style={{ fontSize: 11, color: '#94a3b8', marginTop: 2 }}>
+          <span style={{ fontSize: 11, color: 'var(--color-muted-foreground)', marginTop: 2 }}>
             {totalCorrect}/{totalSlots}
           </span>
         </div>
@@ -67,22 +70,22 @@ export function QuizResultScreen({ totalCorrect, totalSlots, onRestart, onHome }
       </div>
 
       {/* Correct / Wrong stats */}
-      <div style={{
-        display: 'flex', gap: 16, width: '100%', maxWidth: 280,
-      }}>
+      <div style={{ display: 'flex', gap: 16, width: '100%', maxWidth: 280 }}>
         <div style={{
-          flex: 1, background: '#f0fdf4', borderRadius: 16, padding: '14px 12px', textAlign: 'center',
-          border: '1px solid #bbf7d0',
+          flex: 1, background: 'rgba(34,197,94,0.1)', borderRadius: 16,
+          padding: '14px 12px', textAlign: 'center',
+          border: '1px solid rgba(34,197,94,0.25)',
         }}>
-          <p style={{ fontSize: 28, fontWeight: 800, color: '#16a34a' }}>{totalCorrect}</p>
-          <p style={{ fontSize: 12, color: '#16a34a', fontWeight: 600, marginTop: 2 }}>✅ Đúng</p>
+          <p style={{ fontSize: 28, fontWeight: 800, color: '#22c55e' }}>{totalCorrect}</p>
+          <p style={{ fontSize: 12, color: '#22c55e', fontWeight: 600, marginTop: 2 }}>✅ Đúng</p>
         </div>
         <div style={{
-          flex: 1, background: '#fff1f2', borderRadius: 16, padding: '14px 12px', textAlign: 'center',
-          border: '1px solid #fecdd3',
+          flex: 1, background: 'rgba(239,68,68,0.1)', borderRadius: 16,
+          padding: '14px 12px', textAlign: 'center',
+          border: '1px solid rgba(239,68,68,0.25)',
         }}>
-          <p style={{ fontSize: 28, fontWeight: 800, color: '#dc2626' }}>{wrong}</p>
-          <p style={{ fontSize: 12, color: '#dc2626', fontWeight: 600, marginTop: 2 }}>❌ Sai</p>
+          <p style={{ fontSize: 28, fontWeight: 800, color: '#ef4444' }}>{wrong}</p>
+          <p style={{ fontSize: 12, color: '#ef4444', fontWeight: 600, marginTop: 2 }}>❌ Sai</p>
         </div>
       </div>
 
@@ -90,25 +93,31 @@ export function QuizResultScreen({ totalCorrect, totalSlots, onRestart, onHome }
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: '100%' }}>
         <button
           onClick={onRestart}
+          className="gradient-brand"
           style={{
             width: '100%', height: 52, borderRadius: 14, border: 'none',
-            background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
             color: 'white', fontWeight: 700, fontSize: 15,
             cursor: 'pointer', touchAction: 'manipulation',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
           }}
         >
-          🔄 Làm bài khác
+          <RotateCcw size={18} strokeWidth={2} />
+          Làm bài khác
         </button>
         <button
           onClick={onHome}
           style={{
             width: '100%', height: 48, borderRadius: 14,
-            border: '1px solid #e2e8f0', background: 'white',
-            color: '#64748b', fontWeight: 600, fontSize: 14,
+            border: '1px solid var(--color-border)',
+            background: 'var(--color-card)',
+            color: 'var(--color-muted-foreground)',
+            fontWeight: 600, fontSize: 14,
             cursor: 'pointer', touchAction: 'manipulation',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
           }}
         >
-          🏠 Về trang chủ
+          <Home size={16} strokeWidth={2} />
+          Về trang chủ
         </button>
       </div>
     </div>

@@ -1,11 +1,6 @@
+import { CheckCircle, ArrowRight, Flag } from 'lucide-react'
 import type { QuizRound } from '@/hooks/use-quiz'
 import { QuizWordSlot } from './quiz-word-slot'
-
-const CEFR_STYLES: Record<string, { bg: string; text: string }> = {
-  A1: { bg: '#dcfce7', text: '#166534' }, A2: { bg: '#d1fae5', text: '#065f46' },
-  B1: { bg: '#dbeafe', text: '#1e40af' }, B2: { bg: '#e0e7ff', text: '#3730a3' },
-  C1: { bg: '#f3e8ff', text: '#6b21a8' }, C2: { bg: '#fce7f3', text: '#9d174d' },
-}
 
 interface Props {
   round: QuizRound
@@ -17,33 +12,19 @@ interface Props {
 }
 
 export function QuizRoundCard({ round, isSubmitted, isLast, onUpdateInput, onSubmit, onNext }: Props) {
-  const cefrStyle = CEFR_STYLES[round.cefr] ?? { bg: '#f1f5f9', text: '#475569' }
   const correctCount = round.slots.filter(s => s.status === 'correct').length
   const allFilled = round.slots.every(s => s.userInput.trim().length > 0)
+  const allCorrect = isSubmitted && correctCount === round.slots.length
 
   return (
-    <div style={{
-      background: 'white',
-      borderRadius: 24,
-      border: '1px solid #e2e8f0',
-      boxShadow: '0 4px 24px rgba(0,0,0,0.07)',
-      overflow: 'hidden',
-      display: 'flex',
-      flexDirection: 'column',
-    }}>
+    <div className="card" style={{ borderRadius: 24, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
       {/* Header */}
-      <div style={{
-        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        padding: '14px 16px 0',
-      }}>
-        <span style={{
-          fontSize: 11, fontWeight: 700, padding: '2px 8px',
-          borderRadius: 20, background: cefrStyle.bg, color: cefrStyle.text,
-        }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '14px 16px 0' }}>
+        <span className={`badge cefr-${round.cefr}`} style={{ fontSize: 11 }}>
           {round.cefr}
         </span>
         {isSubmitted && (
-          <span style={{ fontSize: 12, fontWeight: 700, color: correctCount === round.slots.length ? '#16a34a' : '#dc2626' }}>
+          <span style={{ fontSize: 12, fontWeight: 700, color: allCorrect ? '#22c55e' : '#ef4444' }}>
             {correctCount}/{round.slots.length} đúng
           </span>
         )}
@@ -51,22 +32,25 @@ export function QuizRoundCard({ round, isSubmitted, isLast, onUpdateInput, onSub
 
       {/* Root word */}
       <div style={{ padding: '10px 16px 0' }}>
-        <h2 style={{ fontSize: 32, fontWeight: 800, color: '#0f172a', letterSpacing: '-0.5px' }}>
+        <h2 style={{ fontSize: 32, fontWeight: 800, color: 'var(--color-foreground)', letterSpacing: '-0.5px' }}>
           {round.rootWord}
         </h2>
         {round.etymology && (
-          <p style={{ fontSize: 11, color: '#94a3b8', fontStyle: 'italic', marginTop: 2 }}>
+          <p style={{ fontSize: 11, color: 'var(--color-muted-foreground)', fontStyle: 'italic', marginTop: 2 }}>
             🌱 {round.etymology}
           </p>
         )}
       </div>
 
       {/* Divider */}
-      <div style={{ margin: '12px 16px', borderTop: '1px solid #f1f5f9' }} />
+      <div style={{ margin: '12px 16px', borderTop: '1px solid var(--color-border)' }} />
 
       {/* Word slots */}
       <div style={{ padding: '0 16px', display: 'flex', flexDirection: 'column', gap: 14 }}>
-        <p style={{ fontSize: 11, fontWeight: 700, color: '#64748b', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+        <p style={{
+          fontSize: 11, fontWeight: 700, color: 'var(--color-muted-foreground)',
+          letterSpacing: '0.08em', textTransform: 'uppercase',
+        }}>
           📚 Điền đuôi còn thiếu
         </p>
         {round.slots.map((slot, i) => (
@@ -87,29 +71,36 @@ export function QuizRoundCard({ round, isSubmitted, isLast, onUpdateInput, onSub
           <button
             onClick={onSubmit}
             disabled={!allFilled}
+            className={allFilled ? 'gradient-brand' : undefined}
             style={{
               width: '100%', height: 50, borderRadius: 14, border: 'none',
-              background: allFilled ? 'linear-gradient(135deg, #6366f1, #8b5cf6)' : '#e2e8f0',
-              color: allFilled ? 'white' : '#94a3b8',
+              background: allFilled ? undefined : 'var(--color-surface-raised)',
+              color: allFilled ? 'white' : 'var(--color-muted-foreground)',
               fontWeight: 700, fontSize: 15,
               cursor: allFilled ? 'pointer' : 'not-allowed',
               touchAction: 'manipulation',
-              transition: 'background 0.2s',
+              transition: 'background 0.2s, color 0.2s',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
             }}
           >
-            ✏️ Kiểm tra
+            <CheckCircle size={18} strokeWidth={2} />
+            Kiểm tra
           </button>
         ) : (
           <button
             onClick={onNext}
+            className="gradient-brand"
             style={{
               width: '100%', height: 50, borderRadius: 14, border: 'none',
-              background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
               color: 'white', fontWeight: 700, fontSize: 15,
               cursor: 'pointer', touchAction: 'manipulation',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
             }}
           >
-            {isLast ? '🏁 Xem kết quả' : 'Tiếp theo →'}
+            {isLast
+              ? <><Flag size={18} strokeWidth={2} /> Xem kết quả</>
+              : <>Tiếp theo <ArrowRight size={18} strokeWidth={2} /></>
+            }
           </button>
         )}
       </div>
