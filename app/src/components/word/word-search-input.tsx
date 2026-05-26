@@ -6,14 +6,14 @@ interface Props {
   placeholder?: string
 }
 
-export function WordSearchInput({ value, onChange, placeholder = 'Search words...' }: Props) {
+export function WordSearchInput({ value, onChange, placeholder = 'Tìm từ...' }: Props) {
   return (
     <div style={{ position: 'relative' }}>
       <Search
-        size={17}
+        size={16}
         style={{
           position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)',
-          color: '#94a3b8', pointerEvents: 'none',
+          color: 'var(--color-muted-foreground)', pointerEvents: 'none',
         }}
       />
       <input
@@ -23,31 +23,38 @@ export function WordSearchInput({ value, onChange, placeholder = 'Search words..
         placeholder={placeholder}
         style={{
           width: '100%',
-          height: 44,
-          background: 'white',
-          border: '1px solid #e2e8f0',
+          height: 42,
+          background: 'var(--color-card)',
+          border: '1.5px solid var(--color-border)',
           borderRadius: 12,
-          paddingLeft: 38,
-          paddingRight: value ? 38 : 12,
-          fontSize: 16, // prevents iOS zoom
-          color: '#0f172a',
+          paddingLeft: 36,
+          paddingRight: value ? 36 : 12,
+          fontSize: 16,
+          color: 'var(--color-foreground)',
           outline: 'none',
           boxSizing: 'border-box',
+          transition: 'border-color 0.15s ease, box-shadow 0.15s ease',
         }}
-        onFocus={e => { e.currentTarget.style.borderColor = '#6366f1'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(99,102,241,0.12)' }}
-        onBlur={e => { e.currentTarget.style.borderColor = '#e2e8f0'; e.currentTarget.style.boxShadow = 'none' }}
+        onFocus={e => {
+          e.currentTarget.style.borderColor = 'var(--color-primary)'
+          e.currentTarget.style.boxShadow = '0 0 0 3px rgba(99,102,241,0.12)'
+        }}
+        onBlur={e => {
+          e.currentTarget.style.borderColor = 'var(--color-border)'
+          e.currentTarget.style.boxShadow = 'none'
+        }}
       />
       {value && (
         <button
           onClick={() => onChange('')}
+          className="btn-ghost"
           style={{
-            position: 'absolute', right: 10, top: '50%', transform: 'translateY(-50%)',
-            minWidth: 24, minHeight: 24, display: 'flex', alignItems: 'center', justifyContent: 'center',
-            background: 'none', border: 'none', cursor: 'pointer', color: '#94a3b8', borderRadius: 6,
+            position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
+            width: 26, height: 26,
           }}
-          aria-label="Clear search"
+          aria-label="Xóa tìm kiếm"
         >
-          <X size={15} />
+          <X size={14} />
         </button>
       )}
     </div>

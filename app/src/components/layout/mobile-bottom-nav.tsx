@@ -16,15 +16,13 @@ export function MobileBottomNav() {
 
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 flex justify-around px-2"
+      className="glass-light fixed bottom-0 left-0 right-0 flex justify-around"
       style={{
-        height: 'calc(64px + env(safe-area-inset-bottom, 0px))',
+        height: 'calc(60px + env(safe-area-inset-bottom, 0px))',
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
+        paddingTop: 8,
         alignItems: 'flex-start',
-        paddingTop: 10,
-        background: 'rgba(255,255,255,0.92)',
-        backdropFilter: 'blur(12px)',
-        borderTop: '1px solid rgba(226,232,240,0.8)',
+        borderTop: '1px solid var(--color-border)',
         maxWidth: 448,
         margin: '0 auto',
         zIndex: 50,
@@ -36,35 +34,77 @@ export function MobileBottomNav() {
           key={to}
           to={to}
           end={to === '/'}
-          className={({ isActive }) =>
-            `flex flex-col items-center justify-center gap-0.5 rounded-xl px-3 transition-colors
-             ${isActive ? 'text-indigo-600' : 'text-slate-400'}`
-          }
-          style={{ minWidth: 40, minHeight: 44 }}
+          style={{ textDecoration: 'none', flex: 1 }}
         >
           {({ isActive }) => (
-            <>
-              <div className="relative">
-                <Icon size={20} strokeWidth={isActive ? 2.5 : 1.8} />
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 3,
+                minHeight: 44,
+                position: 'relative',
+                transition: 'opacity 0.15s ease',
+              }}
+            >
+              {/* Active pill indicator */}
+              {isActive && (
+                <span
+                  style={{
+                    position: 'absolute',
+                    top: -8,
+                    width: 28,
+                    height: 3,
+                    borderRadius: '0 0 4px 4px',
+                    background: 'var(--color-primary)',
+                  }}
+                />
+              )}
+
+              <div style={{ position: 'relative' }}>
+                <Icon
+                  size={22}
+                  strokeWidth={isActive ? 2.5 : 1.8}
+                  color={isActive ? 'var(--color-primary)' : 'var(--color-muted-foreground)'}
+                />
                 {label === 'Study' && dueCount > 0 && (
                   <span
-                    className="absolute flex items-center justify-center bg-red-500 text-white font-bold"
+                    className="badge-pulse"
                     style={{
-                      top: -6, right: -8,
+                      position: 'absolute',
+                      top: -5, right: -7,
                       minWidth: 16, height: 16,
                       borderRadius: 8,
-                      fontSize: 10,
+                      fontSize: 9,
+                      fontWeight: 800,
                       padding: '0 3px',
+                      background: '#ef4444',
+                      color: 'white',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      lineHeight: 1,
                     }}
                   >
                     {dueCount > 99 ? '99+' : dueCount}
                   </span>
                 )}
               </div>
-              <span style={{ fontSize: 10, fontWeight: isActive ? 600 : 400, lineHeight: 1.2 }}>
+
+              <span
+                style={{
+                  fontSize: 10,
+                  fontWeight: isActive ? 700 : 400,
+                  lineHeight: 1,
+                  color: isActive ? 'var(--color-primary)' : 'var(--color-muted-foreground)',
+                  transition: 'color 0.15s ease, font-weight 0.15s ease',
+                }}
+              >
                 {label}
               </span>
-            </>
+            </div>
           )}
         </NavLink>
       ))}

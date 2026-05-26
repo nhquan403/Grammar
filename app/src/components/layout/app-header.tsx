@@ -12,31 +12,30 @@ export function AppHeader({ title, subtitle, rightAction, showBack }: AppHeaderP
   const navigate = useNavigate()
 
   return (
-    <header className="sticky top-0 z-10 h-14 flex items-center justify-between px-4"
+    <header
+      className="glass-light sticky top-0 z-10 flex items-center justify-between px-4"
       style={{
-        background: 'rgba(248,250,252,0.85)',
-        backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(226,232,240,0.8)'
-      }}>
-      <div className="flex items-center gap-2">
+        height: 56,
+        borderBottom: '1px solid var(--color-border)',
+      }}
+    >
+      <div className="flex items-center gap-1">
         {showBack && (
           <button
             onClick={() => navigate(-1)}
-            className="flex items-center justify-center -ml-1 rounded-xl text-slate-500"
-            style={{ minWidth: 40, minHeight: 40 }}
+            className="btn-ghost"
+            style={{ width: 40, height: 40, marginLeft: -6 }}
             aria-label="Go back"
           >
-            <ArrowLeft size={22} />
+            <ArrowLeft size={21} />
           </button>
         )}
         <div>
-          <h1 className="text-lg font-bold leading-tight"
-            style={{ color: 'var(--color-foreground)' }}>
+          <h1 style={{ fontSize: 18, fontWeight: 700, color: 'var(--color-foreground)', lineHeight: 1.2 }}>
             {title}
           </h1>
           {subtitle && (
-            <p className="text-xs leading-none mt-0.5"
-              style={{ color: 'var(--color-muted-foreground)' }}>
+            <p style={{ fontSize: 12, color: 'var(--color-muted-foreground)', lineHeight: 1, marginTop: 1 }}>
               {subtitle}
             </p>
           )}

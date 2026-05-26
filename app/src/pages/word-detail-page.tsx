@@ -1,15 +1,10 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { ArrowLeft, Pencil } from 'lucide-react'
+import { Pencil, Calendar, RotateCcw, Zap } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { db } from '@/db/vocab-database'
 import { deleteCustomWordFamily } from '@/services/custom-word-family-service'
 import { FlashcardWordFamilyDisplay } from '@/components/flashcard/flashcard-word-family-display'
-
-const CEFR_STYLES: Record<string, { bg: string; text: string }> = {
-  A1: { bg: '#dcfce7', text: '#166534' }, A2: { bg: '#d1fae5', text: '#065f46' },
-  B1: { bg: '#dbeafe', text: '#1e40af' }, B2: { bg: '#e0e7ff', text: '#3730a3' },
-  C1: { bg: '#f3e8ff', text: '#6b21a8' }, C2: { bg: '#fce7f3', text: '#9d174d' },
-}
 
 export function WordDetailPage() {
   const { familyId } = useParams<{ familyId: string }>()
@@ -19,99 +14,165 @@ export function WordDetailPage() {
 
   if (!family) {
     return (
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#94a3b8' }}>
-        Loading...
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
+        <p style={{ color: 'var(--color-muted-foreground)', fontSize: 14 }}>Đang tải...</p>
       </div>
     )
   }
 
   const isCustom = family.isCustom === true
-  const cefrStyle = CEFR_STYLES[family.cefr] ?? { bg: '#f1f5f9', text: '#475569' }
+  const isMastered = (stats?.repetitions ?? 0) >= 5 && (stats?.easeFactor ?? 0) >= 2.0
   const nextReview = stats?.nextReviewDate
     ? new Date(stats.nextReviewDate).toLocaleDateString('vi-VN')
-    : 'Chưa học'
+    : '—'
 
-  const handleDelete = async () => {
+  async function handleDelete() {
     if (!familyId) return
-    const ok = window.confirm(`Xóa "${family.rootWord}"? Hành động không thể hoàn tác.`)
+    const ok = window.confirm(`Xóa "${family!.rootWord}"? Không thể hoàn tác.`)
     if (!ok) return
     try {
       await deleteCustomWordFamily(familyId)
       navigate('/browse')
     } catch (err) {
-      window.alert('Lỗi khi xóa: ' + (err instanceof Error ? err.message : 'Vui lòng thử lại'))
+      window.alert('Lỗi: ' + (err instanceof Error ? err.message : 'Thử lại'))
     }
   }
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100%' }}>
-      {/* Custom header with back button */}
-      <div style={{
-        position: 'sticky', top: 0, zIndex: 10,
-        background: 'rgba(248,250,252,0.9)',
-        backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid #e2e8f0',
-        height: 56, display: 'flex', alignItems: 'center', gap: 8, padding: '0 16px',
-      }}>
+
+      {/* Header */}
+      <header
+        className="glass-light"
+        style={{
+          position: 'sticky', top: 0, zIndex: 10,
+          height: 56, display: 'flex', alignItems: 'center',
+          gap: 4, padding: '0 12px 0 8px',
+          borderBottom: '1px solid var(--color-border)',
+        }}
+      >
         <button
           onClick={() => navigate(-1)}
-          style={{ minWidth: 40, minHeight: 40, display: 'flex', alignItems: 'center', justifyContent: 'center', marginLeft: -8, background: 'none', border: 'none', cursor: 'pointer', color: '#64748b' }}
-          aria-label="Go back"
+          className="btn-ghost"
+          style={{ width: 40, height: 40 }}
+          aria-label="Quay lại"
         >
-          <ArrowLeft size={22} />
+          <ArrowLeft size={21} />
         </button>
-        <h1 style={{ fontSize: 18, fontWeight: 700, color: '#0f172a', flex: 1 }}>{family.rootWord}</h1>
-        <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 8px', borderRadius: 10, background: cefrStyle.bg, color: cefrStyle.text }}>
-          {family.cefr}
-        </span>
+
+        <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8 }}>
+          <h1 style={{ fontSize: 18, fontWeight: 700, color: 'var(--color-foreground)', margin: 0, lineHeight: 1 }}>
+            {family.rootWord}
+          </h1>
+          {isMastered && <span style={{ fontSize: 14 }}>⭐</span>}
+          <span className={`badge cefr-${family.cefr}`} style={{ fontSize: 10, padding: '2px 8px' }}>
+            {family.cefr}
+          </span>
+        </div>
+
         {isCustom && (
           <button
             onClick={() => navigate(`/word/edit/${familyId}`)}
-            style={{ minWidth: 36, minHeight: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#eef2ff', border: 'none', borderRadius: 10, cursor: 'pointer', color: '#6366f1' }}
-            aria-label="Sửa từ"
+            className="btn-ghost"
+            style={{ width: 38, height: 38, color: 'var(--color-primary)' }}
+            aria-label="Chỉnh sửa"
           >
             <Pencil size={16} />
           </button>
         )}
-      </div>
+      </header>
 
-      <div style={{ flex: 1, padding: 16, display: 'flex', flexDirection: 'column', gap: 16 }}>
-        {/* Review stats */}
+      <div style={{ flex: 1, padding: '16px 16px 24px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+
+        {/* Review stats strip */}
         {stats && (
-          <div style={{ background: '#f8fafc', borderRadius: 16, padding: 14, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 8 }}>
+          <div
+            className="card"
+            style={{
+              display: 'grid', gridTemplateColumns: 'repeat(3,1fr)',
+              gap: 0, overflow: 'hidden', padding: 0,
+            }}
+          >
             {[
-              { label: 'Reviews', value: String(stats.repetitions) },
-              { label: 'Ease', value: stats.easeFactor.toFixed(1) },
-              { label: 'Next review', value: nextReview },
-            ].map(({ label, value }) => (
-              <div key={label} style={{ textAlign: 'center' }}>
-                <p style={{ fontSize: 16, fontWeight: 700, color: '#0f172a' }}>{value}</p>
-                <p style={{ fontSize: 11, color: '#94a3b8', marginTop: 2 }}>{label}</p>
+              { icon: <RotateCcw size={14} />, label: 'Đã ôn', value: String(stats.repetitions) },
+              { icon: <Zap size={14} />,        label: 'Ease',  value: stats.easeFactor.toFixed(1) },
+              { icon: <Calendar size={14} />,   label: 'Ôn tiếp', value: nextReview },
+            ].map(({ icon, label, value }, i) => (
+              <div
+                key={label}
+                style={{
+                  padding: '12px 10px',
+                  textAlign: 'center',
+                  borderRight: i < 2 ? '1px solid var(--color-border)' : 'none',
+                }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'center', color: 'var(--color-muted-foreground)', marginBottom: 4 }}>
+                  {icon}
+                </div>
+                <p style={{ fontSize: 15, fontWeight: 800, color: 'var(--color-foreground)', margin: 0, lineHeight: 1 }}>
+                  {value}
+                </p>
+                <p style={{ fontSize: 10, color: 'var(--color-muted-foreground)', margin: '3px 0 0', lineHeight: 1 }}>
+                  {label}
+                </p>
               </div>
             ))}
           </div>
         )}
 
-        {/* Full word family */}
-        <div style={{ background: 'white', borderRadius: 16, padding: 16, border: '1px solid #e2e8f0' }}>
+        {/* Category & tags */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
+          <span style={{
+            fontSize: 11, fontWeight: 600,
+            color: 'var(--color-muted-foreground)',
+            background: 'var(--color-muted)',
+            padding: '3px 8px', borderRadius: 8,
+          }}>
+            {family.category}
+          </span>
+          {family.tags.map(tag => (
+            <span key={tag} style={{
+              fontSize: 11, color: 'var(--color-muted-foreground)',
+              background: 'var(--color-surface-raised)',
+              border: '1px solid var(--color-border)',
+              padding: '3px 8px', borderRadius: 8,
+            }}>
+              #{tag}
+            </span>
+          ))}
+          {isCustom && (
+            <span style={{
+              fontSize: 11, fontWeight: 700,
+              background: 'rgba(99,102,241,0.12)',
+              color: 'var(--color-primary)',
+              padding: '3px 8px', borderRadius: 8,
+            }}>
+              Của tôi
+            </span>
+          )}
+        </div>
+
+        {/* Word family content */}
+        <div className="card" style={{ padding: '18px 16px' }}>
           <FlashcardWordFamilyDisplay family={family} />
         </div>
 
-        {/* Delete button — custom words only */}
+        {/* Delete — custom only */}
         {isCustom && (
           <button
             onClick={handleDelete}
             style={{
-              padding: '12px', borderRadius: 14, border: '1px solid #fecaca',
-              background: '#fff5f5', color: '#ef4444', fontWeight: 600, fontSize: 14,
+              padding: '13px', borderRadius: 14,
+              border: '1.5px solid rgba(239,68,68,0.3)',
+              background: 'rgba(239,68,68,0.06)',
+              color: '#ef4444', fontWeight: 600, fontSize: 14,
               cursor: 'pointer', touchAction: 'manipulation', width: '100%',
+              transition: 'background 0.15s ease',
             }}
           >
-            🗑️ Xóa từ này
+            Xóa từ này
           </button>
         )}
-
-        <div style={{ height: 8 }} />
       </div>
     </div>
   )

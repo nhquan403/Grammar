@@ -9,64 +9,61 @@ interface Props {
   total: number
 }
 
-
 export function MasteryProgressBar({ breakdown, total }: Props) {
-  const mastered = breakdown?.mastered ?? 0
-  const learning = breakdown?.learning ?? 0
-  const newCount = breakdown?.new ?? 0
+  const mastered  = breakdown?.mastered ?? 0
+  const learning  = breakdown?.learning ?? 0
+  const newCount  = breakdown?.new ?? 0
   const unstudied = Math.max(0, total - mastered - learning - newCount)
-
   const pct = (n: number) => total > 0 ? Math.round((n / total) * 100) : 0
 
   return (
-    <div style={{ background: 'white', borderRadius: 20, padding: 20, border: '1px solid #f1f5f9' }}>
-      <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 16 }}>
-        Mastery Overview
-      </h3>
+    <div className="card" style={{ padding: '18px 20px' }}>
+      <p style={{ fontSize: 13, fontWeight: 700, color: 'var(--color-foreground)', marginBottom: 14 }}>
+        Tổng quan thuần thục
+      </p>
 
-      {/* Progress bar */}
+      {/* Segmented progress bar */}
       <div style={{
-        height: 12, borderRadius: 8, background: '#f1f5f9',
-        display: 'flex', overflow: 'hidden', marginBottom: 16,
+        height: 10, borderRadius: 8,
+        background: 'var(--color-surface-raised)',
+        display: 'flex', overflow: 'hidden', marginBottom: 16, gap: 2,
       }}>
         {mastered > 0 && (
-          <div style={{ width: `${pct(mastered)}%`, background: '#10b981', transition: 'width 0.6s ease' }} />
+          <div style={{ width: `${pct(mastered)}%`, background: '#22c55e', transition: 'width 0.6s ease', borderRadius: 8 }} />
         )}
         {learning > 0 && (
-          <div style={{ width: `${pct(learning)}%`, background: '#6366f1', transition: 'width 0.6s ease' }} />
+          <div style={{ width: `${pct(learning)}%`, background: 'var(--color-primary)', transition: 'width 0.6s ease', borderRadius: 8 }} />
         )}
-        {newCount > 0 && (
-          <div style={{ width: `${pct(newCount)}%`, background: '#cbd5e1', transition: 'width 0.6s ease' }} />
+        {(newCount + unstudied) > 0 && (
+          <div style={{ width: `${pct(newCount + unstudied)}%`, background: 'var(--color-border)', transition: 'width 0.6s ease', borderRadius: 8 }} />
         )}
       </div>
 
-      {/* Legend */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 8 }}>
+      {/* Legend grid */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 8 }}>
         {[
-          { label: 'Mastered', count: mastered, color: '#10b981', bg: '#ecfdf5', emoji: '⭐' },
-          { label: 'Learning', count: learning, color: '#6366f1', bg: '#eef2ff', emoji: '📖' },
-          { label: 'New', count: newCount + unstudied, color: '#94a3b8', bg: '#f8fafc', emoji: '🌱' },
-        ].map(({ label, count, color, bg, emoji }) => (
+          { label: 'Thuần thục', count: mastered,          color: '#22c55e', bg: 'rgba(34,197,94,0.1)' },
+          { label: 'Đang học',   count: learning,          color: 'var(--color-primary)', bg: 'rgba(99,102,241,0.1)' },
+          { label: 'Mới',        count: newCount + unstudied, color: 'var(--color-muted-foreground)', bg: 'var(--color-surface-raised)' },
+        ].map(({ label, count, color, bg }) => (
           <div key={label} style={{
             background: bg, borderRadius: 12, padding: '10px 8px', textAlign: 'center',
           }}>
-            <p style={{ fontSize: 20 }}>{emoji}</p>
-            <p style={{ fontSize: 18, fontWeight: 800, color, lineHeight: 1.2, marginTop: 2 }}>{count}</p>
-            <p style={{ fontSize: 10, color: '#94a3b8', marginTop: 2 }}>{label}</p>
+            <p style={{ fontSize: 20, fontWeight: 800, color, lineHeight: 1.1, margin: 0 }}>{count}</p>
+            <p style={{ fontSize: 10, color: 'var(--color-muted-foreground)', margin: '3px 0 0' }}>{label}</p>
           </div>
         ))}
       </div>
 
-      {/* Overall progress */}
+      {/* Overall % */}
       <div style={{
-        marginTop: 14, padding: '10px 14px',
-        background: '#f8fafc', borderRadius: 12,
+        marginTop: 12, padding: '10px 14px',
+        background: 'var(--color-surface-raised)',
+        borderRadius: 10,
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
       }}>
-        <span style={{ fontSize: 13, color: '#64748b' }}>Overall progress</span>
-        <span style={{ fontSize: 16, fontWeight: 700, color: '#10b981' }}>
-          {pct(mastered)}%
-        </span>
+        <span style={{ fontSize: 13, color: 'var(--color-muted-foreground)' }}>Tiến độ tổng</span>
+        <span style={{ fontSize: 16, fontWeight: 800, color: '#22c55e' }}>{pct(mastered)}%</span>
       </div>
     </div>
   )

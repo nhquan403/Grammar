@@ -1,105 +1,121 @@
 import type { WordFamily, PartOfSpeech } from '@/types/vocab-types'
 
-const POS_STYLES: Record<PartOfSpeech, { bg: string; text: string; label: string }> = {
-  noun:      { bg: '#dbeafe', text: '#1d4ed8', label: 'N' },
-  verb:      { bg: '#f3e8ff', text: '#7e22ce', label: 'V' },
-  adjective: { bg: '#ffedd5', text: '#c2410c', label: 'ADJ' },
-  adverb:    { bg: '#ccfbf1', text: '#0f766e', label: 'ADV' },
-  other:     { bg: '#f1f5f9', text: '#475569', label: '?' },
+const POS_META: Record<PartOfSpeech, { label: string; cssClass: string }> = {
+  noun:      { label: 'N',   cssClass: 'pos-noun'      },
+  verb:      { label: 'V',   cssClass: 'pos-verb'      },
+  adjective: { label: 'ADJ', cssClass: 'pos-adjective' },
+  adverb:    { label: 'ADV', cssClass: 'pos-adverb'    },
+  other:     { label: '?',   cssClass: 'pos-other'     },
 }
+
+const POS_ORDER: PartOfSpeech[] = ['verb', 'noun', 'adjective', 'adverb', 'other']
 
 interface Props {
   family: WordFamily
 }
 
 export function FlashcardWordFamilyDisplay({ family }: Props) {
-  const grouped = family.forms.reduce<Record<string, typeof family.forms>>((acc, form) => {
-    const key = form.pos
-    if (!acc[key]) acc[key] = []
-    acc[key].push(form)
+  // Group by POS in canonical order
+  const grouped = POS_ORDER.reduce<Record<string, typeof family.forms>>((acc, pos) => {
+    const forms = family.forms.filter(f => f.pos === pos)
+    if (forms.length > 0) acc[pos] = forms
     return acc
   }, {})
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+
       {/* Etymology */}
       {family.etymology && (
-        <p style={{ fontSize: 12, color: '#94a3b8', fontStyle: 'italic' }}>
-          🌱 {family.etymology}
-        </p>
+        <div style={{
+          display: 'flex', alignItems: 'flex-start', gap: 8,
+          padding: '10px 12px',
+          background: 'var(--color-surface-raised)',
+          borderRadius: 12,
+          borderLeft: '3px solid var(--color-primary)',
+        }}>
+          <span style={{ fontSize: 14, flexShrink: 0 }}>🌱</span>
+          <p style={{ fontSize: 12, color: 'var(--color-muted-foreground)', fontStyle: 'italic', lineHeight: 1.5, margin: 0 }}>
+            {family.etymology}
+          </p>
+        </div>
       )}
 
-      {/* Word family grouped by POS */}
-      <div>
-        <p style={{ fontSize: 11, fontWeight: 700, color: '#64748b', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 10 }}>
-          📚 Word Family
-        </p>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {Object.entries(grouped).map(([pos, forms]) => {
-            const style = POS_STYLES[pos as PartOfSpeech] ?? POS_STYLES.other
-            return (
-              <div key={pos} style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
-                <span
-                  style={{
-                    flexShrink: 0,
-                    fontSize: 10,
-                    fontWeight: 700,
-                    padding: '2px 6px',
-                    borderRadius: 6,
-                    background: style.bg,
-                    color: style.text,
-                    minWidth: 28,
-                    textAlign: 'center',
-                    marginTop: 2,
-                  }}
-                >
-                  {style.label}
-                </span>
-                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  {forms.map(form => (
-                    <div key={form.word}>
-                      <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, flexWrap: 'wrap' }}>
-                        <span style={{ fontWeight: 700, fontSize: 16, color: '#0f172a' }}>
-                          {form.word}
-                        </span>
-                        <span style={{ fontSize: 13, color: '#64748b' }}>
-                          — {form.definition}
-                        </span>
-                      </div>
-                      {form.example && (
-                        <p style={{ fontSize: 12, color: '#94a3b8', fontStyle: 'italic', marginTop: 2 }}>
-                          "{form.example}"
-                        </p>
-                      )}
+      {/* Word forms grouped by POS */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+        {Object.entries(grouped).map(([pos, forms]) => {
+          const meta = POS_META[pos as PartOfSpeech] ?? POS_META.other
+          return (
+            <div key={pos} style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
+              {/* POS badge */}
+              <span
+                className={`badge ${meta.cssClass}`}
+                style={{
+                  fontSize: 9, padding: '3px 6px',
+                  minWidth: 30, textAlign: 'center',
+                  flexShrink: 0, marginTop: 3,
+                  letterSpacing: '0.04em',
+                }}
+              >
+                {meta.label}
+              </span>
+
+              {/* Forms */}
+              <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 10 }}>
+                {forms.map((form, idx) => (
+                  <div key={`${form.word}-${idx}`}>
+                    <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
+                      <span style={{
+                        fontWeight: 700, fontSize: 16,
+                        color: 'var(--color-foreground)', lineHeight: 1.2,
+                      }}>
+                        {form.word}
+                      </span>
+                      <span style={{ fontSize: 13, color: 'var(--color-muted-foreground)', lineHeight: 1.4 }}>
+                        {form.definition}
+                      </span>
                     </div>
-                  ))}
-                </div>
+                    {form.example && (
+                      <p style={{
+                        fontSize: 12,
+                        color: 'var(--color-muted-foreground)',
+                        fontStyle: 'italic',
+                        opacity: 0.75,
+                        marginTop: 3,
+                        lineHeight: 1.5,
+                      }}>
+                        "{form.example}"
+                      </p>
+                    )}
+                  </div>
+                ))}
               </div>
-            )
-          })}
-        </div>
+            </div>
+          )
+        })}
       </div>
 
       {/* Affixes */}
       {family.affixes.length > 0 && (
-        <div style={{ background: '#f8fafc', borderRadius: 12, padding: 12 }}>
-          <p style={{ fontSize: 11, fontWeight: 700, color: '#64748b', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
-            🔤 Affixes
-          </p>
+        <div>
+          <p className="section-label" style={{ marginBottom: 8 }}>Affixes</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-            {family.affixes.map(a => (
+            {family.affixes.map((a, idx) => (
               <span
-                key={a.form}
+                key={`${a.form}-${idx}`}
                 style={{
                   fontSize: 12,
-                  background: 'white',
-                  border: '1px solid #e2e8f0',
+                  background: 'var(--color-surface-raised)',
+                  border: '1px solid var(--color-border)',
                   borderRadius: 8,
-                  padding: '4px 8px',
-                  color: '#475569',
+                  padding: '5px 10px',
+                  color: 'var(--color-muted-foreground)',
+                  display: 'flex', alignItems: 'center', gap: 4,
                 }}
               >
-                <strong>{a.form}</strong> {a.meaning}
+                <strong style={{ color: 'var(--color-foreground)' }}>{a.form}</strong>
+                <span style={{ opacity: 0.7 }}>·</span>
+                {a.meaning}
               </span>
             ))}
           </div>
