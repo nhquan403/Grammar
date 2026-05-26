@@ -14,10 +14,10 @@ export function StudyPage() {
   if (isLoading) {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-        <AppHeader title="Study" />
+        <AppHeader title="Ôn tập" />
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1 }}>
           <div style={{ fontSize: 48, marginBottom: 16, animation: 'bounce 1s infinite' }}>📚</div>
-          <p style={{ color: '#94a3b8', fontSize: 14 }}>Đang tải bài học...</p>
+          <p style={{ color: 'var(--color-muted-foreground)', fontSize: 14 }}>Đang tải bài học...</p>
         </div>
       </div>
     )
@@ -26,7 +26,7 @@ export function StudyPage() {
   if (isDone) {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-        <AppHeader title="Study" />
+        <AppHeader title="Ôn tập" />
         <StudyCompletionScreen completed={completed} />
       </div>
     )
@@ -41,13 +41,14 @@ export function StudyPage() {
         subtitle={total > 0 ? `${completed + 1} / ${total}` : undefined}
       />
       {/* Progress bar */}
-      <div style={{ height: 3, background: '#e2e8f0' }}>
+      <div style={{ height: 3, background: 'var(--color-border)', flexShrink: 0 }}>
         <div
           style={{
             height: '100%',
-            background: '#6366f1',
+            background: 'var(--color-primary)',
             width: `${progressPercent}%`,
-            transition: 'width 0.3s ease',
+            transition: 'width 0.35s ease',
+            borderRadius: '0 3px 3px 0',
           }}
         />
       </div>
